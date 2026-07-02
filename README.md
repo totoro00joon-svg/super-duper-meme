@@ -8,7 +8,7 @@
 
 ## 보기
 
-GitHub Pages: `https://<username>.github.io/<repo>/`
+GitHub Pages: `https://<username>.github.io/<repo>/`  ex) https://totoro00joon-svg.github.io/super-duper-meme/
 
 휴대전화 브라우저에서 위 주소로 접속하면 됩니다. 홈 화면에 추가하면 앱처럼 쓸 수 있습니다.
 
@@ -43,4 +43,3 @@ python -m http.server -d docs 8080
 2. Source: `Deploy from a branch`
 3. Branch: `main` / `docs` 폴더 선택 → Save
 4. 몇 분 후 `https://<username>.github.io/<repo>/` 에서 접속 가능
-5. https://github.com/totoro00joon-svg/super-duper-meme
