@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>내일 오를까? 📈</title>
+<meta name="description" content="코스피·코스닥 종목의 기술적 지표 기반 재미용 순위">
+<style>
+  :root{
+    --bg:#0b0d12;
+    --card:#151822;
+    --card-border:#242836;
+    --text:#eef0f4;
+    --muted:#8b93a7;
+    --red:#ff4d5e;
+    --blue:#4d7cff;
+    --green:#20c977;
+    --gold:#ffb020;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    padding-bottom:48px;
+  }
+  header{
+    padding:20px 16px 12px;
+    position:sticky;
+    top:0;
+    background:linear-gradient(180deg, var(--bg) 70%, transparent);
+    z-index:10;
+  }
+  h1{
+    margin:0 0 4px;
+    font-size:22px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .sub{
+    color:var(--muted);
+    font-size:13px;
+  }
+  .disclaimer{
+    margin:12px 16px;
+    padding:12px 14px;
+    background:rgba(255,176,32,0.1);
+    border:1px solid rgba(255,176,32,0.35);
+    border-radius:12px;
+    font-size:12.5px;
+    line-height:1.5;
+    color:#ffd489;
+  }
+  .meta-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:4px 16px 8px;
+    font-size:12px;
+    color:var(--muted);
+  }
+  #refresh{
+    background:var(--card);
+    border:1px solid var(--card-border);
+    color:var(--text);
+    padding:6px 10px;
+    border-radius:8px;
+    font-size:12px;
+  }
+  main{padding:0 12px;}
+  .card{
+    background:var(--card);
+    border:1px solid var(--card-border);
+    border-radius:14px;
+    padding:14px;
+    margin:10px 4px;
+    transition:background .15s;
+  }
+  .card:active{background:#1b1f2c;}
+  .card-top{
+    display:flex;
+    align-items:center;
+    gap:12px;
+  }
+  .rank{
+    font-size:15px;
+    font-weight:700;
+    color:var(--muted);
+    width:26px;
+    flex-shrink:0;
+  }
+  .rank.top1{color:var(--gold);}
+  .rank.top2{color:#d9dbe3;}
+  .rank.top3{color:#c98a4b;}
+  .name-block{flex:1;min-width:0;}
+  .name-row{display:flex;align-items:baseline;gap:6px;}
+  .name{font-size:16px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .market-badge{
+    font-size:10px;
+    padding:2px 6px;
+    border-radius:6px;
+    flex-shrink:0;
+    font-weight:600;
+  }
+  .market-badge.KOSPI{background:rgba(77,124,255,.15);color:var(--blue);}
+  .market-badge.KOSDAQ{background:rgba(32,201,119,.15);color:var(--green);}
+  .price-row{
+    display:flex;
+    gap:8px;
+    margin-top:2px;
+    font-size:13px;
+    color:var(--muted);
+  }
+  .change-up{color:var(--red);}
+  .change-down{color:var(--blue);}
+  .score-block{
+    text-align:right;
+    flex-shrink:0;
+  }
+  .score{
+    font-size:20px;
+    font-weight:800;
+  }
+  .score-label{font-size:10px;color:var(--muted);}
+  .bar-bg{
+    height:5px;
+    background:#242836;
+    border-radius:3px;
+    margin-top:8px;
+    overflow:hidden;
+  }
+  .bar-fill{
+    height:100%;
+    background:linear-gradient(90deg,var(--blue),var(--green));
+    border-radius:3px;
+  }
+  .reasons{
+    display:none;
+    margin-top:10px;
+    padding-top:10px;
+    border-top:1px solid var(--card-border);
+    font-size:12.5px;
+    color:var(--muted);
+    line-height:1.9;
+  }
+  .reasons.open{display:block;}
+  .reasons span{
+    display:inline-block;
+    background:#1c202c;
+    border-radius:8px;
+    padding:3px 8px;
+    margin:2px 4px 2px 0;
+  }
+  .empty, .loading{
+    text-align:center;
+    color:var(--muted);
+    padding:60px 20px;
+    font-size:14px;
+  }
+  footer{
+    text-align:center;
+    color:var(--muted);
+    font-size:11px;
+    padding:24px 16px 8px;
+    line-height:1.7;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>📈 내일 오를까?</h1>
+  <div class="sub">코스피·코스닥 기술적 지표 기반 재미용 순위</div>
+</header>
+
+<div class="disclaimer">
+  ⚠️ 이 페이지는 <b>재미 목적</b>으로 만든 사이트입니다. 이동평균·RSI·MACD·거래량 등 기술적 지표를
+  조합한 점수일 뿐, 실제 주가 등락을 예측하거나 보장하지 않습니다. <b>투자 조언이 아니며</b>,
+  투자 판단과 그 책임은 전적으로 본인에게 있습니다.
+</div>
+
+<div class="meta-row">
+  <span id="updated">불러오는 중...</span>
+  <button id="refresh" onclick="load()">새로고침</button>
+</div>
+
+<main id="list">
+  <div class="loading">데이터를 불러오는 중...</div>
+</main>
+
+<footer>
+  데이터 출처: 네이버 금융 (공개 시세 페이지) · 매일 자동 갱신<br>
+  score-tomorrow · for fun only
+</footer>
+
+<script>
+async function load(){
+  const list = document.getElementById('list');
+  const updated = document.getElementById('updated');
+  list.innerHTML = '<div class="loading">데이터를 불러오는 중...</div>';
+  try{
+    const res = await fetch('data.json?t=' + Date.now());
+    if(!res.ok) throw new Error('fetch failed');
+    const data = await res.json();
+    render(data);
+  }catch(e){
+    list.innerHTML = '<div class="empty">데이터를 불러오지 못했습니다.<br>잠시 후 다시 시도해주세요.</div>';
+    updated.textContent = '갱신 실패';
+  }
+}
+
+function render(data){
+  const list = document.getElementById('list');
+  const updated = document.getElementById('updated');
+  const dt = new Date(data.generated_at);
+  updated.textContent = '기준시각 ' + dt.toLocaleString('ko-KR', {month:'numeric', day:'numeric', hour:'2-digit', minute:'2-digit'}) +
+    ' · 분석 ' + data.scored_count + '종목';
+
+  if(!data.items || data.items.length === 0){
+    list.innerHTML = '<div class="empty">표시할 데이터가 없습니다.</div>';
+    return;
+  }
+
+  list.innerHTML = data.items.map(item => {
+    const rankClass = item.rank === 1 ? 'top1' : item.rank === 2 ? 'top2' : item.rank === 3 ? 'top3' : '';
+    const changeClass = item.change_pct > 0 ? 'change-up' : item.change_pct < 0 ? 'change-down' : '';
+    const changeSign = item.change_pct > 0 ? '+' : '';
+    const reasonsHtml = (item.reasons && item.reasons.length)
+      ? item.reasons.map(r => `<span>${escapeHtml(r)}</span>`).join('')
+      : '<span>특이 신호 없음</span>';
+    return `
+    <div class="card" onclick="this.querySelector('.reasons').classList.toggle('open')">
+      <div class="card-top">
+        <div class="rank ${rankClass}">${item.rank}</div>
+        <div class="name-block">
+          <div class="name-row">
+            <span class="name">${escapeHtml(item.name)}</span>
+            <span class="market-badge ${item.market}">${item.market}</span>
+          </div>
+          <div class="price-row">
+            <span>${formatNum(item.price)}원</span>
+            <span class="${changeClass}">${changeSign}${item.change_pct}%</span>
+          </div>
+        </div>
+        <div class="score-block">
+          <div class="score">${item.score}</div>
+          <div class="score-label">SCORE</div>
+        </div>
+      </div>
+      <div class="bar-bg"><div class="bar-fill" style="width:${item.score}%"></div></div>
+      <div class="reasons">${reasonsHtml}</div>
+    </div>`;
+  }).join('');
+}
+
+function formatNum(n){ return Number(n).toLocaleString('ko-KR'); }
+function escapeHtml(s){
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+load();
+</script>
+</body>
+</html>
