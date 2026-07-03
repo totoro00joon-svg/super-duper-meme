@@ -10,9 +10,15 @@ on:
 permissions:
   contents: write
 
+# 같은 워크플로우가 겹쳐 돌면 커밋이 충돌하므로 한 번에 하나만 실행
+concurrency:
+  group: update-rankings
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
 

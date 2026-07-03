@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>내일 오를까? 📈</title>
 <meta name="description" content="코스피·코스닥 종목의 기술적 지표 기반 재미용 순위">
+<meta name="theme-color" content="#0b0d12">
 <style>
   :root{
     --bg:#0b0d12;
@@ -69,6 +70,26 @@
     border-radius:8px;
     font-size:12px;
   }
+  .tabs{
+    display:flex;
+    gap:6px;
+    margin:0 16px 4px;
+  }
+  .tab{
+    background:var(--card);
+    border:1px solid var(--card-border);
+    color:var(--muted);
+    padding:6px 14px;
+    border-radius:999px;
+    font-size:13px;
+    cursor:pointer;
+  }
+  .tab.active{
+    background:rgba(77,124,255,.15);
+    border-color:var(--blue);
+    color:var(--text);
+    font-weight:600;
+  }
   main{padding:0 12px;}
   .card{
     background:var(--card);
@@ -77,8 +98,16 @@
     padding:14px;
     margin:10px 4px;
     transition:background .15s;
+    cursor:pointer;
   }
   .card:active{background:#1b1f2c;}
+  .chevron{
+    flex-shrink:0;
+    color:var(--muted);
+    font-size:11px;
+    transition:transform .2s;
+  }
+  .card.open .chevron{transform:rotate(180deg);}
   .card-top{
     display:flex;
     align-items:center;
@@ -153,6 +182,14 @@
     padding:3px 8px;
     margin:2px 4px 2px 0;
   }
+  .naver-link{
+    display:inline-block;
+    margin-top:8px;
+    color:var(--blue);
+    font-size:12.5px;
+    text-decoration:none;
+  }
+  .naver-link:active{opacity:.7;}
   .empty, .loading{
     text-align:center;
     color:var(--muted);
@@ -185,6 +222,12 @@
   <button id="refresh" onclick="load()">새로고침</button>
 </div>
 
+<div class="tabs">
+  <button class="tab active" data-market="ALL">전체</button>
+  <button class="tab" data-market="KOSPI">코스피</button>
+  <button class="tab" data-market="KOSDAQ">코스닥</button>
+</div>
+
 <main id="list">
   <div class="loading">데이터를 불러오는 중...</div>
 </main>
@@ -195,6 +238,9 @@
 </footer>
 
 <script>
+let cachedData = null;
+let currentMarket = 'ALL';
+
 async function load(){
   const list = document.getElementById('list');
   const updated = document.getElementById('updated');
@@ -202,37 +248,50 @@ async function load(){
   try{
     const res = await fetch('data.json?t=' + Date.now());
     if(!res.ok) throw new Error('fetch failed');
-    const data = await res.json();
-    render(data);
+    cachedData = await res.json();
+    render();
   }catch(e){
     list.innerHTML = '<div class="empty">데이터를 불러오지 못했습니다.<br>잠시 후 다시 시도해주세요.</div>';
     updated.textContent = '갱신 실패';
   }
 }
 
-function render(data){
+function setMarket(market, btn){
+  currentMarket = market;
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t === btn));
+  render();
+}
+
+function render(){
+  const data = cachedData;
+  if(!data) return;
   const list = document.getElementById('list');
   const updated = document.getElementById('updated');
   const dt = new Date(data.generated_at);
   updated.textContent = '기준시각 ' + dt.toLocaleString('ko-KR', {month:'numeric', day:'numeric', hour:'2-digit', minute:'2-digit'}) +
     ' · 분석 ' + data.scored_count + '종목';
 
-  if(!data.items || data.items.length === 0){
+  let items = data.items || [];
+  if(currentMarket !== 'ALL') items = items.filter(i => i.market === currentMarket);
+
+  if(items.length === 0){
     list.innerHTML = '<div class="empty">표시할 데이터가 없습니다.</div>';
     return;
   }
 
-  list.innerHTML = data.items.map(item => {
-    const rankClass = item.rank === 1 ? 'top1' : item.rank === 2 ? 'top2' : item.rank === 3 ? 'top3' : '';
+  list.innerHTML = items.map((item, idx) => {
+    const rank = idx + 1;
+    const rankClass = rank === 1 ? 'top1' : rank === 2 ? 'top2' : rank === 3 ? 'top3' : '';
     const changeClass = item.change_pct > 0 ? 'change-up' : item.change_pct < 0 ? 'change-down' : '';
     const changeSign = item.change_pct > 0 ? '+' : '';
     const reasonsHtml = (item.reasons && item.reasons.length)
       ? item.reasons.map(r => `<span>${escapeHtml(r)}</span>`).join('')
       : '<span>특이 신호 없음</span>';
+    const naverUrl = 'https://finance.naver.com/item/main.naver?code=' + encodeURIComponent(item.code);
     return `
-    <div class="card" onclick="this.querySelector('.reasons').classList.toggle('open')">
+    <div class="card" onclick="toggleCard(this)">
       <div class="card-top">
-        <div class="rank ${rankClass}">${item.rank}</div>
+        <div class="rank ${rankClass}">${rank}</div>
         <div class="name-block">
           <div class="name-row">
             <span class="name">${escapeHtml(item.name)}</span>
@@ -247,11 +306,20 @@ function render(data){
           <div class="score">${item.score}</div>
           <div class="score-label">SCORE</div>
         </div>
+        <div class="chevron">▼</div>
       </div>
       <div class="bar-bg"><div class="bar-fill" style="width:${item.score}%"></div></div>
-      <div class="reasons">${reasonsHtml}</div>
+      <div class="reasons">
+        ${reasonsHtml}
+        <br><a class="naver-link" href="${naverUrl}" target="_blank" rel="noopener" onclick="event.stopPropagation()">네이버 금융에서 자세히 보기 →</a>
+      </div>
     </div>`;
   }).join('');
+}
+
+function toggleCard(card){
+  card.classList.toggle('open');
+  card.querySelector('.reasons').classList.toggle('open');
 }
 
 function formatNum(n){ return Number(n).toLocaleString('ko-KR'); }
@@ -260,6 +328,10 @@ function escapeHtml(s){
   d.textContent = s;
   return d.innerHTML;
 }
+
+document.querySelectorAll('.tab').forEach(btn => {
+  btn.addEventListener('click', () => setMarket(btn.dataset.market, btn));
+});
 
 load();
 </script>

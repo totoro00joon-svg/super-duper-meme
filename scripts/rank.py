@@ -25,7 +25,9 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; stock-tomorrow-fun-app/1.0)"}
 PAGES_PER_MARKET = 8  # KOSPI/KOSDAQ 각각 최대 400종목
 HISTORY_DAYS = 70  # 지표 계산에 쓸 과거 캘린더 일수 (거래일 기준 약 45~48일)
 MAX_WORKERS = 12
-TOP_N = 30
+TOP_N_PER_MARKET = 25  # 시장별로 상위 N개씩 뽑아 합친다 (한쪽 쏠림 방지)
+STALE_DAYS = 5  # 마지막 캔들이 이보다 오래됐으면 거래정지 등으로 보고 제외
+MIN_SUCCESS_RATIO = 0.5  # 수집 성공률이 이 미만이면 데이터를 저장하지 않고 실패 처리
 
 # ETF/ETN/스팩 등은 "종목"이 아니므로 순위에서 제외한다. 흔한 운용사 브랜드 접두어 목록.
 NON_STOCK_KEYWORDS = (
@@ -36,7 +38,10 @@ NON_STOCK_KEYWORDS = (
 )
 
 
-def is_tradeable_stock(name: str) -> bool:
+def is_tradeable_stock(code: str, name: str) -> bool:
+    # 보통주는 종목코드가 0으로 끝난다. 우선주(…우, …우B)는 5/7/K 등으로 끝나므로 제외.
+    if not code.endswith("0"):
+        return False
     upper = name.upper()
     return not any(kw.upper() in upper for kw in NON_STOCK_KEYWORDS)
 
@@ -75,7 +80,7 @@ def fetch_market_list(sosok: int, pages: int) -> list[dict]:
                 continue
             seen.add(code)
             name = name.strip()
-            if not is_tradeable_stock(name):
+            if not is_tradeable_stock(code, name):
                 continue
             out.append({"code": code, "name": name, "market": "KOSPI" if sosok == 0 else "KOSDAQ"})
     return out
@@ -154,18 +159,25 @@ class Scored:
     price: float
     change_pct: float
     score: float
+    volume_ratio: float | None = None
     reasons: list[str] = field(default_factory=list)
 
 
 def score_stock(meta: dict, candles: list[dict]) -> Scored | None:
     if len(candles) < 26:
         return None
+    # 거래정지·상장폐지 등으로 최근 시세가 없는 종목 제외
+    last_date = datetime.strptime(candles[-1]["date"], "%Y%m%d")
+    if (datetime.now() - last_date).days > STALE_DAYS:
+        return None
+    if candles[-1]["volume"] <= 0:
+        return None
     closes = [c["close"] for c in candles]
     vols = [c["volume"] for c in candles]
     price = closes[-1]
     if price <= 0:
         return None
-    change_pct = (closes[-1] / closes[-2] - 1) * 100 if len(closes) >= 2 else 0.0
+    change_pct = (closes[-1] / closes[-2] - 1) * 100 if len(closes) >= 2 and closes[-2] > 0 else 0.0
 
     s5 = sma(closes, 5)
     s20 = sma(closes, 20)
@@ -240,6 +252,7 @@ def score_stock(meta: dict, candles: list[dict]) -> Scored | None:
         price=price,
         change_pct=round(change_pct, 2),
         score=round(score, 1),
+        volume_ratio=round(vol_ratio, 2) if vol_ratio is not None else None,
         reasons=reasons,
     )
 
@@ -253,11 +266,8 @@ def main():
     errors = 0
 
     def worker(meta):
-        try:
-            candles = fetch_history(meta["code"])
-            return score_stock(meta, candles)
-        except Exception:
-            return "ERROR"
+        candles = fetch_history(meta["code"])
+        return score_stock(meta, candles)
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
         futs = {ex.submit(worker, m): m for m in universe}
@@ -266,16 +276,28 @@ def main():
             done += 1
             if done % 50 == 0:
                 print(f"  진행: {done}/{len(universe)}", file=sys.stderr)
-            r = fut.result()
-            if r == "ERROR":
+            try:
+                r = fut.result()
+            except Exception:
                 errors += 1
-            elif r is not None:
+                continue
+            if r is not None:
                 results.append(r)
 
     print(f"수집 완료. 성공 {len(results)}, 실패 {errors}", file=sys.stderr)
 
-    results.sort(key=lambda x: x.score, reverse=True)
-    top = results[:TOP_N]
+    # 수집 실패가 절반을 넘으면 (네이버 차단 등) 깨진 순위를 배포하지 않도록 실패 처리
+    if universe and len(results) + errors > 0 and len(results) < len(universe) * MIN_SUCCESS_RATIO:
+        print(f"수집 성공률이 너무 낮아 중단합니다 ({len(results)}/{len(universe)})", file=sys.stderr)
+        sys.exit(1)
+
+    # 동점이면 거래량 급증 정도로 순서를 정한다 (실행마다 순위가 흔들리지 않도록)
+    sort_key = lambda x: (x.score, x.volume_ratio or 0.0, x.code)
+    results.sort(key=sort_key, reverse=True)
+    # 시장별 상위 N개씩 뽑아 합친다 — 한쪽 시장 쏠림 방지
+    top = [s for s in results if s.market == "KOSPI"][:TOP_N_PER_MARKET] + \
+          [s for s in results if s.market == "KOSDAQ"][:TOP_N_PER_MARKET]
+    top.sort(key=sort_key, reverse=True)
 
     kst = timezone(timedelta(hours=9))
     payload = {
@@ -292,6 +314,7 @@ def main():
                 "price": s.price,
                 "change_pct": s.change_pct,
                 "score": s.score,
+                "volume_ratio": s.volume_ratio,
                 "reasons": s.reasons,
             }
             for i, s in enumerate(top)
