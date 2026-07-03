@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>적중 기록 📊 — 내일 오를까?</title>
+<meta name="description" content="매일 상위 5종목 선정 이후 수익률 추적 (재미용)">
+<meta name="theme-color" content="#0b0d12">
+<style>
+  :root{
+    --bg:#0b0d12;
+    --card:#151822;
+    --card-border:#242836;
+    --text:#eef0f4;
+    --muted:#8b93a7;
+    --red:#ff4d5e;
+    --blue:#4d7cff;
+    --green:#20c977;
+    --gold:#ffb020;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    padding-bottom:48px;
+  }
+  header{
+    padding:20px 16px 12px;
+    position:sticky;
+    top:0;
+    background:linear-gradient(180deg, var(--bg) 70%, transparent);
+    z-index:10;
+  }
+  h1{
+    margin:0 0 4px;
+    font-size:22px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .sub{color:var(--muted);font-size:13px;}
+  .back-link{
+    display:inline-block;
+    margin-top:8px;
+    color:var(--blue);
+    font-size:13px;
+    text-decoration:none;
+  }
+  .disclaimer{
+    margin:12px 16px;
+    padding:12px 14px;
+    background:rgba(255,176,32,0.1);
+    border:1px solid rgba(255,176,32,0.35);
+    border-radius:12px;
+    font-size:12.5px;
+    line-height:1.5;
+    color:#ffd489;
+  }
+  .summary{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:8px;
+    margin:12px 16px;
+  }
+  .stat{
+    background:var(--card);
+    border:1px solid var(--card-border);
+    border-radius:12px;
+    padding:12px 8px;
+    text-align:center;
+  }
+  .stat .value{font-size:19px;font-weight:800;}
+  .stat .label{font-size:11px;color:var(--muted);margin-top:3px;}
+  main{padding:0 12px;}
+  .day-block{
+    background:var(--card);
+    border:1px solid var(--card-border);
+    border-radius:14px;
+    padding:14px;
+    margin:10px 4px;
+  }
+  .day-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-bottom:8px;
+  }
+  .day-date{font-size:15px;font-weight:700;}
+  .day-avg{font-size:13px;font-weight:700;}
+  .pick-row{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    padding:8px 0;
+    border-top:1px solid var(--card-border);
+    font-size:13.5px;
+  }
+  .pick-name{
+    flex:1;
+    min-width:0;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-weight:600;
+  }
+  .market-badge{
+    font-size:10px;
+    padding:2px 6px;
+    border-radius:6px;
+    flex-shrink:0;
+    font-weight:600;
+  }
+  .market-badge.KOSPI{background:rgba(77,124,255,.15);color:var(--blue);}
+  .market-badge.KOSDAQ{background:rgba(32,201,119,.15);color:var(--green);}
+  .pick-price{
+    color:var(--muted);
+    font-size:12px;
+    flex-shrink:0;
+  }
+  .pick-return{
+    width:72px;
+    text-align:right;
+    font-weight:700;
+    flex-shrink:0;
+  }
+  .up{color:var(--red);}
+  .down{color:var(--blue);}
+  .flat{color:var(--muted);}
+  .empty, .loading{
+    text-align:center;
+    color:var(--muted);
+    padding:60px 20px;
+    font-size:14px;
+  }
+  footer{
+    text-align:center;
+    color:var(--muted);
+    font-size:11px;
+    padding:24px 16px 8px;
+    line-height:1.7;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>📊 적중 기록</h1>
+  <div class="sub">매일 상위 5종목, 선정일 종가 대비 현재 수익률</div>
+  <a class="back-link" href="index.html">← 오늘의 순위 보기</a>
+</header>
+
+<div class="disclaimer">
+  ⚠️ <b>재미 목적</b>의 기록입니다. 선정일 종가 대비 최근 종가의 단순 수익률이며,
+  거래비용·호가·체결 가능성을 반영하지 않습니다. <b>투자 조언이 아닙니다.</b>
+</div>
+
+<div class="summary" id="summary" style="display:none">
+  <div class="stat"><div class="value" id="stat-return">—</div><div class="label">평균 수익률</div></div>
+  <div class="stat"><div class="value" id="stat-win">—</div><div class="label">상승 비율</div></div>
+  <div class="stat"><div class="value" id="stat-days">—</div><div class="label">추적 일수</div></div>
+</div>
+
+<main id="list">
+  <div class="loading">데이터를 불러오는 중...</div>
+</main>
+
+<footer>
+  데이터 출처: 네이버 금융 (공개 시세 페이지) · 매일 자동 갱신<br>
+  stock-tomorrow · for fun only
+</footer>
+
+<script>
+async function load(){
+  const list = document.getElementById('list');
+  try{
+    const res = await fetch('track.json?t=' + Date.now());
+    if(!res.ok) throw new Error('fetch failed');
+    render(await res.json());
+  }catch(e){
+    list.innerHTML = '<div class="empty">아직 기록이 없습니다.<br>첫 순위가 생성된 다음 날부터 기록이 쌓입니다.</div>';
+  }
+}
+
+function retClass(r){ return r > 0 ? 'up' : r < 0 ? 'down' : 'flat'; }
+function retText(r){ return r === null || r === undefined ? '—' : (r > 0 ? '+' : '') + r.toFixed(2) + '%'; }
+
+function render(data){
+  const list = document.getElementById('list');
+  const s = data.summary || {};
+
+  if(s.picks > 0){
+    document.getElementById('summary').style.display = 'grid';
+    const avgEl = document.getElementById('stat-return');
+    avgEl.textContent = retText(s.avg_return_pct);
+    avgEl.className = 'value ' + retClass(s.avg_return_pct);
+    document.getElementById('stat-win').textContent = s.win_rate_pct !== null ? s.win_rate_pct + '%' : '—';
+    document.getElementById('stat-days').textContent = s.days + '일';
+  }
+
+  if(!data.entries || data.entries.length === 0){
+    list.innerHTML = '<div class="empty">아직 기록이 없습니다.</div>';
+    return;
+  }
+
+  list.innerHTML = data.entries.map(entry => {
+    const picksHtml = entry.picks.map(p => `
+      <div class="pick-row">
+        <span class="pick-name">${escapeHtml(p.name)}</span>
+        <span class="market-badge ${p.market}">${p.market}</span>
+        <span class="pick-price">${formatNum(p.base_price)} → ${p.current_price !== null ? formatNum(p.current_price) : '?'}</span>
+        <span class="pick-return ${retClass(p.return_pct)}">${retText(p.return_pct)}</span>
+      </div>`).join('');
+    return `
+    <div class="day-block">
+      <div class="day-head">
+        <span class="day-date">${entry.date} 선정</span>
+        <span class="day-avg ${retClass(entry.avg_return_pct)}">평균 ${retText(entry.avg_return_pct)}</span>
+      </div>
+      ${picksHtml}
+    </div>`;
+  }).join('');
+}
+
+function formatNum(n){ return Number(n).toLocaleString('ko-KR'); }
+function escapeHtml(s){
+  const d = document.createElement('div');
+  d.textContent = s;
+  return d.innerHTML;
+}
+
+load();
+</script>
+</body>
+</html>

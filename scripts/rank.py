@@ -26,6 +26,7 @@ PAGES_PER_MARKET = 8  # KOSPI/KOSDAQ 각각 최대 400종목
 HISTORY_DAYS = 70  # 지표 계산에 쓸 과거 캘린더 일수 (거래일 기준 약 45~48일)
 MAX_WORKERS = 12
 TOP_N_PER_MARKET = 25  # 시장별로 상위 N개씩 뽑아 합친다 (한쪽 쏠림 방지)
+TRACK_PICKS = 5  # 매일 적중 기록에 남길 상위 종목 수
 STALE_DAYS = 5  # 마지막 캔들이 이보다 오래됐으면 거래정지 등으로 보고 제외
 MIN_SUCCESS_RATIO = 0.5  # 수집 성공률이 이 미만이면 데이터를 저장하지 않고 실패 처리
 
@@ -257,6 +258,93 @@ def score_stock(meta: dict, candles: list[dict]) -> Scored | None:
     )
 
 
+def update_history(top: list[Scored], today: str) -> list[dict]:
+    """오늘의 상위 종목을 docs/history.json 에 기록한다.
+
+    하루에 한 번만 기록한다(개장 전 아침 실행이 그날의 '선정'). 이미 오늘 항목이
+    있으면 덮어쓰지 않아, 장 마감 후 실행이 선정 기준을 바꾸지 못하게 한다.
+    """
+    path = "docs/history.json"
+    try:
+        with open(path, encoding="utf-8") as f:
+            history = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        history = []
+
+    if not any(e["date"] == today for e in history):
+        history.append(
+            {
+                "date": today,
+                "picks": [
+                    {
+                        "code": s.code,
+                        "name": s.name,
+                        "market": s.market,
+                        "base_price": s.price,
+                        "score": s.score,
+                    }
+                    for s in top[:TRACK_PICKS]
+                ],
+            }
+        )
+        history.sort(key=lambda e: e["date"])
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(history, f, ensure_ascii=False, indent=2)
+        print(f"history.json 에 {today} 상위 {TRACK_PICKS}종목 기록", file=sys.stderr)
+    return history
+
+
+def build_track(history: list[dict], price_map: dict[str, float], generated_at: str) -> None:
+    """선정일 이후 수익률을 계산해 docs/track.json 으로 저장한다."""
+
+    def current_price(code: str) -> float | None:
+        if code in price_map:
+            return price_map[code]
+        # 유니버스에서 빠진 종목(순위권 밖/거래정지 등)은 개별 조회
+        try:
+            candles = fetch_history(code)
+            if candles and candles[-1]["close"] > 0:
+                return candles[-1]["close"]
+        except Exception:
+            pass
+        return None
+
+    entries = []
+    all_returns = []
+    for e in sorted(history, key=lambda x: x["date"], reverse=True):
+        picks_out = []
+        day_returns = []
+        for p in e["picks"]:
+            cur = current_price(p["code"])
+            ret = (
+                round((cur / p["base_price"] - 1) * 100, 2)
+                if cur is not None and p["base_price"] > 0
+                else None
+            )
+            picks_out.append({**p, "current_price": cur, "return_pct": ret})
+            if ret is not None:
+                day_returns.append(ret)
+        avg = round(sum(day_returns) / len(day_returns), 2) if day_returns else None
+        entries.append({"date": e["date"], "picks": picks_out, "avg_return_pct": avg})
+        all_returns.extend(day_returns)
+
+    track = {
+        "generated_at": generated_at,
+        "summary": {
+            "days": len(entries),
+            "picks": len(all_returns),
+            "avg_return_pct": round(sum(all_returns) / len(all_returns), 2) if all_returns else None,
+            "win_rate_pct": round(100 * sum(1 for r in all_returns if r > 0) / len(all_returns), 1)
+            if all_returns
+            else None,
+        },
+        "entries": entries,
+    }
+    with open("docs/track.json", "w", encoding="utf-8") as f:
+        json.dump(track, f, ensure_ascii=False, indent=2)
+    print("docs/track.json 저장 완료", file=sys.stderr)
+
+
 def main():
     print("종목 리스트 수집 중...", file=sys.stderr)
     universe = fetch_market_list(0, PAGES_PER_MARKET) + fetch_market_list(1, PAGES_PER_MARKET)
@@ -324,6 +412,12 @@ def main():
     with open("docs/data.json", "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
     print("docs/data.json 저장 완료", file=sys.stderr)
+
+    # 적중 기록: 오늘의 상위 종목을 남기고, 과거 선정 종목의 현재 수익률을 계산
+    today = datetime.now(kst).strftime("%Y-%m-%d")
+    history = update_history(top, today)
+    price_map = {s.code: s.price for s in results}
+    build_track(history, price_map, payload["generated_at"])
 
 
 if __name__ == "__main__":
