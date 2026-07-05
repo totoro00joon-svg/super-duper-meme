@@ -38,5 +38,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-07-06",
+    "picks": [
+      {
+        "code": "069620",
+        "name": "대웅제약",
+        "market": "KOSPI",
+        "base_price": 132500.0,
+        "score": 90.0
+      },
+      {
+        "code": "039830",
+        "name": "오로라",
+        "market": "KOSDAQ",
+        "base_price": 20400.0,
+        "score": 90.0
+      },
+      {
+        "code": "026960",
+        "name": "동서",
+        "market": "KOSPI",
+        "base_price": 25950.0,
+        "score": 85.0
+      },
+      {
+        "code": "105560",
+        "name": "KB금융",
+        "market": "KOSPI",
+        "base_price": 170100.0,
+        "score": 85.0
+      },
+      {
+        "code": "034950",
+        "name": "한국기업평가",
+        "market": "KOSDAQ",
+        "base_price": 101700.0,
+        "score": 85.0
+      }
+    ]
   }
 ]
