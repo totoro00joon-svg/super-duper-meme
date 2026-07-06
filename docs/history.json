@@ -78,5 +78,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-07-07",
+    "picks": [
+      {
+        "code": "036530",
+        "name": "SNT홀딩스",
+        "market": "KOSPI",
+        "base_price": 52900.0,
+        "score": 85.0
+      },
+      {
+        "code": "139130",
+        "name": "iM금융지주",
+        "market": "KOSPI",
+        "base_price": 18300.0,
+        "score": 85.0
+      },
+      {
+        "code": "151860",
+        "name": "KG에코솔루션",
+        "market": "KOSDAQ",
+        "base_price": 5740.0,
+        "score": 85.0
+      },
+      {
+        "code": "018670",
+        "name": "SK가스",
+        "market": "KOSPI",
+        "base_price": 227500.0,
+        "score": 83.0
+      },
+      {
+        "code": "052330",
+        "name": "코텍",
+        "market": "KOSDAQ",
+        "base_price": 11380.0,
+        "score": 75.0
+      }
+    ]
   }
 ]
