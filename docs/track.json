@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-07-07T20:18:41.148149+09:00",
+  "generated_at": "2026-07-08T07:40:59.618651+09:00",
   "summary": {
-    "days": 3,
-    "picks": 15,
-    "avg_return_pct": 1.27,
-    "win_rate_pct": 66.7
+    "days": 4,
+    "picks": 20,
+    "avg_return_pct": 0.95,
+    "win_rate_pct": 50.0
   },
   "entries": [
+    {
+      "date": "2026-07-08",
+      "picks": [
+        {
+          "code": "300720",
+          "name": "한일시멘트",
+          "market": "KOSPI",
+          "base_price": 14690.0,
+          "score": 93.0,
+          "current_price": 14690.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "237880",
+          "name": "클리오",
+          "market": "KOSDAQ",
+          "base_price": 11230.0,
+          "score": 90.0,
+          "current_price": 11230.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "079940",
+          "name": "가비아",
+          "market": "KOSDAQ",
+          "base_price": 31850.0,
+          "score": 85.0,
+          "current_price": 31850.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "175330",
+          "name": "JB금융지주",
+          "market": "KOSPI",
+          "base_price": 28000.0,
+          "score": 85.0,
+          "current_price": 28000.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "030200",
+          "name": "KT",
+          "market": "KOSPI",
+          "base_price": 55500.0,
+          "score": 85.0,
+          "current_price": 55500.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-07-07",
       "picks": [
