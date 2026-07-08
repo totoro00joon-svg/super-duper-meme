@@ -158,5 +158,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-07-09",
+    "picks": [
+      {
+        "code": "180400",
+        "name": "DXVX",
+        "market": "KOSDAQ",
+        "base_price": 2440.0,
+        "score": 93.0
+      },
+      {
+        "code": "028670",
+        "name": "팬오션",
+        "market": "KOSPI",
+        "base_price": 5170.0,
+        "score": 85.0
+      },
+      {
+        "code": "033780",
+        "name": "KT&G",
+        "market": "KOSPI",
+        "base_price": 184300.0,
+        "score": 85.0
+      },
+      {
+        "code": "084110",
+        "name": "휴온스글로벌",
+        "market": "KOSDAQ",
+        "base_price": 26600.0,
+        "score": 85.0
+      },
+      {
+        "code": "439090",
+        "name": "마녀공장",
+        "market": "KOSDAQ",
+        "base_price": 17600.0,
+        "score": 80.0
+      }
+    ]
   }
 ]

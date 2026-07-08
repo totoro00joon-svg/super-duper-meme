@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-07-08T19:30:13.686599+09:00",
+  "generated_at": "2026-07-09T07:37:24.137686+09:00",
   "summary": {
-    "days": 4,
-    "picks": 20,
-    "avg_return_pct": -1.13,
-    "win_rate_pct": 40.0
+    "days": 5,
+    "picks": 25,
+    "avg_return_pct": -0.9,
+    "win_rate_pct": 32.0
   },
   "entries": [
+    {
+      "date": "2026-07-09",
+      "picks": [
+        {
+          "code": "180400",
+          "name": "DXVX",
+          "market": "KOSDAQ",
+          "base_price": 2440.0,
+          "score": 93.0,
+          "current_price": 2440.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "028670",
+          "name": "팬오션",
+          "market": "KOSPI",
+          "base_price": 5170.0,
+          "score": 85.0,
+          "current_price": 5170.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "033780",
+          "name": "KT&G",
+          "market": "KOSPI",
+          "base_price": 184300.0,
+          "score": 85.0,
+          "current_price": 184300.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "084110",
+          "name": "휴온스글로벌",
+          "market": "KOSDAQ",
+          "base_price": 26600.0,
+          "score": 85.0,
+          "current_price": 26600.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "439090",
+          "name": "마녀공장",
+          "market": "KOSDAQ",
+          "base_price": 17600.0,
+          "score": 80.0,
+          "current_price": 17600.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-07-08",
       "picks": [
