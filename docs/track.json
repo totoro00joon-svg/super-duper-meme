@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-07-09T20:17:16.558815+09:00",
+  "generated_at": "2026-07-10T07:52:40.043816+09:00",
   "summary": {
-    "days": 5,
-    "picks": 25,
-    "avg_return_pct": -2.82,
-    "win_rate_pct": 24.0
+    "days": 6,
+    "picks": 30,
+    "avg_return_pct": -2.35,
+    "win_rate_pct": 20.0
   },
   "entries": [
+    {
+      "date": "2026-07-10",
+      "picks": [
+        {
+          "code": "071200",
+          "name": "인피니트헬스케어",
+          "market": "KOSDAQ",
+          "base_price": 7910.0,
+          "score": 90.0,
+          "current_price": 7910.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "030000",
+          "name": "제일기획",
+          "market": "KOSPI",
+          "base_price": 19990.0,
+          "score": 85.0,
+          "current_price": 19990.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "000080",
+          "name": "하이트진로",
+          "market": "KOSPI",
+          "base_price": 15400.0,
+          "score": 75.0,
+          "current_price": 15400.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "181710",
+          "name": "NHN",
+          "market": "KOSPI",
+          "base_price": 37900.0,
+          "score": 75.0,
+          "current_price": 37900.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "101730",
+          "name": "위메이드맥스",
+          "market": "KOSDAQ",
+          "base_price": 4945.0,
+          "score": 73.0,
+          "current_price": 4945.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-07-09",
       "picks": [
