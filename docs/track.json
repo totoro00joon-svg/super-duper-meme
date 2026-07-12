@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-07-10T20:16:36.035985+09:00",
+  "generated_at": "2026-07-13T07:28:09.381842+09:00",
   "summary": {
-    "days": 6,
-    "picks": 30,
-    "avg_return_pct": -0.28,
-    "win_rate_pct": 43.3
+    "days": 7,
+    "picks": 35,
+    "avg_return_pct": -0.24,
+    "win_rate_pct": 37.1
   },
   "entries": [
+    {
+      "date": "2026-07-13",
+      "picks": [
+        {
+          "code": "200710",
+          "name": "에이디테크놀로지",
+          "market": "KOSDAQ",
+          "base_price": 35450.0,
+          "score": 90.0,
+          "current_price": 35450.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "018290",
+          "name": "브이티",
+          "market": "KOSDAQ",
+          "base_price": 12230.0,
+          "score": 85.0,
+          "current_price": 12230.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "096770",
+          "name": "SK이노베이션",
+          "market": "KOSPI",
+          "base_price": 102900.0,
+          "score": 85.0,
+          "current_price": 102900.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "001450",
+          "name": "현대해상",
+          "market": "KOSPI",
+          "base_price": 38150.0,
+          "score": 85.0,
+          "current_price": 38150.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "032640",
+          "name": "LG유플러스",
+          "market": "KOSPI",
+          "base_price": 14960.0,
+          "score": 85.0,
+          "current_price": 14960.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-07-10",
       "picks": [

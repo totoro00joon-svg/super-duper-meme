@@ -238,5 +238,45 @@
         "score": 73.0
       }
     ]
+  },
+  {
+    "date": "2026-07-13",
+    "picks": [
+      {
+        "code": "200710",
+        "name": "에이디테크놀로지",
+        "market": "KOSDAQ",
+        "base_price": 35450.0,
+        "score": 90.0
+      },
+      {
+        "code": "018290",
+        "name": "브이티",
+        "market": "KOSDAQ",
+        "base_price": 12230.0,
+        "score": 85.0
+      },
+      {
+        "code": "096770",
+        "name": "SK이노베이션",
+        "market": "KOSPI",
+        "base_price": 102900.0,
+        "score": 85.0
+      },
+      {
+        "code": "001450",
+        "name": "현대해상",
+        "market": "KOSPI",
+        "base_price": 38150.0,
+        "score": 85.0
+      },
+      {
+        "code": "032640",
+        "name": "LG유플러스",
+        "market": "KOSPI",
+        "base_price": 14960.0,
+        "score": 85.0
+      }
+    ]
   }
 ]
