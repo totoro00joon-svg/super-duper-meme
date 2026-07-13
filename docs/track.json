@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-07-13T20:27:33.564538+09:00",
+  "generated_at": "2026-07-14T07:32:32.657675+09:00",
   "summary": {
-    "days": 7,
-    "picks": 35,
-    "avg_return_pct": -1.44,
-    "win_rate_pct": 31.4
+    "days": 8,
+    "picks": 40,
+    "avg_return_pct": -1.26,
+    "win_rate_pct": 27.5
   },
   "entries": [
+    {
+      "date": "2026-07-14",
+      "picks": [
+        {
+          "code": "078130",
+          "name": "국일제지",
+          "market": "KOSDAQ",
+          "base_price": 4005.0,
+          "score": 85.0,
+          "current_price": 4005.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "005300",
+          "name": "롯데칠성",
+          "market": "KOSPI",
+          "base_price": 101600.0,
+          "score": 85.0,
+          "current_price": 101600.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "096770",
+          "name": "SK이노베이션",
+          "market": "KOSPI",
+          "base_price": 110200.0,
+          "score": 80.0,
+          "current_price": 110200.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "219130",
+          "name": "타이거일렉",
+          "market": "KOSDAQ",
+          "base_price": 72500.0,
+          "score": 75.0,
+          "current_price": 72500.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "491000",
+          "name": "리브스메드",
+          "market": "KOSDAQ",
+          "base_price": 40350.0,
+          "score": 75.0,
+          "current_price": 40350.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-07-13",
       "picks": [
