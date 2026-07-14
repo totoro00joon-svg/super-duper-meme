@@ -318,5 +318,45 @@
         "score": 75.0
       }
     ]
+  },
+  {
+    "date": "2026-07-15",
+    "picks": [
+      {
+        "code": "045100",
+        "name": "한양이엔지",
+        "market": "KOSDAQ",
+        "base_price": 32750.0,
+        "score": 85.0
+      },
+      {
+        "code": "035810",
+        "name": "이지홀딩스",
+        "market": "KOSDAQ",
+        "base_price": 4425.0,
+        "score": 85.0
+      },
+      {
+        "code": "131290",
+        "name": "티에스이",
+        "market": "KOSDAQ",
+        "base_price": 277000.0,
+        "score": 83.0
+      },
+      {
+        "code": "446540",
+        "name": "메가터치",
+        "market": "KOSDAQ",
+        "base_price": 6570.0,
+        "score": 75.0
+      },
+      {
+        "code": "006120",
+        "name": "SK디스커버리",
+        "market": "KOSPI",
+        "base_price": 54200.0,
+        "score": 73.0
+      }
+    ]
   }
 ]

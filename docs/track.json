@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-07-14T19:08:12.942573+09:00",
+  "generated_at": "2026-07-15T07:34:59.076071+09:00",
   "summary": {
-    "days": 8,
-    "picks": 40,
-    "avg_return_pct": -3.05,
-    "win_rate_pct": 17.5
+    "days": 9,
+    "picks": 45,
+    "avg_return_pct": -2.71,
+    "win_rate_pct": 15.6
   },
   "entries": [
+    {
+      "date": "2026-07-15",
+      "picks": [
+        {
+          "code": "045100",
+          "name": "한양이엔지",
+          "market": "KOSDAQ",
+          "base_price": 32750.0,
+          "score": 85.0,
+          "current_price": 32750.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "035810",
+          "name": "이지홀딩스",
+          "market": "KOSDAQ",
+          "base_price": 4425.0,
+          "score": 85.0,
+          "current_price": 4425.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "131290",
+          "name": "티에스이",
+          "market": "KOSDAQ",
+          "base_price": 277000.0,
+          "score": 83.0,
+          "current_price": 277000.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "446540",
+          "name": "메가터치",
+          "market": "KOSDAQ",
+          "base_price": 6570.0,
+          "score": 75.0,
+          "current_price": 6570.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "006120",
+          "name": "SK디스커버리",
+          "market": "KOSPI",
+          "base_price": 54200.0,
+          "score": 73.0,
+          "current_price": 54200.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-07-14",
       "picks": [
