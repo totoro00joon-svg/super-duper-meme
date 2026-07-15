@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-07-15T19:14:05.397067+09:00",
+  "generated_at": "2026-07-16T07:34:28.723454+09:00",
   "summary": {
-    "days": 9,
-    "picks": 45,
-    "avg_return_pct": -0.44,
-    "win_rate_pct": 35.6
+    "days": 10,
+    "picks": 50,
+    "avg_return_pct": -0.4,
+    "win_rate_pct": 32.0
   },
   "entries": [
+    {
+      "date": "2026-07-16",
+      "picks": [
+        {
+          "code": "484120",
+          "name": "도우인시스",
+          "market": "KOSDAQ",
+          "base_price": 18090.0,
+          "score": 90.0,
+          "current_price": 18090.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "267270",
+          "name": "HD건설기계",
+          "market": "KOSPI",
+          "base_price": 129500.0,
+          "score": 85.0,
+          "current_price": 129500.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "004490",
+          "name": "세방전지",
+          "market": "KOSPI",
+          "base_price": 55000.0,
+          "score": 85.0,
+          "current_price": 55000.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "021240",
+          "name": "코웨이",
+          "market": "KOSPI",
+          "base_price": 95700.0,
+          "score": 85.0,
+          "current_price": 95700.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "353810",
+          "name": "이지바이오",
+          "market": "KOSDAQ",
+          "base_price": 6380.0,
+          "score": 85.0,
+          "current_price": 6380.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-07-15",
       "picks": [
