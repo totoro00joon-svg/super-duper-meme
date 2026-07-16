@@ -398,5 +398,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-07-17",
+    "picks": [
+      {
+        "code": "036530",
+        "name": "SNT홀딩스",
+        "market": "KOSPI",
+        "base_price": 52000.0,
+        "score": 93.0
+      },
+      {
+        "code": "011780",
+        "name": "금호석유화학",
+        "market": "KOSPI",
+        "base_price": 123500.0,
+        "score": 85.0
+      },
+      {
+        "code": "000810",
+        "name": "삼성화재",
+        "market": "KOSPI",
+        "base_price": 701000.0,
+        "score": 85.0
+      },
+      {
+        "code": "000370",
+        "name": "한화손해보험",
+        "market": "KOSPI",
+        "base_price": 6090.0,
+        "score": 85.0
+      },
+      {
+        "code": "033780",
+        "name": "KT&G",
+        "market": "KOSPI",
+        "base_price": 179900.0,
+        "score": 85.0
+      }
+    ]
   }
 ]
