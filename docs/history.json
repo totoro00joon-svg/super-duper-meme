@@ -478,5 +478,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-07-21",
+    "picks": [
+      {
+        "code": "298020",
+        "name": "효성티앤씨",
+        "market": "KOSPI",
+        "base_price": 298000.0,
+        "score": 100.0
+      },
+      {
+        "code": "030190",
+        "name": "NICE평가정보",
+        "market": "KOSPI",
+        "base_price": 14080.0,
+        "score": 85.0
+      },
+      {
+        "code": "279570",
+        "name": "케이뱅크",
+        "market": "KOSPI",
+        "base_price": 6200.0,
+        "score": 85.0
+      },
+      {
+        "code": "036530",
+        "name": "SNT홀딩스",
+        "market": "KOSPI",
+        "base_price": 52900.0,
+        "score": 80.0
+      },
+      {
+        "code": "441270",
+        "name": "파인엠텍",
+        "market": "KOSDAQ",
+        "base_price": 6580.0,
+        "score": 76.0
+      }
+    ]
   }
 ]
