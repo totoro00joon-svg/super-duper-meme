@@ -518,5 +518,45 @@
         "score": 76.0
       }
     ]
+  },
+  {
+    "date": "2026-07-22",
+    "picks": [
+      {
+        "code": "192440",
+        "name": "슈피겐코리아",
+        "market": "KOSDAQ",
+        "base_price": 30000.0,
+        "score": 93.0
+      },
+      {
+        "code": "005710",
+        "name": "대원산업",
+        "market": "KOSDAQ",
+        "base_price": 10790.0,
+        "score": 93.0
+      },
+      {
+        "code": "099440",
+        "name": "스맥",
+        "market": "KOSDAQ",
+        "base_price": 2990.0,
+        "score": 90.0
+      },
+      {
+        "code": "460930",
+        "name": "현대힘스",
+        "market": "KOSDAQ",
+        "base_price": 12750.0,
+        "score": 90.0
+      },
+      {
+        "code": "214320",
+        "name": "이노션",
+        "market": "KOSPI",
+        "base_price": 18610.0,
+        "score": 85.0
+      }
+    ]
   }
 ]
