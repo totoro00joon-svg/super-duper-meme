@@ -558,5 +558,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-07-23",
+    "picks": [
+      {
+        "code": "064820",
+        "name": "케이프",
+        "market": "KOSDAQ",
+        "base_price": 9260.0,
+        "score": 100.0
+      },
+      {
+        "code": "049070",
+        "name": "인탑스",
+        "market": "KOSDAQ",
+        "base_price": 18860.0,
+        "score": 100.0
+      },
+      {
+        "code": "017670",
+        "name": "SK텔레콤",
+        "market": "KOSPI",
+        "base_price": 94100.0,
+        "score": 93.0
+      },
+      {
+        "code": "267250",
+        "name": "HD현대",
+        "market": "KOSPI",
+        "base_price": 212000.0,
+        "score": 85.0
+      },
+      {
+        "code": "000270",
+        "name": "기아",
+        "market": "KOSPI",
+        "base_price": 146800.0,
+        "score": 85.0
+      }
+    ]
   }
 ]

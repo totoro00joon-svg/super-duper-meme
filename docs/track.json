@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-07-22T19:33:37.813377+09:00",
+  "generated_at": "2026-07-23T07:37:52.218267+09:00",
   "summary": {
-    "days": 14,
-    "picks": 70,
-    "avg_return_pct": -3.49,
-    "win_rate_pct": 21.4
+    "days": 15,
+    "picks": 75,
+    "avg_return_pct": -3.26,
+    "win_rate_pct": 20.0
   },
   "entries": [
+    {
+      "date": "2026-07-23",
+      "picks": [
+        {
+          "code": "064820",
+          "name": "케이프",
+          "market": "KOSDAQ",
+          "base_price": 9260.0,
+          "score": 100.0,
+          "current_price": 9260.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "049070",
+          "name": "인탑스",
+          "market": "KOSDAQ",
+          "base_price": 18860.0,
+          "score": 100.0,
+          "current_price": 18860.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "017670",
+          "name": "SK텔레콤",
+          "market": "KOSPI",
+          "base_price": 94100.0,
+          "score": 93.0,
+          "current_price": 94100.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "267250",
+          "name": "HD현대",
+          "market": "KOSPI",
+          "base_price": 212000.0,
+          "score": 85.0,
+          "current_price": 212000.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "000270",
+          "name": "기아",
+          "market": "KOSPI",
+          "base_price": 146800.0,
+          "score": 85.0,
+          "current_price": 146800.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-07-22",
       "picks": [
