@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-07-23T19:33:47.081263+09:00",
+  "generated_at": "2026-07-24T07:34:03.123802+09:00",
   "summary": {
-    "days": 15,
-    "picks": 75,
-    "avg_return_pct": -0.3,
-    "win_rate_pct": 40.0
+    "days": 16,
+    "picks": 80,
+    "avg_return_pct": -0.28,
+    "win_rate_pct": 37.5
   },
   "entries": [
+    {
+      "date": "2026-07-24",
+      "picks": [
+        {
+          "code": "950170",
+          "name": "JTC",
+          "market": "KOSDAQ",
+          "base_price": 5010.0,
+          "score": 93.0,
+          "current_price": 5010.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "006360",
+          "name": "GS건설",
+          "market": "KOSPI",
+          "base_price": 34400.0,
+          "score": 90.0,
+          "current_price": 34400.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "012630",
+          "name": "HDC",
+          "market": "KOSPI",
+          "base_price": 23100.0,
+          "score": 90.0,
+          "current_price": 23100.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "079160",
+          "name": "CJ CGV",
+          "market": "KOSPI",
+          "base_price": 4710.0,
+          "score": 85.0,
+          "current_price": 4710.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "047810",
+          "name": "한국항공우주",
+          "market": "KOSPI",
+          "base_price": 164100.0,
+          "score": 85.0,
+          "current_price": 164100.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-07-23",
       "picks": [
