@@ -638,5 +638,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-07-27",
+    "picks": [
+      {
+        "code": "207940",
+        "name": "삼성바이오로직스",
+        "market": "KOSPI",
+        "base_price": 1518000.0,
+        "score": 100.0
+      },
+      {
+        "code": "013030",
+        "name": "하이록코리아",
+        "market": "KOSDAQ",
+        "base_price": 32650.0,
+        "score": 93.0
+      },
+      {
+        "code": "036460",
+        "name": "한국가스공사",
+        "market": "KOSPI",
+        "base_price": 34950.0,
+        "score": 93.0
+      },
+      {
+        "code": "389260",
+        "name": "대명에너지",
+        "market": "KOSDAQ",
+        "base_price": 15850.0,
+        "score": 90.0
+      },
+      {
+        "code": "340570",
+        "name": "티앤엘",
+        "market": "KOSDAQ",
+        "base_price": 56300.0,
+        "score": 85.0
+      }
+    ]
   }
 ]
