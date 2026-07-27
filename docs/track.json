@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-07-27T20:36:13.432003+09:00",
+  "generated_at": "2026-07-28T07:37:15.340126+09:00",
   "summary": {
-    "days": 17,
-    "picks": 85,
-    "avg_return_pct": -1.54,
-    "win_rate_pct": 38.8
+    "days": 18,
+    "picks": 90,
+    "avg_return_pct": -1.45,
+    "win_rate_pct": 36.7
   },
   "entries": [
+    {
+      "date": "2026-07-28",
+      "picks": [
+        {
+          "code": "064260",
+          "name": "다날",
+          "market": "KOSDAQ",
+          "base_price": 4590.0,
+          "score": 90.0,
+          "current_price": 4590.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "099190",
+          "name": "아이센스",
+          "market": "KOSDAQ",
+          "base_price": 17500.0,
+          "score": 90.0,
+          "current_price": 17500.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "029780",
+          "name": "삼성카드",
+          "market": "KOSPI",
+          "base_price": 50200.0,
+          "score": 85.0,
+          "current_price": 50200.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "257720",
+          "name": "실리콘투",
+          "market": "KOSDAQ",
+          "base_price": 38400.0,
+          "score": 85.0,
+          "current_price": 38400.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "051600",
+          "name": "한전KPS",
+          "market": "KOSPI",
+          "base_price": 46550.0,
+          "score": 85.0,
+          "current_price": 46550.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-07-27",
       "picks": [
