@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-07-28T19:44:19.226236+09:00",
+  "generated_at": "2026-07-29T07:38:18.173232+09:00",
   "summary": {
-    "days": 18,
-    "picks": 90,
-    "avg_return_pct": -6.09,
-    "win_rate_pct": 21.1
+    "days": 19,
+    "picks": 95,
+    "avg_return_pct": -5.77,
+    "win_rate_pct": 20.0
   },
   "entries": [
+    {
+      "date": "2026-07-29",
+      "picks": [
+        {
+          "code": "206640",
+          "name": "바디텍메드",
+          "market": "KOSDAQ",
+          "base_price": 11230.0,
+          "score": 100.0,
+          "current_price": 11230.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "042000",
+          "name": "카페24",
+          "market": "KOSDAQ",
+          "base_price": 17230.0,
+          "score": 85.0,
+          "current_price": 17230.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "448900",
+          "name": "한국피아이엠",
+          "market": "KOSDAQ",
+          "base_price": 51300.0,
+          "score": 83.0,
+          "current_price": 51300.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "207940",
+          "name": "삼성바이오로직스",
+          "market": "KOSPI",
+          "base_price": 1549000.0,
+          "score": 80.0,
+          "current_price": 1549000.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "092460",
+          "name": "한라IMS",
+          "market": "KOSDAQ",
+          "base_price": 16750.0,
+          "score": 80.0,
+          "current_price": 16750.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-07-28",
       "picks": [

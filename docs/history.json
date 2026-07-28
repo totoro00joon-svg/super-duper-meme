@@ -718,5 +718,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-07-29",
+    "picks": [
+      {
+        "code": "206640",
+        "name": "바디텍메드",
+        "market": "KOSDAQ",
+        "base_price": 11230.0,
+        "score": 100.0
+      },
+      {
+        "code": "042000",
+        "name": "카페24",
+        "market": "KOSDAQ",
+        "base_price": 17230.0,
+        "score": 85.0
+      },
+      {
+        "code": "448900",
+        "name": "한국피아이엠",
+        "market": "KOSDAQ",
+        "base_price": 51300.0,
+        "score": 83.0
+      },
+      {
+        "code": "207940",
+        "name": "삼성바이오로직스",
+        "market": "KOSPI",
+        "base_price": 1549000.0,
+        "score": 80.0
+      },
+      {
+        "code": "092460",
+        "name": "한라IMS",
+        "market": "KOSDAQ",
+        "base_price": 16750.0,
+        "score": 80.0
+      }
+    ]
   }
 ]
