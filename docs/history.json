@@ -758,5 +758,45 @@
         "score": 80.0
       }
     ]
+  },
+  {
+    "date": "2026-07-30",
+    "picks": [
+      {
+        "code": "459510",
+        "name": "나우로보틱스",
+        "market": "KOSDAQ",
+        "base_price": 14200.0,
+        "score": 100.0
+      },
+      {
+        "code": "068270",
+        "name": "셀트리온",
+        "market": "KOSPI",
+        "base_price": 180000.0,
+        "score": 100.0
+      },
+      {
+        "code": "005300",
+        "name": "롯데칠성",
+        "market": "KOSPI",
+        "base_price": 100700.0,
+        "score": 93.0
+      },
+      {
+        "code": "484810",
+        "name": "티엑스알로보틱스",
+        "market": "KOSDAQ",
+        "base_price": 13870.0,
+        "score": 80.0
+      },
+      {
+        "code": "448900",
+        "name": "한국피아이엠",
+        "market": "KOSDAQ",
+        "base_price": 55800.0,
+        "score": 80.0
+      }
+    ]
   }
 ]
