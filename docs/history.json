@@ -798,5 +798,45 @@
         "score": 80.0
       }
     ]
+  },
+  {
+    "date": "2026-07-31",
+    "picks": [
+      {
+        "code": "054950",
+        "name": "제이브이엠",
+        "market": "KOSDAQ",
+        "base_price": 23050.0,
+        "score": 100.0
+      },
+      {
+        "code": "090430",
+        "name": "아모레퍼시픽",
+        "market": "KOSPI",
+        "base_price": 134000.0,
+        "score": 100.0
+      },
+      {
+        "code": "439260",
+        "name": "대한조선",
+        "market": "KOSPI",
+        "base_price": 49050.0,
+        "score": 93.0
+      },
+      {
+        "code": "280360",
+        "name": "롯데웰푸드",
+        "market": "KOSPI",
+        "base_price": 106000.0,
+        "score": 93.0
+      },
+      {
+        "code": "455900",
+        "name": "엔젤로보틱스",
+        "market": "KOSDAQ",
+        "base_price": 19050.0,
+        "score": 80.0
+      }
+    ]
   }
 ]

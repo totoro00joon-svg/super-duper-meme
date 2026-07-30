@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-07-30T19:33:14.010963+09:00",
+  "generated_at": "2026-07-31T07:40:40.214708+09:00",
   "summary": {
-    "days": 20,
-    "picks": 100,
-    "avg_return_pct": -7.53,
-    "win_rate_pct": 24.0
+    "days": 21,
+    "picks": 105,
+    "avg_return_pct": -7.17,
+    "win_rate_pct": 22.9
   },
   "entries": [
+    {
+      "date": "2026-07-31",
+      "picks": [
+        {
+          "code": "054950",
+          "name": "제이브이엠",
+          "market": "KOSDAQ",
+          "base_price": 23050.0,
+          "score": 100.0,
+          "current_price": 23050.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "090430",
+          "name": "아모레퍼시픽",
+          "market": "KOSPI",
+          "base_price": 134000.0,
+          "score": 100.0,
+          "current_price": 134000.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "439260",
+          "name": "대한조선",
+          "market": "KOSPI",
+          "base_price": 49050.0,
+          "score": 93.0,
+          "current_price": 49050.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "280360",
+          "name": "롯데웰푸드",
+          "market": "KOSPI",
+          "base_price": 106000.0,
+          "score": 93.0,
+          "current_price": 106000.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "455900",
+          "name": "엔젤로보틱스",
+          "market": "KOSDAQ",
+          "base_price": 19050.0,
+          "score": 80.0,
+          "current_price": 19050.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-07-30",
       "picks": [
