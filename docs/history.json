@@ -838,5 +838,45 @@
         "score": 80.0
       }
     ]
+  },
+  {
+    "date": "2026-08-03",
+    "picks": [
+      {
+        "code": "028670",
+        "name": "팬오션",
+        "market": "KOSPI",
+        "base_price": 5470.0,
+        "score": 100.0
+      },
+      {
+        "code": "236200",
+        "name": "슈프리마",
+        "market": "KOSDAQ",
+        "base_price": 51100.0,
+        "score": 93.0
+      },
+      {
+        "code": "475400",
+        "name": "씨메스로보틱스",
+        "market": "KOSDAQ",
+        "base_price": 18690.0,
+        "score": 90.0
+      },
+      {
+        "code": "039830",
+        "name": "오로라",
+        "market": "KOSDAQ",
+        "base_price": 21950.0,
+        "score": 90.0
+      },
+      {
+        "code": "383220",
+        "name": "F&F",
+        "market": "KOSPI",
+        "base_price": 80500.0,
+        "score": 85.0
+      }
+    ]
   }
 ]
