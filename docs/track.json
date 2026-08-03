@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-08-03T20:40:18.105762+09:00",
+  "generated_at": "2026-08-04T07:35:52.466276+09:00",
   "summary": {
-    "days": 22,
-    "picks": 110,
-    "avg_return_pct": -3.8,
-    "win_rate_pct": 27.3
+    "days": 23,
+    "picks": 115,
+    "avg_return_pct": -3.63,
+    "win_rate_pct": 26.1
   },
   "entries": [
+    {
+      "date": "2026-08-04",
+      "picks": [
+        {
+          "code": "194480",
+          "name": "데브시스터즈",
+          "market": "KOSDAQ",
+          "base_price": 19180.0,
+          "score": 93.0,
+          "current_price": 19180.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "117730",
+          "name": "티로보틱스",
+          "market": "KOSDAQ",
+          "base_price": 12830.0,
+          "score": 83.0,
+          "current_price": 12830.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "385540",
+          "name": "RISE 종합채권(A-이상)액티브",
+          "market": "KOSPI",
+          "base_price": 102895.0,
+          "score": 80.0,
+          "current_price": 102895.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "448900",
+          "name": "한국피아이엠",
+          "market": "KOSDAQ",
+          "base_price": 60200.0,
+          "score": 80.0,
+          "current_price": 60200.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "271560",
+          "name": "오리온",
+          "market": "KOSPI",
+          "base_price": 133500.0,
+          "score": 75.0,
+          "current_price": 133500.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-08-03",
       "picks": [
