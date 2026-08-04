@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-08-04T19:48:25.091251+09:00",
+  "generated_at": "2026-08-05T07:39:42.297900+09:00",
   "summary": {
-    "days": 23,
-    "picks": 115,
-    "avg_return_pct": -0.43,
-    "win_rate_pct": 37.4
+    "days": 24,
+    "picks": 120,
+    "avg_return_pct": -0.41,
+    "win_rate_pct": 35.8
   },
   "entries": [
+    {
+      "date": "2026-08-05",
+      "picks": [
+        {
+          "code": "028670",
+          "name": "팬오션",
+          "market": "KOSPI",
+          "base_price": 5640.0,
+          "score": 100.0,
+          "current_price": 5640.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "030520",
+          "name": "한컴",
+          "market": "KOSDAQ",
+          "base_price": 18570.0,
+          "score": 93.0,
+          "current_price": 18570.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "035760",
+          "name": "CJ ENM",
+          "market": "KOSDAQ",
+          "base_price": 33900.0,
+          "score": 93.0,
+          "current_price": 33900.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "009450",
+          "name": "경동나비엔",
+          "market": "KOSPI",
+          "base_price": 68500.0,
+          "score": 93.0,
+          "current_price": 68500.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "194700",
+          "name": "노바렉스",
+          "market": "KOSDAQ",
+          "base_price": 14920.0,
+          "score": 90.0,
+          "current_price": 14920.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-08-04",
       "picks": [

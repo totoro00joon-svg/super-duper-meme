@@ -918,5 +918,45 @@
         "score": 75.0
       }
     ]
+  },
+  {
+    "date": "2026-08-05",
+    "picks": [
+      {
+        "code": "028670",
+        "name": "팬오션",
+        "market": "KOSPI",
+        "base_price": 5640.0,
+        "score": 100.0
+      },
+      {
+        "code": "030520",
+        "name": "한컴",
+        "market": "KOSDAQ",
+        "base_price": 18570.0,
+        "score": 93.0
+      },
+      {
+        "code": "035760",
+        "name": "CJ ENM",
+        "market": "KOSDAQ",
+        "base_price": 33900.0,
+        "score": 93.0
+      },
+      {
+        "code": "009450",
+        "name": "경동나비엔",
+        "market": "KOSPI",
+        "base_price": 68500.0,
+        "score": 93.0
+      },
+      {
+        "code": "194700",
+        "name": "노바렉스",
+        "market": "KOSDAQ",
+        "base_price": 14920.0,
+        "score": 90.0
+      }
+    ]
   }
 ]
