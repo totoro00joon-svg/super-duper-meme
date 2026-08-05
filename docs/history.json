@@ -958,5 +958,45 @@
         "score": 90.0
       }
     ]
+  },
+  {
+    "date": "2026-08-06",
+    "picks": [
+      {
+        "code": "326030",
+        "name": "SK바이오팜",
+        "market": "KOSPI",
+        "base_price": 82000.0,
+        "score": 93.0
+      },
+      {
+        "code": "034810",
+        "name": "해성산업",
+        "market": "KOSDAQ",
+        "base_price": 6490.0,
+        "score": 85.0
+      },
+      {
+        "code": "211050",
+        "name": "인카금융서비스",
+        "market": "KOSDAQ",
+        "base_price": 10360.0,
+        "score": 85.0
+      },
+      {
+        "code": "068760",
+        "name": "셀트리온제약",
+        "market": "KOSDAQ",
+        "base_price": 42000.0,
+        "score": 85.0
+      },
+      {
+        "code": "000240",
+        "name": "한국앤컴퍼니",
+        "market": "KOSPI",
+        "base_price": 25450.0,
+        "score": 85.0
+      }
+    ]
   }
 ]
