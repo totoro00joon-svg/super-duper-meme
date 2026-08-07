@@ -998,5 +998,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-08-07",
+    "picks": [
+      {
+        "code": "033790",
+        "name": "피노",
+        "market": "KOSDAQ",
+        "base_price": 5780.0,
+        "score": 100.0
+      },
+      {
+        "code": "095500",
+        "name": "미래나노텍",
+        "market": "KOSDAQ",
+        "base_price": 7190.0,
+        "score": 93.0
+      },
+      {
+        "code": "114190",
+        "name": "강원에너지",
+        "market": "KOSDAQ",
+        "base_price": 8850.0,
+        "score": 90.0
+      },
+      {
+        "code": "278280",
+        "name": "천보",
+        "market": "KOSDAQ",
+        "base_price": 35600.0,
+        "score": 85.0
+      },
+      {
+        "code": "217730",
+        "name": "강스템바이오텍",
+        "market": "KOSDAQ",
+        "base_price": 2485.0,
+        "score": 85.0
+      }
+    ]
   }
 ]
