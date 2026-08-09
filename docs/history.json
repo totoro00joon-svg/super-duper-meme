@@ -1038,5 +1038,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-08-10",
+    "picks": [
+      {
+        "code": "011780",
+        "name": "금호석유화학",
+        "market": "KOSPI",
+        "base_price": 129600.0,
+        "score": 100.0
+      },
+      {
+        "code": "095500",
+        "name": "미래나노텍",
+        "market": "KOSDAQ",
+        "base_price": 7270.0,
+        "score": 100.0
+      },
+      {
+        "code": "007070",
+        "name": "GS리테일",
+        "market": "KOSPI",
+        "base_price": 28350.0,
+        "score": 100.0
+      },
+      {
+        "code": "020150",
+        "name": "롯데에너지머티리얼즈",
+        "market": "KOSPI",
+        "base_price": 30600.0,
+        "score": 93.0
+      },
+      {
+        "code": "278280",
+        "name": "천보",
+        "market": "KOSDAQ",
+        "base_price": 35400.0,
+        "score": 93.0
+      }
+    ]
   }
 ]
