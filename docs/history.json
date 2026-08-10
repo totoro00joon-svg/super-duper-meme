@@ -1078,5 +1078,45 @@
         "score": 93.0
       }
     ]
+  },
+  {
+    "date": "2026-08-11",
+    "picks": [
+      {
+        "code": "071320",
+        "name": "지역난방공사",
+        "market": "KOSPI",
+        "base_price": 72000.0,
+        "score": 100.0
+      },
+      {
+        "code": "001450",
+        "name": "현대해상",
+        "market": "KOSPI",
+        "base_price": 41000.0,
+        "score": 93.0
+      },
+      {
+        "code": "027360",
+        "name": "아주IB투자",
+        "market": "KOSDAQ",
+        "base_price": 3625.0,
+        "score": 90.0
+      },
+      {
+        "code": "314130",
+        "name": "지놈앤컴퍼니",
+        "market": "KOSDAQ",
+        "base_price": 4160.0,
+        "score": 90.0
+      },
+      {
+        "code": "099430",
+        "name": "바이오플러스",
+        "market": "KOSDAQ",
+        "base_price": 3720.0,
+        "score": 85.0
+      }
+    ]
   }
 ]

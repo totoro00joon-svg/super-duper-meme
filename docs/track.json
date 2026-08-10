@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-08-10T18:44:56.398260+09:00",
+  "generated_at": "2026-08-11T07:10:29.523681+09:00",
   "summary": {
-    "days": 27,
-    "picks": 135,
-    "avg_return_pct": 4.52,
-    "win_rate_pct": 71.1
+    "days": 28,
+    "picks": 140,
+    "avg_return_pct": 4.36,
+    "win_rate_pct": 68.6
   },
   "entries": [
+    {
+      "date": "2026-08-11",
+      "picks": [
+        {
+          "code": "071320",
+          "name": "지역난방공사",
+          "market": "KOSPI",
+          "base_price": 72000.0,
+          "score": 100.0,
+          "current_price": 72000.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "001450",
+          "name": "현대해상",
+          "market": "KOSPI",
+          "base_price": 41000.0,
+          "score": 93.0,
+          "current_price": 41000.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "027360",
+          "name": "아주IB투자",
+          "market": "KOSDAQ",
+          "base_price": 3625.0,
+          "score": 90.0,
+          "current_price": 3625.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "314130",
+          "name": "지놈앤컴퍼니",
+          "market": "KOSDAQ",
+          "base_price": 4160.0,
+          "score": 90.0,
+          "current_price": 4160.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "099430",
+          "name": "바이오플러스",
+          "market": "KOSDAQ",
+          "base_price": 3720.0,
+          "score": 85.0,
+          "current_price": 3720.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-08-10",
       "picks": [
