@@ -1118,5 +1118,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-08-12",
+    "picks": [
+      {
+        "code": "001820",
+        "name": "삼화콘덴서",
+        "market": "KOSPI",
+        "base_price": 84500.0,
+        "score": 90.0
+      },
+      {
+        "code": "091700",
+        "name": "파트론",
+        "market": "KOSDAQ",
+        "base_price": 5890.0,
+        "score": 85.0
+      },
+      {
+        "code": "247540",
+        "name": "에코프로비엠",
+        "market": "KOSDAQ",
+        "base_price": 109800.0,
+        "score": 85.0
+      },
+      {
+        "code": "039440",
+        "name": "에스티아이",
+        "market": "KOSDAQ",
+        "base_price": 24000.0,
+        "score": 85.0
+      },
+      {
+        "code": "178320",
+        "name": "서진시스템",
+        "market": "KOSDAQ",
+        "base_price": 38300.0,
+        "score": 85.0
+      }
+    ]
   }
 ]
