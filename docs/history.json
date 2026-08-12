@@ -1158,5 +1158,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-08-13",
+    "picks": [
+      {
+        "code": "348210",
+        "name": "넥스틴",
+        "market": "KOSDAQ",
+        "base_price": 36900.0,
+        "score": 85.0
+      },
+      {
+        "code": "064760",
+        "name": "티씨케이",
+        "market": "KOSDAQ",
+        "base_price": 229000.0,
+        "score": 83.0
+      },
+      {
+        "code": "036930",
+        "name": "주성엔지니어링",
+        "market": "KOSDAQ",
+        "base_price": 174000.0,
+        "score": 83.0
+      },
+      {
+        "code": "122640",
+        "name": "예스티",
+        "market": "KOSDAQ",
+        "base_price": 27400.0,
+        "score": 83.0
+      },
+      {
+        "code": "101730",
+        "name": "위메이드맥스",
+        "market": "KOSDAQ",
+        "base_price": 4560.0,
+        "score": 82.0
+      }
+    ]
   }
 ]

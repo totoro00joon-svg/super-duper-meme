@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-08-12T18:21:37.263748+09:00",
+  "generated_at": "2026-08-13T07:22:00.621158+09:00",
   "summary": {
-    "days": 29,
-    "picks": 145,
-    "avg_return_pct": 3.97,
-    "win_rate_pct": 62.8
+    "days": 30,
+    "picks": 150,
+    "avg_return_pct": 3.84,
+    "win_rate_pct": 60.7
   },
   "entries": [
+    {
+      "date": "2026-08-13",
+      "picks": [
+        {
+          "code": "348210",
+          "name": "넥스틴",
+          "market": "KOSDAQ",
+          "base_price": 36900.0,
+          "score": 85.0,
+          "current_price": 36900.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "064760",
+          "name": "티씨케이",
+          "market": "KOSDAQ",
+          "base_price": 229000.0,
+          "score": 83.0,
+          "current_price": 229000.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "036930",
+          "name": "주성엔지니어링",
+          "market": "KOSDAQ",
+          "base_price": 174000.0,
+          "score": 83.0,
+          "current_price": 174000.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "122640",
+          "name": "예스티",
+          "market": "KOSDAQ",
+          "base_price": 27400.0,
+          "score": 83.0,
+          "current_price": 27400.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "101730",
+          "name": "위메이드맥스",
+          "market": "KOSDAQ",
+          "base_price": 4560.0,
+          "score": 82.0,
+          "current_price": 4560.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-08-12",
       "picks": [
