@@ -1198,5 +1198,45 @@
         "score": 82.0
       }
     ]
+  },
+  {
+    "date": "2026-08-14",
+    "picks": [
+      {
+        "code": "006800",
+        "name": "미래에셋증권",
+        "market": "KOSPI",
+        "base_price": 38050.0,
+        "score": 93.0
+      },
+      {
+        "code": "356860",
+        "name": "티엘비",
+        "market": "KOSDAQ",
+        "base_price": 31200.0,
+        "score": 93.0
+      },
+      {
+        "code": "187660",
+        "name": "페니트리움바이오",
+        "market": "KOSDAQ",
+        "base_price": 4920.0,
+        "score": 90.0
+      },
+      {
+        "code": "161390",
+        "name": "한국타이어앤테크놀로지",
+        "market": "KOSPI",
+        "base_price": 71500.0,
+        "score": 85.0
+      },
+      {
+        "code": "323410",
+        "name": "카카오뱅크",
+        "market": "KOSPI",
+        "base_price": 22150.0,
+        "score": 85.0
+      }
+    ]
   }
 ]
