@@ -1278,5 +1278,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-08-18",
+    "picks": [
+      {
+        "code": "440110",
+        "name": "파두",
+        "market": "KOSDAQ",
+        "base_price": 65500.0,
+        "score": 93.0
+      },
+      {
+        "code": "017670",
+        "name": "SK텔레콤",
+        "market": "KOSPI",
+        "base_price": 100500.0,
+        "score": 93.0
+      },
+      {
+        "code": "152100",
+        "name": "PLUS 200",
+        "market": "KOSPI",
+        "base_price": 111750.0,
+        "score": 85.0
+      },
+      {
+        "code": "065680",
+        "name": "우주일렉트로",
+        "market": "KOSDAQ",
+        "base_price": 25350.0,
+        "score": 85.0
+      },
+      {
+        "code": "148020",
+        "name": "RISE 200",
+        "market": "KOSPI",
+        "base_price": 110885.0,
+        "score": 85.0
+      }
+    ]
   }
 ]

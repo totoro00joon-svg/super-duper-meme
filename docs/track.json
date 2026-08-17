@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-08-17T17:56:57.709160+09:00",
+  "generated_at": "2026-08-18T06:54:15.405566+09:00",
   "summary": {
-    "days": 32,
-    "picks": 160,
-    "avg_return_pct": 5.34,
-    "win_rate_pct": 65.0
+    "days": 33,
+    "picks": 165,
+    "avg_return_pct": 5.18,
+    "win_rate_pct": 63.0
   },
   "entries": [
+    {
+      "date": "2026-08-18",
+      "picks": [
+        {
+          "code": "440110",
+          "name": "파두",
+          "market": "KOSDAQ",
+          "base_price": 65500.0,
+          "score": 93.0,
+          "current_price": 65500.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "017670",
+          "name": "SK텔레콤",
+          "market": "KOSPI",
+          "base_price": 100500.0,
+          "score": 93.0,
+          "current_price": 100500.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "152100",
+          "name": "PLUS 200",
+          "market": "KOSPI",
+          "base_price": 111750.0,
+          "score": 85.0,
+          "current_price": 111750.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "065680",
+          "name": "우주일렉트로",
+          "market": "KOSDAQ",
+          "base_price": 25350.0,
+          "score": 85.0,
+          "current_price": 25350.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "148020",
+          "name": "RISE 200",
+          "market": "KOSPI",
+          "base_price": 110885.0,
+          "score": 85.0,
+          "current_price": 110885.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-08-17",
       "picks": [
