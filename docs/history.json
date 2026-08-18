@@ -1318,5 +1318,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-08-19",
+    "picks": [
+      {
+        "code": "032830",
+        "name": "삼성생명",
+        "market": "KOSPI",
+        "base_price": 310500.0,
+        "score": 85.0
+      },
+      {
+        "code": "102940",
+        "name": "코오롱생명과학",
+        "market": "KOSDAQ",
+        "base_price": 18600.0,
+        "score": 85.0
+      },
+      {
+        "code": "441800",
+        "name": "TIME Korea플러스배당액티브",
+        "market": "KOSPI",
+        "base_price": 28855.0,
+        "score": 85.0
+      },
+      {
+        "code": "030200",
+        "name": "KT",
+        "market": "KOSPI",
+        "base_price": 54300.0,
+        "score": 85.0
+      },
+      {
+        "code": "442580",
+        "name": "PLUS 글로벌HBM반도체",
+        "market": "KOSPI",
+        "base_price": 104205.0,
+        "score": 85.0
+      }
+    ]
   }
 ]
