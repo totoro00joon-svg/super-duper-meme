@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-08-19T17:51:34.275410+09:00",
+  "generated_at": "2026-08-20T06:55:09.071021+09:00",
   "summary": {
-    "days": 34,
-    "picks": 170,
-    "avg_return_pct": -0.4,
-    "win_rate_pct": 38.2
+    "days": 35,
+    "picks": 175,
+    "avg_return_pct": -0.38,
+    "win_rate_pct": 37.1
   },
   "entries": [
+    {
+      "date": "2026-08-20",
+      "picks": [
+        {
+          "code": "001120",
+          "name": "LX인터내셔널",
+          "market": "KOSPI",
+          "base_price": 38450.0,
+          "score": 65.0,
+          "current_price": 38450.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "003230",
+          "name": "삼양식품",
+          "market": "KOSPI",
+          "base_price": 1304000.0,
+          "score": 65.0,
+          "current_price": 1304000.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "192400",
+          "name": "쿠쿠홀딩스",
+          "market": "KOSPI",
+          "base_price": 27100.0,
+          "score": 65.0,
+          "current_price": 27100.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "101730",
+          "name": "위메이드맥스",
+          "market": "KOSDAQ",
+          "base_price": 4815.0,
+          "score": 60.0,
+          "current_price": 4815.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "257720",
+          "name": "실리콘투",
+          "market": "KOSDAQ",
+          "base_price": 45300.0,
+          "score": 60.0,
+          "current_price": 45300.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-08-19",
       "picks": [
