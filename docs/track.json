@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-08-21T17:54:36.870115+09:00",
+  "generated_at": "2026-08-24T06:51:48.213035+09:00",
   "summary": {
-    "days": 36,
-    "picks": 180,
-    "avg_return_pct": -2.08,
-    "win_rate_pct": 35.0
+    "days": 37,
+    "picks": 185,
+    "avg_return_pct": -2.03,
+    "win_rate_pct": 34.1
   },
   "entries": [
+    {
+      "date": "2026-08-24",
+      "picks": [
+        {
+          "code": "064260",
+          "name": "다날",
+          "market": "KOSDAQ",
+          "base_price": 5130.0,
+          "score": 80.0,
+          "current_price": 5130.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "032830",
+          "name": "삼성생명",
+          "market": "KOSPI",
+          "base_price": 328500.0,
+          "score": 73.0,
+          "current_price": 328500.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "036190",
+          "name": "금화피에스시",
+          "market": "KOSDAQ",
+          "base_price": 33550.0,
+          "score": 73.0,
+          "current_price": 33550.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "192400",
+          "name": "쿠쿠홀딩스",
+          "market": "KOSPI",
+          "base_price": 27900.0,
+          "score": 73.0,
+          "current_price": 27900.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "152100",
+          "name": "PLUS 200",
+          "market": "KOSPI",
+          "base_price": 111645.0,
+          "score": 65.0,
+          "current_price": 111645.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-08-21",
       "picks": [
