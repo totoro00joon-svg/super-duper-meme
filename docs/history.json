@@ -1478,5 +1478,45 @@
         "score": 65.0
       }
     ]
+  },
+  {
+    "date": "2026-08-25",
+    "picks": [
+      {
+        "code": "000810",
+        "name": "삼성화재",
+        "market": "KOSPI",
+        "base_price": 636000.0,
+        "score": 85.0
+      },
+      {
+        "code": "060250",
+        "name": "NHN KCP",
+        "market": "KOSDAQ",
+        "base_price": 15370.0,
+        "score": 80.0
+      },
+      {
+        "code": "445680",
+        "name": "큐리옥스바이오시스템즈",
+        "market": "KOSDAQ",
+        "base_price": 53700.0,
+        "score": 73.0
+      },
+      {
+        "code": "011200",
+        "name": "HMM",
+        "market": "KOSPI",
+        "base_price": 22850.0,
+        "score": 73.0
+      },
+      {
+        "code": "247540",
+        "name": "에코프로비엠",
+        "market": "KOSDAQ",
+        "base_price": 117000.0,
+        "score": 73.0
+      }
+    ]
   }
 ]
