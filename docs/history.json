@@ -1518,5 +1518,45 @@
         "score": 73.0
       }
     ]
+  },
+  {
+    "date": "2026-08-26",
+    "picks": [
+      {
+        "code": "052690",
+        "name": "한전기술",
+        "market": "KOSPI",
+        "base_price": 108600.0,
+        "score": 100.0
+      },
+      {
+        "code": "053030",
+        "name": "바이넥스",
+        "market": "KOSDAQ",
+        "base_price": 7050.0,
+        "score": 85.0
+      },
+      {
+        "code": "030000",
+        "name": "제일기획",
+        "market": "KOSPI",
+        "base_price": 19130.0,
+        "score": 85.0
+      },
+      {
+        "code": "000720",
+        "name": "현대건설",
+        "market": "KOSPI",
+        "base_price": 121300.0,
+        "score": 80.0
+      },
+      {
+        "code": "234340",
+        "name": "헥토파이낸셜",
+        "market": "KOSDAQ",
+        "base_price": 22400.0,
+        "score": 80.0
+      }
+    ]
   }
 ]
