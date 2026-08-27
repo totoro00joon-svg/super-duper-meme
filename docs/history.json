@@ -1598,5 +1598,45 @@
         "score": 75.0
       }
     ]
+  },
+  {
+    "date": "2026-08-28",
+    "picks": [
+      {
+        "code": "010120",
+        "name": "LS ELECTRIC",
+        "market": "KOSPI",
+        "base_price": 219500.0,
+        "score": 93.0
+      },
+      {
+        "code": "267260",
+        "name": "HD현대일렉트릭",
+        "market": "KOSPI",
+        "base_price": 821000.0,
+        "score": 85.0
+      },
+      {
+        "code": "030200",
+        "name": "KT",
+        "market": "KOSPI",
+        "base_price": 53900.0,
+        "score": 85.0
+      },
+      {
+        "code": "385540",
+        "name": "RISE 종합채권(A-이상)액티브",
+        "market": "KOSPI",
+        "base_price": 103310.0,
+        "score": 85.0
+      },
+      {
+        "code": "078340",
+        "name": "컴투스",
+        "market": "KOSDAQ",
+        "base_price": 35100.0,
+        "score": 80.0
+      }
+    ]
   }
 ]
