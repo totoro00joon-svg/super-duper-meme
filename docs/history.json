@@ -1558,5 +1558,45 @@
         "score": 80.0
       }
     ]
+  },
+  {
+    "date": "2026-08-27",
+    "picks": [
+      {
+        "code": "030200",
+        "name": "KT",
+        "market": "KOSPI",
+        "base_price": 53900.0,
+        "score": 85.0
+      },
+      {
+        "code": "035250",
+        "name": "강원랜드",
+        "market": "KOSPI",
+        "base_price": 14580.0,
+        "score": 85.0
+      },
+      {
+        "code": "025770",
+        "name": "한국정보통신",
+        "market": "KOSDAQ",
+        "base_price": 8080.0,
+        "score": 85.0
+      },
+      {
+        "code": "014620",
+        "name": "성광벤드",
+        "market": "KOSDAQ",
+        "base_price": 29500.0,
+        "score": 75.0
+      },
+      {
+        "code": "051600",
+        "name": "한전KPS",
+        "market": "KOSPI",
+        "base_price": 46550.0,
+        "score": 75.0
+      }
+    ]
   }
 ]
