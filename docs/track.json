@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-08-29T05:11:20.503633+09:00",
+  "generated_at": "2026-08-31T08:48:13.474957+09:00",
   "summary": {
-    "days": 42,
-    "picks": 210,
-    "avg_return_pct": 1.75,
-    "win_rate_pct": 52.4
+    "days": 43,
+    "picks": 215,
+    "avg_return_pct": 1.71,
+    "win_rate_pct": 51.2
   },
   "entries": [
+    {
+      "date": "2026-08-31",
+      "picks": [
+        {
+          "code": "058970",
+          "name": "엠로",
+          "market": "KOSDAQ",
+          "base_price": 17880.0,
+          "score": 100.0,
+          "current_price": 17880.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "171090",
+          "name": "선익시스템",
+          "market": "KOSDAQ",
+          "base_price": 71600.0,
+          "score": 93.0,
+          "current_price": 71600.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "204620",
+          "name": "글로벌텍스프리",
+          "market": "KOSDAQ",
+          "base_price": 5960.0,
+          "score": 90.0,
+          "current_price": 5960.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "472850",
+          "name": "폰드그룹",
+          "market": "KOSDAQ",
+          "base_price": 5550.0,
+          "score": 90.0,
+          "current_price": 5550.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "086450",
+          "name": "동국제약",
+          "market": "KOSDAQ",
+          "base_price": 21500.0,
+          "score": 90.0,
+          "current_price": 21500.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-08-29",
       "picks": [

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29T05:11:20.503633+09:00",
-  "universe_count": 663,
+  "generated_at": "2026-08-31T08:48:13.474957+09:00",
+  "universe_count": 662,
   "scored_count": 656,
   "disclaimer": "재미로 보는 참고용 순위입니다. 투자 조언이 아니며 실제 등락을 보장하지 않습니다. 투자 판단과 책임은 본인에게 있습니다.",
   "items": [
@@ -48,7 +48,7 @@
       "price": 5960.0,
       "change_pct": 15.28,
       "score": 90.0,
-      "volume_ratio": 6.0,
+      "volume_ratio": 6.01,
       "reasons": [
         "단기·중기 이평선 위 정배열",
         "골든크로스 발생 직후",
@@ -195,6 +195,23 @@
     },
     {
       "rank": 12,
+      "code": "051910",
+      "name": "LG화학",
+      "market": "KOSPI",
+      "price": 277000.0,
+      "change_pct": 0.91,
+      "score": 85.0,
+      "volume_ratio": 0.73,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "골든크로스 발생 직후",
+        "RSI 51 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "최근 5일 +9.7% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 13,
       "code": "101160",
       "name": "월덱스",
       "market": "KOSDAQ",
@@ -208,23 +225,6 @@
         "RSI 60 (상승 모멘텀, 과열 아님)",
         "MACD 히스토그램 상승 전환",
         "최근 5일 +6.0% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 13,
-      "code": "051910",
-      "name": "LG화학",
-      "market": "KOSPI",
-      "price": 277000.0,
-      "change_pct": 0.91,
-      "score": 85.0,
-      "volume_ratio": 0.66,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "골든크로스 발생 직후",
-        "RSI 51 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +9.7% 완만한 상승"
       ]
     },
     {
@@ -252,7 +252,7 @@
       "price": 6960.0,
       "change_pct": 5.78,
       "score": 83.0,
-      "volume_ratio": 2.17,
+      "volume_ratio": 2.18,
       "reasons": [
         "단기·중기 이평선 위 정배열",
         "골든크로스 발생 직후",
@@ -287,7 +287,7 @@
       "price": 45350.0,
       "change_pct": 2.83,
       "score": 80.0,
-      "volume_ratio": 7.41,
+      "volume_ratio": 7.44,
       "reasons": [
         "단기·중기 이평선 위 정배열",
         "RSI 63 (상승 모멘텀, 과열 아님)",
@@ -304,17 +304,34 @@
       "price": 12020.0,
       "change_pct": 1.86,
       "score": 80.0,
-      "volume_ratio": 5.31,
+      "volume_ratio": 5.37,
       "reasons": [
         "단기·중기 이평선 위 정배열",
         "RSI 59 (상승 모멘텀, 과열 아님)",
         "MACD 히스토그램 상승 전환",
-        "거래량 급증 (평균 대비 5.3배)",
+        "거래량 급증 (평균 대비 5.4배)",
         "최근 5일 +5.2% 완만한 상승"
       ]
     },
     {
       "rank": 19,
+      "code": "094480",
+      "name": "갤럭시아머니트리",
+      "market": "KOSDAQ",
+      "price": 6220.0,
+      "change_pct": 6.32,
+      "score": 80.0,
+      "volume_ratio": 2.51,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 67 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "거래량 급증 (평균 대비 2.5배)",
+        "최근 5일 +1.0% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 20,
       "code": "034230",
       "name": "파라다이스",
       "market": "KOSPI",
@@ -331,7 +348,7 @@
       ]
     },
     {
-      "rank": 20,
+      "rank": 21,
       "code": "317330",
       "name": "덕산테코피아",
       "market": "KOSDAQ",
@@ -348,7 +365,7 @@
       ]
     },
     {
-      "rank": 21,
+      "rank": 22,
       "code": "004000",
       "name": "롯데정밀화학",
       "market": "KOSPI",
@@ -365,7 +382,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 23,
       "code": "088980",
       "name": "맥쿼리인프라",
       "market": "KOSPI",
@@ -379,23 +396,6 @@
         "RSI 49 (반등 초기 구간)",
         "MACD 히스토그램 상승 전환",
         "최근 5일 +4.4% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 23,
-      "code": "094480",
-      "name": "갤럭시아머니트리",
-      "market": "KOSDAQ",
-      "price": 6220.0,
-      "change_pct": 6.32,
-      "score": 73.0,
-      "volume_ratio": 2.5,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 67 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "거래량 증가 (평균 대비 2.5배)",
-        "최근 5일 +1.0% 완만한 상승"
       ]
     },
     {
@@ -440,7 +440,7 @@
       "price": 16150.0,
       "change_pct": 7.1,
       "score": 73.0,
-      "volume_ratio": 2.29,
+      "volume_ratio": 2.3,
       "reasons": [
         "단기·중기 이평선 위 정배열",
         "RSI 67 (상승 모멘텀, 과열 아님)",
@@ -576,7 +576,7 @@
       "price": 2125.0,
       "change_pct": 0.24,
       "score": 71.0,
-      "volume_ratio": 3.45,
+      "volume_ratio": 3.48,
       "reasons": [
         "단기·중기 이평선 위 정배열",
         "RSI 61 (상승 모멘텀, 과열 아님)",
@@ -592,7 +592,7 @@
       "price": 12510.0,
       "change_pct": 2.21,
       "score": 71.0,
-      "volume_ratio": 3.4,
+      "volume_ratio": 3.42,
       "reasons": [
         "단기·중기 이평선 위 정배열",
         "RSI 64 (상승 모멘텀, 과열 아님)",
@@ -624,7 +624,7 @@
       "price": 23400.0,
       "change_pct": 10.38,
       "score": 70.0,
-      "volume_ratio": 4.58,
+      "volume_ratio": 4.62,
       "reasons": [
         "단기·중기 이평선 위 정배열",
         "RSI 67 (상승 모멘텀, 과열 아님)",
@@ -634,6 +634,22 @@
     },
     {
       "rank": 38,
+      "code": "267260",
+      "name": "HD현대일렉트릭",
+      "market": "KOSPI",
+      "price": 814000.0,
+      "change_pct": -0.85,
+      "score": 65.0,
+      "volume_ratio": 1.45,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 59 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "최근 5일 +13.4% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 39,
       "code": "004800",
       "name": "효성",
       "market": "KOSPI",
@@ -649,23 +665,23 @@
       ]
     },
     {
-      "rank": 39,
-      "code": "267260",
-      "name": "HD현대일렉트릭",
+      "rank": 40,
+      "code": "000810",
+      "name": "삼성화재",
       "market": "KOSPI",
-      "price": 814000.0,
-      "change_pct": -0.85,
+      "price": 687000.0,
+      "change_pct": 0.73,
       "score": 65.0,
-      "volume_ratio": 1.21,
+      "volume_ratio": 1.3,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 59 (상승 모멘텀, 과열 아님)",
+        "RSI 60 (상승 모멘텀, 과열 아님)",
         "MACD 히스토그램 상승 전환",
-        "최근 5일 +13.4% 완만한 상승"
+        "최근 5일 +3.9% 완만한 상승"
       ]
     },
     {
-      "rank": 40,
+      "rank": 41,
       "code": "004020",
       "name": "현대제철",
       "market": "KOSPI",
@@ -681,7 +697,7 @@
       ]
     },
     {
-      "rank": 41,
+      "rank": 42,
       "code": "090430",
       "name": "아모레퍼시픽",
       "market": "KOSPI",
@@ -697,7 +713,7 @@
       ]
     },
     {
-      "rank": 42,
+      "rank": 43,
       "code": "352480",
       "name": "씨앤씨인터내셔널",
       "market": "KOSDAQ",
@@ -713,7 +729,7 @@
       ]
     },
     {
-      "rank": 43,
+      "rank": 44,
       "code": "103140",
       "name": "풍산",
       "market": "KOSPI",
@@ -729,7 +745,7 @@
       ]
     },
     {
-      "rank": 44,
+      "rank": 45,
       "code": "003490",
       "name": "대한항공",
       "market": "KOSPI",
@@ -745,14 +761,14 @@
       ]
     },
     {
-      "rank": 45,
+      "rank": 46,
       "code": "030000",
       "name": "제일기획",
       "market": "KOSPI",
       "price": 19340.0,
       "change_pct": 1.79,
       "score": 65.0,
-      "volume_ratio": 1.02,
+      "volume_ratio": 1.04,
       "reasons": [
         "단기·중기 이평선 위 정배열",
         "RSI 54 (상승 모멘텀, 과열 아님)",
@@ -761,7 +777,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 47,
       "code": "000670",
       "name": "영풍",
       "market": "KOSPI",
@@ -777,7 +793,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 48,
       "code": "237880",
       "name": "클리오",
       "market": "KOSDAQ",
@@ -793,14 +809,14 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 49,
       "code": "064400",
       "name": "LG씨엔에스",
       "market": "KOSPI",
       "price": 75800.0,
       "change_pct": 1.88,
       "score": 65.0,
-      "volume_ratio": 0.95,
+      "volume_ratio": 0.96,
       "reasons": [
         "단기·중기 이평선 위 정배열",
         "RSI 56 (상승 모멘텀, 과열 아님)",
@@ -809,35 +825,19 @@
       ]
     },
     {
-      "rank": 49,
-      "code": "009150",
-      "name": "삼성전기",
+      "rank": 50,
+      "code": "021240",
+      "name": "코웨이",
       "market": "KOSPI",
-      "price": 1421000.0,
-      "change_pct": 2.6,
+      "price": 100400.0,
+      "change_pct": 2.14,
       "score": 65.0,
-      "volume_ratio": 0.89,
+      "volume_ratio": 0.96,
       "reasons": [
         "단기·중기 이평선 위 정배열",
         "RSI 60 (상승 모멘텀, 과열 아님)",
         "MACD 히스토그램 상승 전환",
-        "최근 5일 +8.0% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 50,
-      "code": "022100",
-      "name": "포스코DX",
-      "market": "KOSPI",
-      "price": 21400.0,
-      "change_pct": 1.18,
-      "score": 65.0,
-      "volume_ratio": 0.82,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 55 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +9.7% 완만한 상승"
+        "최근 5일 +4.7% 완만한 상승"
       ]
     }
   ]
