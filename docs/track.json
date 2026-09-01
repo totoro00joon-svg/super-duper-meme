@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-09-01T22:28:37.452436+09:00",
+  "generated_at": "2026-09-02T08:32:39.485600+09:00",
   "summary": {
-    "days": 44,
-    "picks": 220,
-    "avg_return_pct": 1.14,
-    "win_rate_pct": 45.9
+    "days": 45,
+    "picks": 225,
+    "avg_return_pct": 1.11,
+    "win_rate_pct": 44.9
   },
   "entries": [
+    {
+      "date": "2026-09-02",
+      "picks": [
+        {
+          "code": "293490",
+          "name": "카카오게임즈",
+          "market": "KOSDAQ",
+          "base_price": 9880.0,
+          "score": 90.0,
+          "current_price": 9880.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "004170",
+          "name": "신세계",
+          "market": "KOSPI",
+          "base_price": 436000.0,
+          "score": 85.0,
+          "current_price": 436000.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "008770",
+          "name": "호텔신라",
+          "market": "KOSPI",
+          "base_price": 44800.0,
+          "score": 85.0,
+          "current_price": 44800.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "383220",
+          "name": "F&F",
+          "market": "KOSPI",
+          "base_price": 68300.0,
+          "score": 85.0,
+          "current_price": 68300.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "229640",
+          "name": "LS에코에너지",
+          "market": "KOSPI",
+          "base_price": 47250.0,
+          "score": 85.0,
+          "current_price": 47250.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-09-01",
       "picks": [
