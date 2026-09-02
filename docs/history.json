@@ -1798,5 +1798,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-09-03",
+    "picks": [
+      {
+        "code": "323410",
+        "name": "카카오뱅크",
+        "market": "KOSPI",
+        "base_price": 21900.0,
+        "score": 85.0
+      },
+      {
+        "code": "044490",
+        "name": "태웅",
+        "market": "KOSDAQ",
+        "base_price": 37250.0,
+        "score": 80.0
+      },
+      {
+        "code": "024850",
+        "name": "HLB이노베이션",
+        "market": "KOSDAQ",
+        "base_price": 15690.0,
+        "score": 80.0
+      },
+      {
+        "code": "253590",
+        "name": "네오셈",
+        "market": "KOSDAQ",
+        "base_price": 11550.0,
+        "score": 80.0
+      },
+      {
+        "code": "096770",
+        "name": "SK이노베이션",
+        "market": "KOSPI",
+        "base_price": 131500.0,
+        "score": 75.0
+      }
+    ]
   }
 ]
