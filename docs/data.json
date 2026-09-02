@@ -1,228 +1,222 @@
 {
-  "generated_at": "2026-09-02T08:32:39.485600+09:00",
+  "generated_at": "2026-09-02T21:44:54.688697+09:00",
   "universe_count": 665,
   "scored_count": 659,
   "disclaimer": "재미로 보는 참고용 순위입니다. 투자 조언이 아니며 실제 등락을 보장하지 않습니다. 투자 판단과 책임은 본인에게 있습니다.",
   "items": [
     {
       "rank": 1,
-      "code": "293490",
-      "name": "카카오게임즈",
-      "market": "KOSDAQ",
-      "price": 9880.0,
-      "change_pct": 12.15,
-      "score": 90.0,
-      "volume_ratio": 6.61,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "골든크로스 발생 직후",
-        "RSI 66 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "거래량 급증 (평균 대비 6.6배)"
-      ]
-    },
-    {
-      "rank": 2,
-      "code": "004170",
-      "name": "신세계",
+      "code": "323410",
+      "name": "카카오뱅크",
       "market": "KOSPI",
-      "price": 436000.0,
-      "change_pct": 5.31,
-      "score": 85.0,
-      "volume_ratio": 1.13,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "골든크로스 발생 직후",
-        "RSI 52 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +10.4% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 3,
-      "code": "008770",
-      "name": "호텔신라",
-      "market": "KOSPI",
-      "price": 44800.0,
-      "change_pct": 1.59,
-      "score": 85.0,
-      "volume_ratio": 1.02,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "골든크로스 발생 직후",
-        "RSI 51 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +6.9% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 4,
-      "code": "383220",
-      "name": "F&F",
-      "market": "KOSPI",
-      "price": 68300.0,
-      "change_pct": 2.09,
-      "score": 85.0,
-      "volume_ratio": 0.81,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "골든크로스 발생 직후",
-        "RSI 53 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +8.8% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 5,
-      "code": "229640",
-      "name": "LS에코에너지",
-      "market": "KOSPI",
-      "price": 47250.0,
-      "change_pct": 2.49,
+      "price": 21900.0,
+      "change_pct": -0.23,
       "score": 85.0,
       "volume_ratio": 0.73,
       "reasons": [
         "단기·중기 이평선 위 정배열",
         "골든크로스 발생 직후",
-        "RSI 51 (상승 모멘텀, 과열 아님)",
+        "RSI 53 (상승 모멘텀, 과열 아님)",
         "MACD 히스토그램 상승 전환",
-        "최근 5일 +5.6% 완만한 상승"
+        "최근 5일 +1.9% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 2,
+      "code": "044490",
+      "name": "태웅",
+      "market": "KOSDAQ",
+      "price": 37250.0,
+      "change_pct": 11.69,
+      "score": 80.0,
+      "volume_ratio": 6.91,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 58 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "거래량 급증 (평균 대비 6.9배)",
+        "최근 5일 +13.4% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 3,
+      "code": "024850",
+      "name": "HLB이노베이션",
+      "market": "KOSDAQ",
+      "price": 15690.0,
+      "change_pct": 13.61,
+      "score": 80.0,
+      "volume_ratio": 3.55,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 68 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "거래량 급증 (평균 대비 3.5배)",
+        "최근 5일 +13.7% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 4,
+      "code": "253590",
+      "name": "네오셈",
+      "market": "KOSDAQ",
+      "price": 11550.0,
+      "change_pct": 7.44,
+      "score": 80.0,
+      "volume_ratio": 2.73,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 55 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "거래량 급증 (평균 대비 2.7배)",
+        "최근 5일 +4.9% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 5,
+      "code": "096770",
+      "name": "SK이노베이션",
+      "market": "KOSPI",
+      "price": 131500.0,
+      "change_pct": -2.81,
+      "score": 75.0,
+      "volume_ratio": 1.1,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "골든크로스 발생 직후",
+        "RSI 57 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환"
       ]
     },
     {
       "rank": 6,
-      "code": "378340",
-      "name": "필에너지",
-      "market": "KOSDAQ",
-      "price": 11810.0,
-      "change_pct": 5.35,
-      "score": 80.0,
-      "volume_ratio": 5.98,
+      "code": "175330",
+      "name": "JB금융지주",
+      "market": "KOSPI",
+      "price": 30550.0,
+      "change_pct": 4.44,
+      "score": 73.0,
+      "volume_ratio": 2.3,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 60 (상승 모멘텀, 과열 아님)",
+        "RSI 63 (상승 모멘텀, 과열 아님)",
         "MACD 히스토그램 상승 전환",
-        "거래량 급증 (평균 대비 6.0배)",
-        "최근 5일 +13.2% 완만한 상승"
+        "거래량 증가 (평균 대비 2.3배)",
+        "최근 5일 +9.9% 완만한 상승"
       ]
     },
     {
       "rank": 7,
-      "code": "003160",
-      "name": "디아이",
-      "market": "KOSPI",
-      "price": 26650.0,
-      "change_pct": 10.12,
-      "score": 80.0,
-      "volume_ratio": 4.61,
+      "code": "125020",
+      "name": "티씨머티리얼즈",
+      "market": "KOSDAQ",
+      "price": 6170.0,
+      "change_pct": 2.15,
+      "score": 73.0,
+      "volume_ratio": 2.29,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 57 (상승 모멘텀, 과열 아님)",
+        "RSI 53 (상승 모멘텀, 과열 아님)",
         "MACD 히스토그램 상승 전환",
-        "거래량 급증 (평균 대비 4.6배)",
-        "최근 5일 +7.0% 완만한 상승"
+        "거래량 증가 (평균 대비 2.3배)",
+        "최근 5일 +10.6% 완만한 상승"
       ]
     },
     {
       "rank": 8,
-      "code": "457190",
-      "name": "이수스페셜티케미컬",
+      "code": "003160",
+      "name": "디아이",
       "market": "KOSPI",
-      "price": 69600.0,
-      "change_pct": -0.57,
-      "score": 80.0,
-      "volume_ratio": 2.68,
+      "price": 30600.0,
+      "change_pct": 14.82,
+      "score": 70.0,
+      "volume_ratio": 13.11,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 58 (상승 모멘텀, 과열 아님)",
+        "RSI 68 (상승 모멘텀, 과열 아님)",
         "MACD 히스토그램 상승 전환",
-        "거래량 급증 (평균 대비 2.7배)",
-        "최근 5일 +8.9% 완만한 상승"
+        "거래량 급증 (평균 대비 13.1배)"
       ]
     },
     {
       "rank": 9,
-      "code": "215000",
-      "name": "골프존",
+      "code": "159010",
+      "name": "아스플로",
       "market": "KOSDAQ",
-      "price": 36200.0,
-      "change_pct": 0.0,
-      "score": 75.0,
-      "volume_ratio": 0.75,
+      "price": 24100.0,
+      "change_pct": 12.62,
+      "score": 70.0,
+      "volume_ratio": 3.73,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "골든크로스 발생 직후",
-        "RSI 41 (반등 초기 구간)",
+        "RSI 61 (상승 모멘텀, 과열 아님)",
         "MACD 히스토그램 상승 전환",
-        "최근 5일 +1.7% 완만한 상승"
+        "거래량 급증 (평균 대비 3.7배)"
       ]
     },
     {
       "rank": 10,
-      "code": "032640",
-      "name": "LG유플러스",
-      "market": "KOSPI",
-      "price": 15220.0,
-      "change_pct": 1.53,
-      "score": 75.0,
-      "volume_ratio": 0.63,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "골든크로스 발생 직후",
-        "RSI 43 (반등 초기 구간)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +2.1% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 11,
-      "code": "030190",
-      "name": "NICE평가정보",
-      "market": "KOSPI",
-      "price": 16080.0,
-      "change_pct": 0.31,
-      "score": 73.0,
-      "volume_ratio": 2.14,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 56 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "거래량 증가 (평균 대비 2.1배)",
-        "최근 5일 +3.2% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 12,
-      "code": "105560",
-      "name": "KB금융",
-      "market": "KOSPI",
-      "price": 171200.0,
-      "change_pct": -1.21,
-      "score": 73.0,
-      "volume_ratio": 1.97,
+      "code": "232140",
+      "name": "와이씨",
+      "market": "KOSDAQ",
+      "price": 12050.0,
+      "change_pct": 7.88,
+      "score": 70.0,
+      "volume_ratio": 3.61,
       "reasons": [
         "단기·중기 이평선 위 정배열",
         "RSI 58 (상승 모멘텀, 과열 아님)",
         "MACD 히스토그램 상승 전환",
-        "거래량 증가 (평균 대비 2.0배)",
-        "최근 5일 +2.9% 완만한 상승"
+        "거래량 급증 (평균 대비 3.6배)"
+      ]
+    },
+    {
+      "rank": 11,
+      "code": "185750",
+      "name": "종근당",
+      "market": "KOSPI",
+      "price": 69300.0,
+      "change_pct": 0.73,
+      "score": 68.0,
+      "volume_ratio": 4.26,
+      "reasons": [
+        "중기 이평선(20일) 위에서 거래",
+        "RSI 51 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "거래량 급증 (평균 대비 4.3배)",
+        "최근 5일 +0.7% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 12,
+      "code": "006730",
+      "name": "서부T&D",
+      "market": "KOSDAQ",
+      "price": 11420.0,
+      "change_pct": 4.01,
+      "score": 65.0,
+      "volume_ratio": 1.5,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 52 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "최근 5일 +2.6% 완만한 상승"
       ]
     },
     {
       "rank": 13,
-      "code": "211050",
-      "name": "인카금융서비스",
-      "market": "KOSDAQ",
-      "price": 11310.0,
-      "change_pct": 5.21,
-      "score": 73.0,
-      "volume_ratio": 1.93,
+      "code": "316140",
+      "name": "우리금융지주",
+      "market": "KOSPI",
+      "price": 34500.0,
+      "change_pct": -0.14,
+      "score": 65.0,
+      "volume_ratio": 1.46,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 56 (상승 모멘텀, 과열 아님)",
+        "RSI 62 (상승 모멘텀, 과열 아님)",
         "MACD 히스토그램 상승 전환",
-        "거래량 증가 (평균 대비 1.9배)",
-        "최근 5일 +5.0% 완만한 상승"
+        "최근 5일 +4.5% 완만한 상승"
       ]
     },
     {
@@ -230,325 +224,321 @@
       "code": "055550",
       "name": "신한지주",
       "market": "KOSPI",
-      "price": 111100.0,
-      "change_pct": 2.02,
-      "score": 73.0,
-      "volume_ratio": 1.79,
+      "price": 110500.0,
+      "change_pct": -0.54,
+      "score": 65.0,
+      "volume_ratio": 1.45,
       "reasons": [
         "단기·중기 이평선 위 정배열",
         "RSI 64 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "거래량 증가 (평균 대비 1.8배)",
-        "최근 5일 +4.3% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 15,
-      "code": "020560",
-      "name": "아시아나항공",
-      "market": "KOSPI",
-      "price": 7710.0,
-      "change_pct": 1.31,
-      "score": 73.0,
-      "volume_ratio": 1.69,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 67 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "거래량 증가 (평균 대비 1.7배)",
-        "최근 5일 +8.6% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 16,
-      "code": "234340",
-      "name": "헥토파이낸셜",
-      "market": "KOSDAQ",
-      "price": 23700.0,
-      "change_pct": 5.1,
-      "score": 73.0,
-      "volume_ratio": 1.67,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 60 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "거래량 증가 (평균 대비 1.7배)",
-        "최근 5일 +5.8% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 17,
-      "code": "067080",
-      "name": "대화제약",
-      "market": "KOSDAQ",
-      "price": 11260.0,
-      "change_pct": 4.84,
-      "score": 73.0,
-      "volume_ratio": 1.66,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 54 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "거래량 증가 (평균 대비 1.7배)",
-        "최근 5일 +6.5% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 18,
-      "code": "086790",
-      "name": "하나금융지주",
-      "market": "KOSPI",
-      "price": 137400.0,
-      "change_pct": 0.81,
-      "score": 73.0,
-      "volume_ratio": 1.65,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 67 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "거래량 증가 (평균 대비 1.6배)",
-        "최근 5일 +5.0% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 19,
-      "code": "000210",
-      "name": "DL",
-      "market": "KOSPI",
-      "price": 50600.0,
-      "change_pct": 0.4,
-      "score": 70.0,
-      "volume_ratio": 0.99,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "골든크로스 발생 직후",
-        "RSI 50 (상승 모멘텀, 과열 아님)",
-        "최근 5일 +5.1% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 20,
-      "code": "067390",
-      "name": "아스트",
-      "market": "KOSDAQ",
-      "price": 5170.0,
-      "change_pct": 6.49,
-      "score": 68.0,
-      "volume_ratio": 4.77,
-      "reasons": [
-        "중기 이평선(20일) 위에서 거래",
-        "RSI 61 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "거래량 급증 (평균 대비 4.8배)",
-        "최근 5일 +2.2% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 21,
-      "code": "120110",
-      "name": "코오롱인더",
-      "market": "KOSPI",
-      "price": 58900.0,
-      "change_pct": -1.01,
-      "score": 65.0,
-      "volume_ratio": 1.48,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 55 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +6.7% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 22,
-      "code": "138040",
-      "name": "메리츠금융지주",
-      "market": "KOSPI",
-      "price": 125400.0,
-      "change_pct": 2.62,
-      "score": 65.0,
-      "volume_ratio": 1.4,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 53 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +3.8% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 23,
-      "code": "051910",
-      "name": "LG화학",
-      "market": "KOSPI",
-      "price": 282000.0,
-      "change_pct": 0.71,
-      "score": 65.0,
-      "volume_ratio": 1.39,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 55 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +7.2% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 24,
-      "code": "415640",
-      "name": "KB발해인프라",
-      "market": "KOSPI",
-      "price": 10540.0,
-      "change_pct": -0.38,
-      "score": 65.0,
-      "volume_ratio": 1.38,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 59 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +1.7% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 25,
-      "code": "036810",
-      "name": "에프에스티",
-      "market": "KOSDAQ",
-      "price": 28100.0,
-      "change_pct": 4.46,
-      "score": 65.0,
-      "volume_ratio": 1.35,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 63 (상승 모멘텀, 과열 아님)",
         "MACD 히스토그램 상승 전환",
         "최근 5일 +2.9% 완만한 상승"
       ]
     },
     {
-      "rank": 26,
-      "code": "094170",
-      "name": "동운아나텍",
+      "rank": 15,
+      "code": "086450",
+      "name": "동국제약",
       "market": "KOSDAQ",
-      "price": 35750.0,
-      "change_pct": 0.14,
+      "price": 21850.0,
+      "change_pct": -0.23,
       "score": 65.0,
-      "volume_ratio": 1.25,
+      "volume_ratio": 1.39,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 57 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +12.8% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 27,
-      "code": "011170",
-      "name": "롯데케미칼",
-      "market": "KOSPI",
-      "price": 60000.0,
-      "change_pct": 1.52,
-      "score": 65.0,
-      "volume_ratio": 1.25,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 57 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +9.3% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 28,
-      "code": "316140",
-      "name": "우리금융지주",
-      "market": "KOSPI",
-      "price": 34550.0,
-      "change_pct": 2.22,
-      "score": 65.0,
-      "volume_ratio": 1.2,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 55 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +6.0% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 29,
-      "code": "023530",
-      "name": "롯데쇼핑",
-      "market": "KOSPI",
-      "price": 113300.0,
-      "change_pct": 6.48,
-      "score": 65.0,
-      "volume_ratio": 1.18,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "골든크로스 발생 직후",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +14.6% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 30,
-      "code": "010950",
-      "name": "S-Oil",
-      "market": "KOSPI",
-      "price": 151700.0,
-      "change_pct": 1.07,
-      "score": 65.0,
-      "volume_ratio": 1.16,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 61 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +8.4% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 31,
-      "code": "002380",
-      "name": "KCC",
-      "market": "KOSPI",
-      "price": 493500.0,
-      "change_pct": 4.11,
-      "score": 65.0,
-      "volume_ratio": 1.16,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 63 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +8.7% 완만한 상승"
-      ]
-    },
-    {
-      "rank": 32,
-      "code": "204620",
-      "name": "글로벌텍스프리",
-      "market": "KOSDAQ",
-      "price": 5860.0,
-      "change_pct": 2.09,
-      "score": 65.0,
-      "volume_ratio": 1.15,
-      "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 55 (상승 모멘텀, 과열 아님)",
+        "RSI 51 (상승 모멘텀, 과열 아님)",
         "MACD 히스토그램 상승 전환",
         "최근 5일 +13.8% 완만한 상승"
       ]
     },
     {
-      "rank": 33,
-      "code": "005490",
-      "name": "POSCO홀딩스",
+      "rank": 16,
+      "code": "010950",
+      "name": "S-Oil",
       "market": "KOSPI",
-      "price": 341000.0,
-      "change_pct": 0.74,
+      "price": 150900.0,
+      "change_pct": -0.53,
       "score": 65.0,
-      "volume_ratio": 1.15,
+      "volume_ratio": 1.33,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 59 (상승 모멘텀, 과열 아님)",
+        "RSI 60 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "최근 5일 +7.0% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 17,
+      "code": "064290",
+      "name": "인텍플러스",
+      "market": "KOSDAQ",
+      "price": 33800.0,
+      "change_pct": 5.96,
+      "score": 65.0,
+      "volume_ratio": 1.31,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 52 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "최근 5일 +0.4% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 18,
+      "code": "000210",
+      "name": "DL",
+      "market": "KOSPI",
+      "price": 51200.0,
+      "change_pct": 1.19,
+      "score": 65.0,
+      "volume_ratio": 1.29,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 55 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "최근 5일 +3.1% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 19,
+      "code": "003490",
+      "name": "대한항공",
+      "market": "KOSPI",
+      "price": 28900.0,
+      "change_pct": 0.52,
+      "score": 65.0,
+      "volume_ratio": 1.25,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 67 (상승 모멘텀, 과열 아님)",
         "MACD 히스토그램 상승 전환",
         "최근 5일 +2.7% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 20,
+      "code": "383220",
+      "name": "F&F",
+      "market": "KOSPI",
+      "price": 67700.0,
+      "change_pct": -0.88,
+      "score": 65.0,
+      "volume_ratio": 1.21,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 54 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "최근 5일 +6.1% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 21,
+      "code": "034950",
+      "name": "한국기업평가",
+      "market": "KOSDAQ",
+      "price": 104800.0,
+      "change_pct": -0.19,
+      "score": 65.0,
+      "volume_ratio": 1.04,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 67 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "최근 5일 +1.6% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 22,
+      "code": "024110",
+      "name": "기업은행",
+      "market": "KOSPI",
+      "price": 20850.0,
+      "change_pct": -0.24,
+      "score": 65.0,
+      "volume_ratio": 0.99,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 65 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "최근 5일 +2.5% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 23,
+      "code": "900290",
+      "name": "GRT",
+      "market": "KOSDAQ",
+      "price": 4200.0,
+      "change_pct": 0.0,
+      "score": 65.0,
+      "volume_ratio": 0.82,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 57 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "최근 5일 +3.8% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 24,
+      "code": "101160",
+      "name": "월덱스",
+      "market": "KOSDAQ",
+      "price": 29700.0,
+      "change_pct": 1.37,
+      "score": 65.0,
+      "volume_ratio": 0.82,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 55 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "최근 5일 +2.6% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 25,
+      "code": "020560",
+      "name": "아시아나항공",
+      "market": "KOSPI",
+      "price": 7690.0,
+      "change_pct": -0.26,
+      "score": 64.0,
+      "volume_ratio": 1.85,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 65 (상승 모멘텀, 과열 아님)",
+        "거래량 증가 (평균 대비 1.9배)",
+        "최근 5일 +1.9% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 26,
+      "code": "204620",
+      "name": "글로벌텍스프리",
+      "market": "KOSDAQ",
+      "price": 5800.0,
+      "change_pct": -1.02,
+      "score": 64.0,
+      "volume_ratio": 1.56,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 58 (상승 모멘텀, 과열 아님)",
+        "거래량 증가 (평균 대비 1.6배)",
+        "최근 5일 +11.1% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 27,
+      "code": "415640",
+      "name": "KB발해인프라",
+      "market": "KOSPI",
+      "price": 10490.0,
+      "change_pct": -0.47,
+      "score": 64.0,
+      "volume_ratio": 1.52,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 51 (상승 모멘텀, 과열 아님)",
+        "거래량 증가 (평균 대비 1.5배)",
+        "최근 5일 +1.3% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 28,
+      "code": "064550",
+      "name": "바이오니아",
+      "market": "KOSDAQ",
+      "price": 9970.0,
+      "change_pct": -9.36,
+      "score": 63.0,
+      "volume_ratio": 1.86,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 66 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "거래량 증가 (평균 대비 1.9배)"
+      ]
+    },
+    {
+      "rank": 29,
+      "code": "417840",
+      "name": "저스템",
+      "market": "KOSDAQ",
+      "price": 15030.0,
+      "change_pct": 6.52,
+      "score": 63.0,
+      "volume_ratio": 1.51,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 58 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "거래량 증가 (평균 대비 1.5배)"
+      ]
+    },
+    {
+      "rank": 30,
+      "code": "067080",
+      "name": "대화제약",
+      "market": "KOSDAQ",
+      "price": 10870.0,
+      "change_pct": -3.46,
+      "score": 61.0,
+      "volume_ratio": 2.84,
+      "reasons": [
+        "단기·중기 이평선 위 정배열",
+        "RSI 48 (반등 초기 구간)",
+        "거래량 급증 (평균 대비 2.8배)",
+        "최근 5일 +2.1% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 31,
+      "code": "067390",
+      "name": "아스트",
+      "market": "KOSDAQ",
+      "price": 5200.0,
+      "change_pct": 0.58,
+      "score": 61.0,
+      "volume_ratio": 2.41,
+      "reasons": [
+        "중기 이평선(20일) 위에서 거래",
+        "RSI 63 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "거래량 증가 (평균 대비 2.4배)",
+        "최근 5일 +2.8% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 32,
+      "code": "006120",
+      "name": "SK디스커버리",
+      "market": "KOSPI",
+      "price": 54900.0,
+      "change_pct": 3.78,
+      "score": 61.0,
+      "volume_ratio": 1.91,
+      "reasons": [
+        "중기 이평선(20일) 위에서 거래",
+        "RSI 59 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환",
+        "거래량 증가 (평균 대비 1.9배)",
+        "최근 5일 +7.0% 완만한 상승"
+      ]
+    },
+    {
+      "rank": 33,
+      "code": "317330",
+      "name": "덕산테코피아",
+      "market": "KOSDAQ",
+      "price": 11690.0,
+      "change_pct": -12.24,
+      "score": 59.0,
+      "volume_ratio": 3.16,
+      "reasons": [
+        "중기 이평선(20일) 위에서 거래",
+        "RSI 52 (상승 모멘텀, 과열 아님)",
+        "거래량 급증 (평균 대비 3.2배)",
+        "최근 5일 +12.1% 완만한 상승"
       ]
     },
     {
@@ -556,159 +546,149 @@
       "code": "003240",
       "name": "태광산업",
       "market": "KOSPI",
-      "price": 953000.0,
-      "change_pct": 2.25,
-      "score": 65.0,
-      "volume_ratio": 1.13,
+      "price": 933000.0,
+      "change_pct": -2.1,
+      "score": 56.0,
+      "volume_ratio": 1.44,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 52 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +5.7% 완만한 상승"
+        "RSI 54 (상승 모멘텀, 과열 아님)",
+        "최근 5일 +3.4% 완만한 상승"
       ]
     },
     {
       "rank": 35,
-      "code": "171090",
-      "name": "선익시스템",
+      "code": "293490",
+      "name": "카카오게임즈",
       "market": "KOSDAQ",
-      "price": 72900.0,
-      "change_pct": 2.24,
-      "score": 65.0,
-      "volume_ratio": 1.12,
+      "price": 9020.0,
+      "change_pct": -8.7,
+      "score": 56.0,
+      "volume_ratio": 1.39,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 56 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +12.5% 완만한 상승"
+        "RSI 52 (상승 모멘텀, 과열 아님)",
+        "최근 5일 +7.4% 완만한 상승"
       ]
     },
     {
       "rank": 36,
-      "code": "035810",
-      "name": "이지홀딩스",
+      "code": "095340",
+      "name": "ISC",
       "market": "KOSDAQ",
-      "price": 4680.0,
-      "change_pct": 0.86,
-      "score": 65.0,
-      "volume_ratio": 1.1,
+      "price": 170500.0,
+      "change_pct": 8.53,
+      "score": 56.0,
+      "volume_ratio": 1.32,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 54 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +4.3% 완만한 상승"
+        "RSI 61 (상승 모멘텀, 과열 아님)",
+        "최근 5일 +3.5% 완만한 상승"
       ]
     },
     {
       "rank": 37,
-      "code": "499790",
-      "name": "GS피앤엘",
+      "code": "003550",
+      "name": "LG",
       "market": "KOSPI",
-      "price": 45300.0,
-      "change_pct": 3.31,
-      "score": 65.0,
-      "volume_ratio": 1.06,
+      "price": 118500.0,
+      "change_pct": -1.5,
+      "score": 56.0,
+      "volume_ratio": 1.31,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 56 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +14.4% 완만한 상승"
+        "RSI 61 (상승 모멘텀, 과열 아님)",
+        "최근 5일 +3.6% 완만한 상승"
       ]
     },
     {
       "rank": 38,
-      "code": "065710",
-      "name": "서호전기",
-      "market": "KOSDAQ",
-      "price": 46050.0,
-      "change_pct": 0.55,
-      "score": 65.0,
-      "volume_ratio": 1.06,
+      "code": "002380",
+      "name": "KCC",
+      "market": "KOSPI",
+      "price": 479500.0,
+      "change_pct": -2.84,
+      "score": 56.0,
+      "volume_ratio": 1.27,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 64 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +6.0% 완만한 상승"
+        "RSI 57 (상승 모멘텀, 과열 아님)",
+        "최근 5일 +1.6% 완만한 상승"
       ]
     },
     {
       "rank": 39,
-      "code": "900290",
-      "name": "GRT",
-      "market": "KOSDAQ",
-      "price": 4200.0,
-      "change_pct": -0.24,
-      "score": 65.0,
-      "volume_ratio": 1.01,
+      "code": "298020",
+      "name": "효성티앤씨",
+      "market": "KOSPI",
+      "price": 345000.0,
+      "change_pct": 0.0,
+      "score": 56.0,
+      "volume_ratio": 1.25,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 63 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +4.0% 완만한 상승"
+        "RSI 66 (상승 모멘텀, 과열 아님)",
+        "최근 5일 +5.3% 완만한 상승"
       ]
     },
     {
       "rank": 40,
-      "code": "125020",
-      "name": "티씨머티리얼즈",
+      "code": "036810",
+      "name": "에프에스티",
       "market": "KOSDAQ",
-      "price": 6040.0,
-      "change_pct": 6.71,
-      "score": 65.0,
-      "volume_ratio": 0.96,
+      "price": 27400.0,
+      "change_pct": -2.49,
+      "score": 56.0,
+      "volume_ratio": 1.22,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 55 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +8.1% 완만한 상승"
+        "RSI 53 (상승 모멘텀, 과열 아님)",
+        "최근 5일 +6.8% 완만한 상승"
       ]
     },
     {
       "rank": 41,
-      "code": "206650",
-      "name": "유바이오로직스",
+      "code": "234340",
+      "name": "헥토파이낸셜",
       "market": "KOSDAQ",
-      "price": 9290.0,
-      "change_pct": 1.98,
-      "score": 65.0,
-      "volume_ratio": 0.94,
+      "price": 23000.0,
+      "change_pct": -2.95,
+      "score": 56.0,
+      "volume_ratio": 1.05,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 53 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +3.8% 완만한 상승"
+        "RSI 58 (상승 모멘텀, 과열 아님)",
+        "최근 5일 +4.1% 완만한 상승"
       ]
     },
     {
       "rank": 42,
-      "code": "034950",
-      "name": "한국기업평가",
+      "code": "211050",
+      "name": "인카금융서비스",
       "market": "KOSDAQ",
-      "price": 105000.0,
-      "change_pct": 1.16,
-      "score": 65.0,
-      "volume_ratio": 0.86,
+      "price": 10970.0,
+      "change_pct": -3.01,
+      "score": 56.0,
+      "volume_ratio": 1.02,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 61 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +2.6% 완만한 상승"
+        "RSI 53 (상승 모멘텀, 과열 아님)",
+        "최근 5일 +3.1% 완만한 상승"
       ]
     },
     {
       "rank": 43,
-      "code": "056190",
-      "name": "SFA",
-      "market": "KOSDAQ",
-      "price": 24550.0,
-      "change_pct": 2.29,
-      "score": 65.0,
-      "volume_ratio": 0.83,
+      "code": "030190",
+      "name": "NICE평가정보",
+      "market": "KOSPI",
+      "price": 15950.0,
+      "change_pct": -0.81,
+      "score": 56.0,
+      "volume_ratio": 0.94,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 62 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +2.3% 완만한 상승"
+        "RSI 56 (상승 모멘텀, 과열 아님)",
+        "최근 5일 +1.9% 완만한 상승"
       ]
     },
     {
@@ -716,111 +696,107 @@
       "code": "086390",
       "name": "유니테스트",
       "market": "KOSDAQ",
-      "price": 11080.0,
-      "change_pct": 1.47,
-      "score": 65.0,
-      "volume_ratio": 0.81,
+      "price": 10850.0,
+      "change_pct": -2.08,
+      "score": 56.0,
+      "volume_ratio": 0.87,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 66 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +7.1% 완만한 상승"
+        "RSI 61 (상승 모멘텀, 과열 아님)",
+        "최근 5일 +4.3% 완만한 상승"
       ]
     },
     {
       "rank": 45,
-      "code": "044490",
-      "name": "태웅",
+      "code": "039030",
+      "name": "이오테크닉스",
       "market": "KOSDAQ",
-      "price": 33350.0,
-      "change_pct": 6.72,
-      "score": 65.0,
-      "volume_ratio": 0.8,
+      "price": 402000.0,
+      "change_pct": 2.03,
+      "score": 56.0,
+      "volume_ratio": 0.87,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 53 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +8.3% 완만한 상승"
+        "RSI 57 (상승 모멘텀, 과열 아님)",
+        "최근 5일 +0.4% 완만한 상승"
       ]
     },
     {
       "rank": 46,
-      "code": "035600",
-      "name": "KG이니시스",
-      "market": "KOSDAQ",
-      "price": 10610.0,
-      "change_pct": 0.95,
-      "score": 65.0,
-      "volume_ratio": 0.64,
+      "code": "011780",
+      "name": "금호석유화학",
+      "market": "KOSPI",
+      "price": 127200.0,
+      "change_pct": -2.23,
+      "score": 56.0,
+      "volume_ratio": 0.69,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 56 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +4.5% 완만한 상승"
+        "RSI 51 (상승 모멘텀, 과열 아님)",
+        "최근 5일 +2.6% 완만한 상승"
       ]
     },
     {
       "rank": 47,
-      "code": "068930",
-      "name": "디지털대성",
-      "market": "KOSDAQ",
-      "price": 8640.0,
-      "change_pct": -0.23,
-      "score": 65.0,
-      "volume_ratio": 0.49,
+      "code": "090460",
+      "name": "비에이치",
+      "market": "KOSPI",
+      "price": 20250.0,
+      "change_pct": -7.95,
+      "score": 55.0,
+      "volume_ratio": 1.16,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 58 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "최근 5일 +3.8% 완만한 상승"
+        "RSI 57 (상승 모멘텀, 과열 아님)",
+        "MACD 히스토그램 상승 전환"
       ]
     },
     {
       "rank": 48,
-      "code": "452430",
-      "name": "사피엔반도체",
-      "market": "KOSDAQ",
-      "price": 29300.0,
-      "change_pct": -2.17,
-      "score": 65.0,
-      "volume_ratio": 0.41,
+      "code": "138040",
+      "name": "메리츠금융지주",
+      "market": "KOSPI",
+      "price": 129800.0,
+      "change_pct": 3.51,
+      "score": 53.0,
+      "volume_ratio": 2.42,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 52 (상승 모멘텀, 과열 아님)",
         "MACD 히스토그램 상승 전환",
-        "최근 5일 +9.9% 완만한 상승"
+        "거래량 증가 (평균 대비 2.4배)",
+        "최근 5일 +10.0% 완만한 상승"
       ]
     },
     {
       "rank": 49,
-      "code": "024840",
-      "name": "KBI메탈",
-      "market": "KOSDAQ",
-      "price": 6160.0,
-      "change_pct": 3.7,
-      "score": 63.0,
-      "volume_ratio": 1.75,
+      "code": "032350",
+      "name": "롯데관광개발",
+      "market": "KOSPI",
+      "price": 13390.0,
+      "change_pct": 1.52,
+      "score": 53.0,
+      "volume_ratio": 2.19,
       "reasons": [
         "단기·중기 이평선 위 정배열",
-        "RSI 64 (상승 모멘텀, 과열 아님)",
+        "RSI 49 (반등 초기 구간)",
         "MACD 히스토그램 상승 전환",
-        "거래량 증가 (평균 대비 1.7배)"
+        "거래량 증가 (평균 대비 2.2배)"
       ]
     },
     {
       "rank": 50,
-      "code": "086450",
-      "name": "동국제약",
-      "market": "KOSDAQ",
-      "price": 21900.0,
-      "change_pct": -1.57,
-      "score": 63.0,
-      "volume_ratio": 1.59,
+      "code": "020150",
+      "name": "롯데에너지머티리얼즈",
+      "market": "KOSPI",
+      "price": 36400.0,
+      "change_pct": -8.66,
+      "score": 52.0,
+      "volume_ratio": 1.69,
       "reasons": [
-        "단기·중기 이평선 위 정배열",
-        "RSI 52 (상승 모멘텀, 과열 아님)",
-        "MACD 히스토그램 상승 전환",
-        "거래량 증가 (평균 대비 1.6배)"
+        "중기 이평선(20일) 위에서 거래",
+        "RSI 57 (상승 모멘텀, 과열 아님)",
+        "거래량 증가 (평균 대비 1.7배)",
+        "최근 5일 +10.6% 완만한 상승"
       ]
     }
   ]
