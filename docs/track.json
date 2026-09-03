@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-09-03T21:47:50.641183+09:00",
+  "generated_at": "2026-09-04T08:30:18.072989+09:00",
   "summary": {
-    "days": 46,
-    "picks": 230,
-    "avg_return_pct": -1.67,
-    "win_rate_pct": 34.3
+    "days": 47,
+    "picks": 235,
+    "avg_return_pct": -1.63,
+    "win_rate_pct": 33.6
   },
   "entries": [
+    {
+      "date": "2026-09-04",
+      "picks": [
+        {
+          "code": "067390",
+          "name": "아스트",
+          "market": "KOSDAQ",
+          "base_price": 5260.0,
+          "score": 100.0,
+          "current_price": 5260.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "003690",
+          "name": "코리안리",
+          "market": "KOSPI",
+          "base_price": 15470.0,
+          "score": 93.0,
+          "current_price": 15470.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "031210",
+          "name": "서울보증보험",
+          "market": "KOSPI",
+          "base_price": 44850.0,
+          "score": 85.0,
+          "current_price": 44850.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "047050",
+          "name": "포스코인터내셔널",
+          "market": "KOSPI",
+          "base_price": 55500.0,
+          "score": 85.0,
+          "current_price": 55500.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "006120",
+          "name": "SK디스커버리",
+          "market": "KOSPI",
+          "base_price": 53900.0,
+          "score": 85.0,
+          "current_price": 53900.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-09-03",
       "picks": [

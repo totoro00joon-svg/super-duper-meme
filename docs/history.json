@@ -1838,5 +1838,45 @@
         "score": 75.0
       }
     ]
+  },
+  {
+    "date": "2026-09-04",
+    "picks": [
+      {
+        "code": "067390",
+        "name": "아스트",
+        "market": "KOSDAQ",
+        "base_price": 5260.0,
+        "score": 100.0
+      },
+      {
+        "code": "003690",
+        "name": "코리안리",
+        "market": "KOSPI",
+        "base_price": 15470.0,
+        "score": 93.0
+      },
+      {
+        "code": "031210",
+        "name": "서울보증보험",
+        "market": "KOSPI",
+        "base_price": 44850.0,
+        "score": 85.0
+      },
+      {
+        "code": "047050",
+        "name": "포스코인터내셔널",
+        "market": "KOSPI",
+        "base_price": 55500.0,
+        "score": 85.0
+      },
+      {
+        "code": "006120",
+        "name": "SK디스커버리",
+        "market": "KOSPI",
+        "base_price": 53900.0,
+        "score": 85.0
+      }
+    ]
   }
 ]
