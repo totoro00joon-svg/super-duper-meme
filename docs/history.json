@@ -1878,5 +1878,45 @@
         "score": 85.0
       }
     ]
+  },
+  {
+    "date": "2026-09-07",
+    "picks": [
+      {
+        "code": "042700",
+        "name": "한미반도체",
+        "market": "KOSPI",
+        "base_price": 230000.0,
+        "score": 93.0
+      },
+      {
+        "code": "484120",
+        "name": "도우인시스",
+        "market": "KOSDAQ",
+        "base_price": 21500.0,
+        "score": 90.0
+      },
+      {
+        "code": "108490",
+        "name": "로보티즈",
+        "market": "KOSDAQ",
+        "base_price": 304500.0,
+        "score": 82.0
+      },
+      {
+        "code": "003530",
+        "name": "한화투자증권",
+        "market": "KOSPI",
+        "base_price": 5100.0,
+        "score": 80.0
+      },
+      {
+        "code": "234340",
+        "name": "헥토파이낸셜",
+        "market": "KOSDAQ",
+        "base_price": 25250.0,
+        "score": 80.0
+      }
+    ]
   }
 ]
