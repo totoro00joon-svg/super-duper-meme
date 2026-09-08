@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-09-08T21:51:03.933049+09:00",
+  "generated_at": "2026-09-09T08:38:00.900436+09:00",
   "summary": {
-    "days": 49,
-    "picks": 245,
-    "avg_return_pct": -1.12,
-    "win_rate_pct": 40.0
+    "days": 50,
+    "picks": 250,
+    "avg_return_pct": -1.1,
+    "win_rate_pct": 39.2
   },
   "entries": [
+    {
+      "date": "2026-09-09",
+      "picks": [
+        {
+          "code": "051600",
+          "name": "한전KPS",
+          "market": "KOSPI",
+          "base_price": 48450.0,
+          "score": 93.0,
+          "current_price": 48450.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "304360",
+          "name": "에스바이오메딕스",
+          "market": "KOSDAQ",
+          "base_price": 21900.0,
+          "score": 93.0,
+          "current_price": 21900.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "279570",
+          "name": "케이뱅크",
+          "market": "KOSPI",
+          "base_price": 5810.0,
+          "score": 93.0,
+          "current_price": 5810.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "095610",
+          "name": "테스",
+          "market": "KOSDAQ",
+          "base_price": 148100.0,
+          "score": 85.0,
+          "current_price": 148100.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "003380",
+          "name": "하림지주",
+          "market": "KOSDAQ",
+          "base_price": 11370.0,
+          "score": 85.0,
+          "current_price": 11370.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-09-08",
       "picks": [

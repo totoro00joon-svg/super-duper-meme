@@ -1958,5 +1958,45 @@
         "score": 80.0
       }
     ]
+  },
+  {
+    "date": "2026-09-09",
+    "picks": [
+      {
+        "code": "051600",
+        "name": "한전KPS",
+        "market": "KOSPI",
+        "base_price": 48450.0,
+        "score": 93.0
+      },
+      {
+        "code": "304360",
+        "name": "에스바이오메딕스",
+        "market": "KOSDAQ",
+        "base_price": 21900.0,
+        "score": 93.0
+      },
+      {
+        "code": "279570",
+        "name": "케이뱅크",
+        "market": "KOSPI",
+        "base_price": 5810.0,
+        "score": 93.0
+      },
+      {
+        "code": "095610",
+        "name": "테스",
+        "market": "KOSDAQ",
+        "base_price": 148100.0,
+        "score": 85.0
+      },
+      {
+        "code": "003380",
+        "name": "하림지주",
+        "market": "KOSDAQ",
+        "base_price": 11370.0,
+        "score": 85.0
+      }
+    ]
   }
 ]
