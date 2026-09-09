@@ -1,12 +1,63 @@
 {
-  "generated_at": "2026-09-09T21:56:45.625973+09:00",
+  "generated_at": "2026-09-10T08:29:21.772218+09:00",
   "summary": {
-    "days": 50,
-    "picks": 250,
-    "avg_return_pct": -0.12,
-    "win_rate_pct": 40.8
+    "days": 51,
+    "picks": 255,
+    "avg_return_pct": -0.11,
+    "win_rate_pct": 40.0
   },
   "entries": [
+    {
+      "date": "2026-09-10",
+      "picks": [
+        {
+          "code": "010170",
+          "name": "대한광통신",
+          "market": "KOSDAQ",
+          "base_price": 14960.0,
+          "score": 100.0,
+          "current_price": 14960.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "036540",
+          "name": "SFA반도체",
+          "market": "KOSDAQ",
+          "base_price": 6630.0,
+          "score": 100.0,
+          "current_price": 6630.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "049070",
+          "name": "인탑스",
+          "market": "KOSDAQ",
+          "base_price": 18980.0,
+          "score": 93.0,
+          "current_price": 18980.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "112610",
+          "name": "씨에스윈드",
+          "market": "KOSPI",
+          "base_price": 50800.0,
+          "score": 85.0,
+          "current_price": 50800.0,
+          "return_pct": 0.0
+        },
+        {
+          "code": "229640",
+          "name": "LS에코에너지",
+          "market": "KOSPI",
+          "base_price": 49600.0,
+          "score": 85.0,
+          "current_price": 49600.0,
+          "return_pct": 0.0
+        }
+      ],
+      "avg_return_pct": 0.0
+    },
     {
       "date": "2026-09-09",
       "picks": [
