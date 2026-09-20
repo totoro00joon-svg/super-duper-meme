@@ -1,12 +1,17 @@
 {
-  "generated_at": "2026-09-18T21:55:46.504878+09:00",
+  "generated_at": "2026-09-21T08:27:25.134550+09:00",
   "summary": {
-    "days": 57,
+    "days": 58,
     "picks": 255,
     "avg_return_pct": -0.97,
     "win_rate_pct": 36.1
   },
   "entries": [
+    {
+      "date": "2026-09-21",
+      "picks": [],
+      "avg_return_pct": null
+    },
     {
       "date": "2026-09-18",
       "picks": [],
