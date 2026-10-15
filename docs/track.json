@@ -1,12 +1,17 @@
 {
-  "generated_at": "2026-10-15T22:21:12.332159+09:00",
+  "generated_at": "2026-10-16T08:47:30.683534+09:00",
   "summary": {
-    "days": 77,
+    "days": 78,
     "picks": 255,
-    "avg_return_pct": -8.27,
+    "avg_return_pct": -8.28,
     "win_rate_pct": 25.5
   },
   "entries": [
+    {
+      "date": "2026-10-16",
+      "picks": [],
+      "avg_return_pct": null
+    },
     {
       "date": "2026-10-15",
       "picks": [],
@@ -197,8 +202,8 @@
           "market": "KOSPI",
           "base_price": 48450.0,
           "score": 93.0,
-          "current_price": 41650.0,
-          "return_pct": -14.04
+          "current_price": 41550.0,
+          "return_pct": -14.24
         },
         {
           "code": "304360",
@@ -237,7 +242,7 @@
           "return_pct": -0.26
         }
       ],
-      "avg_return_pct": -10.94
+      "avg_return_pct": -10.98
     },
     {
       "date": "2026-09-08",
@@ -461,8 +466,8 @@
           "market": "KOSPI",
           "base_price": 436000.0,
           "score": 85.0,
-          "current_price": 262500.0,
-          "return_pct": -39.79
+          "current_price": 262000.0,
+          "return_pct": -39.91
         },
         {
           "code": "008770",
@@ -492,7 +497,7 @@
           "return_pct": 35.66
         }
       ],
-      "avg_return_pct": -4.01
+      "avg_return_pct": -4.04
     },
     {
       "date": "2026-09-01",
@@ -743,11 +748,11 @@
           "market": "KOSPI",
           "base_price": 46550.0,
           "score": 75.0,
-          "current_price": 41650.0,
-          "return_pct": -10.53
+          "current_price": 41550.0,
+          "return_pct": -10.74
         }
       ],
-      "avg_return_pct": -7.21
+      "avg_return_pct": -7.25
     },
     {
       "date": "2026-08-26",
@@ -1865,11 +1870,11 @@
           "market": "KOSPI",
           "base_price": 46550.0,
           "score": 85.0,
-          "current_price": 41650.0,
-          "return_pct": -10.53
+          "current_price": 41550.0,
+          "return_pct": -10.74
         }
       ],
-      "avg_return_pct": -14.49
+      "avg_return_pct": -14.53
     },
     {
       "date": "2026-07-27",
@@ -2468,8 +2473,8 @@
           "market": "KOSPI",
           "base_price": 37900.0,
           "score": 75.0,
-          "current_price": 49650.0,
-          "return_pct": 31.0
+          "current_price": 49700.0,
+          "return_pct": 31.13
         },
         {
           "code": "101730",
@@ -2481,7 +2486,7 @@
           "return_pct": -18.91
         }
       ],
-      "avg_return_pct": 7.58
+      "avg_return_pct": 7.6
     },
     {
       "date": "2026-07-09",
