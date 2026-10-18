@@ -1,12 +1,17 @@
 {
-  "generated_at": "2026-10-16T22:11:48.233527+09:00",
+  "generated_at": "2026-10-19T08:35:15.487016+09:00",
   "summary": {
-    "days": 78,
+    "days": 79,
     "picks": 255,
     "avg_return_pct": -5.07,
     "win_rate_pct": 31.0
   },
   "entries": [
+    {
+      "date": "2026-10-19",
+      "picks": [],
+      "avg_return_pct": null
+    },
     {
       "date": "2026-10-16",
       "picks": [],
@@ -331,8 +336,8 @@
           "market": "KOSPI",
           "base_price": 5100.0,
           "score": 80.0,
-          "current_price": 4120.0,
-          "return_pct": -19.22
+          "current_price": 4105.0,
+          "return_pct": -19.51
         },
         {
           "code": "234340",
@@ -344,7 +349,7 @@
           "return_pct": -15.64
         }
       ],
-      "avg_return_pct": -10.83
+      "avg_return_pct": -10.89
     },
     {
       "date": "2026-09-04",
@@ -1759,8 +1764,8 @@
           "market": "KOSDAQ",
           "base_price": 13870.0,
           "score": 80.0,
-          "current_price": 10030.0,
-          "return_pct": -27.69
+          "current_price": 10020.0,
+          "return_pct": -27.76
         },
         {
           "code": "448900",
@@ -1772,7 +1777,7 @@
           "return_pct": -24.73
         }
       ],
-      "avg_return_pct": -11.31
+      "avg_return_pct": -11.33
     },
     {
       "date": "2026-07-29",
