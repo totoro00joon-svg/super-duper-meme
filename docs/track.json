@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T02:18:55.397914+09:00",
+  "generated_at": "2026-11-20T11:31:44.759855+09:00",
   "summary": {
     "days": 105,
     "picks": 255,
-    "avg_return_pct": -14.17,
-    "win_rate_pct": 16.1
+    "avg_return_pct": -16.4,
+    "win_rate_pct": 16.9
   },
   "entries": [
     {
@@ -286,8 +286,8 @@
           "market": "KOSDAQ",
           "base_price": 14960.0,
           "score": 100.0,
-          "current_price": 14450.0,
-          "return_pct": -3.41
+          "current_price": 13940.0,
+          "return_pct": -6.82
         },
         {
           "code": "036540",
@@ -295,8 +295,8 @@
           "market": "KOSDAQ",
           "base_price": 6630.0,
           "score": 100.0,
-          "current_price": 8970.0,
-          "return_pct": 35.29
+          "current_price": 7940.0,
+          "return_pct": 19.76
         },
         {
           "code": "049070",
@@ -304,8 +304,8 @@
           "market": "KOSDAQ",
           "base_price": 18980.0,
           "score": 93.0,
-          "current_price": 14280.0,
-          "return_pct": -24.76
+          "current_price": 13510.0,
+          "return_pct": -28.82
         },
         {
           "code": "112610",
@@ -313,8 +313,8 @@
           "market": "KOSPI",
           "base_price": 50800.0,
           "score": 85.0,
-          "current_price": 41550.0,
-          "return_pct": -18.21
+          "current_price": 39450.0,
+          "return_pct": -22.34
         },
         {
           "code": "229640",
@@ -322,11 +322,11 @@
           "market": "KOSPI",
           "base_price": 49600.0,
           "score": 85.0,
-          "current_price": 39250.0,
-          "return_pct": -20.87
+          "current_price": 36700.0,
+          "return_pct": -26.01
         }
       ],
-      "avg_return_pct": -6.39
+      "avg_return_pct": -12.85
     },
     {
       "date": "2026-09-09",
@@ -337,8 +337,8 @@
           "market": "KOSPI",
           "base_price": 48450.0,
           "score": 93.0,
-          "current_price": 35000.0,
-          "return_pct": -27.76
+          "current_price": 34250.0,
+          "return_pct": -29.31
         },
         {
           "code": "304360",
@@ -346,8 +346,8 @@
           "market": "KOSDAQ",
           "base_price": 21900.0,
           "score": 93.0,
-          "current_price": 18530.0,
-          "return_pct": -15.39
+          "current_price": 18380.0,
+          "return_pct": -16.07
         },
         {
           "code": "279570",
@@ -355,8 +355,8 @@
           "market": "KOSPI",
           "base_price": 5810.0,
           "score": 93.0,
-          "current_price": 5470.0,
-          "return_pct": -5.85
+          "current_price": 5450.0,
+          "return_pct": -6.2
         },
         {
           "code": "095610",
@@ -364,8 +364,8 @@
           "market": "KOSDAQ",
           "base_price": 148100.0,
           "score": 85.0,
-          "current_price": 90500.0,
-          "return_pct": -38.89
+          "current_price": 79700.0,
+          "return_pct": -46.19
         },
         {
           "code": "003380",
@@ -373,11 +373,11 @@
           "market": "KOSDAQ",
           "base_price": 11370.0,
           "score": 85.0,
-          "current_price": 10800.0,
-          "return_pct": -5.01
+          "current_price": 10520.0,
+          "return_pct": -7.48
         }
       ],
-      "avg_return_pct": -18.58
+      "avg_return_pct": -21.05
     },
     {
       "date": "2026-09-08",
@@ -388,8 +388,8 @@
           "market": "KOSPI",
           "base_price": 78000.0,
           "score": 93.0,
-          "current_price": 50400.0,
-          "return_pct": -35.38
+          "current_price": 47850.0,
+          "return_pct": -38.65
         },
         {
           "code": "267250",
@@ -397,8 +397,8 @@
           "market": "KOSPI",
           "base_price": 243500.0,
           "score": 85.0,
-          "current_price": 118600.0,
-          "return_pct": -51.29
+          "current_price": 113600.0,
+          "return_pct": -53.35
         },
         {
           "code": "001040",
@@ -406,8 +406,8 @@
           "market": "KOSPI",
           "base_price": 132700.0,
           "score": 85.0,
-          "current_price": 114600.0,
-          "return_pct": -13.64
+          "current_price": 116800.0,
+          "return_pct": -11.98
         },
         {
           "code": "144510",
@@ -415,8 +415,8 @@
           "market": "KOSDAQ",
           "base_price": 15100.0,
           "score": 85.0,
-          "current_price": 9870.0,
-          "return_pct": -34.64
+          "current_price": 10070.0,
+          "return_pct": -33.31
         },
         {
           "code": "052690",
@@ -424,11 +424,11 @@
           "market": "KOSPI",
           "base_price": 122300.0,
           "score": 80.0,
-          "current_price": 67300.0,
-          "return_pct": -44.97
+          "current_price": 64400.0,
+          "return_pct": -47.34
         }
       ],
-      "avg_return_pct": -35.98
+      "avg_return_pct": -36.93
     },
     {
       "date": "2026-09-07",
@@ -439,8 +439,8 @@
           "market": "KOSPI",
           "base_price": 230000.0,
           "score": 93.0,
-          "current_price": 171900.0,
-          "return_pct": -25.26
+          "current_price": 156200.0,
+          "return_pct": -32.09
         },
         {
           "code": "484120",
@@ -448,8 +448,8 @@
           "market": "KOSDAQ",
           "base_price": 21500.0,
           "score": 90.0,
-          "current_price": 14290.0,
-          "return_pct": -33.53
+          "current_price": 13590.0,
+          "return_pct": -36.79
         },
         {
           "code": "108490",
@@ -457,8 +457,8 @@
           "market": "KOSDAQ",
           "base_price": 304500.0,
           "score": 82.0,
-          "current_price": 251000.0,
-          "return_pct": -17.57
+          "current_price": 241500.0,
+          "return_pct": -20.69
         },
         {
           "code": "003530",
@@ -466,8 +466,8 @@
           "market": "KOSPI",
           "base_price": 5100.0,
           "score": 80.0,
-          "current_price": 3590.0,
-          "return_pct": -29.61
+          "current_price": 3460.0,
+          "return_pct": -32.16
         },
         {
           "code": "234340",
@@ -475,11 +475,11 @@
           "market": "KOSDAQ",
           "base_price": 25250.0,
           "score": 80.0,
-          "current_price": 17480.0,
-          "return_pct": -30.77
+          "current_price": 17010.0,
+          "return_pct": -32.63
         }
       ],
-      "avg_return_pct": -27.35
+      "avg_return_pct": -30.87
     },
     {
       "date": "2026-09-04",
@@ -490,8 +490,8 @@
           "market": "KOSDAQ",
           "base_price": 5260.0,
           "score": 100.0,
-          "current_price": 4530.0,
-          "return_pct": -13.88
+          "current_price": 4255.0,
+          "return_pct": -19.11
         },
         {
           "code": "003690",
@@ -499,8 +499,8 @@
           "market": "KOSPI",
           "base_price": 15470.0,
           "score": 93.0,
-          "current_price": 12730.0,
-          "return_pct": -17.71
+          "current_price": 12600.0,
+          "return_pct": -18.55
         },
         {
           "code": "031210",
@@ -508,8 +508,8 @@
           "market": "KOSPI",
           "base_price": 44850.0,
           "score": 85.0,
-          "current_price": 39850.0,
-          "return_pct": -11.15
+          "current_price": 38550.0,
+          "return_pct": -14.05
         },
         {
           "code": "047050",
@@ -517,8 +517,8 @@
           "market": "KOSPI",
           "base_price": 55500.0,
           "score": 85.0,
-          "current_price": 48600.0,
-          "return_pct": -12.43
+          "current_price": 47000.0,
+          "return_pct": -15.32
         },
         {
           "code": "006120",
@@ -526,11 +526,11 @@
           "market": "KOSPI",
           "base_price": 53900.0,
           "score": 85.0,
-          "current_price": 67300.0,
-          "return_pct": 24.86
+          "current_price": 64700.0,
+          "return_pct": 20.04
         }
       ],
-      "avg_return_pct": -6.06
+      "avg_return_pct": -9.4
     },
     {
       "date": "2026-09-03",
@@ -541,8 +541,8 @@
           "market": "KOSPI",
           "base_price": 21900.0,
           "score": 85.0,
-          "current_price": 21400.0,
-          "return_pct": -2.28
+          "current_price": 21650.0,
+          "return_pct": -1.14
         },
         {
           "code": "044490",
@@ -550,8 +550,8 @@
           "market": "KOSDAQ",
           "base_price": 37250.0,
           "score": 80.0,
-          "current_price": 17570.0,
-          "return_pct": -52.83
+          "current_price": 16530.0,
+          "return_pct": -55.62
         },
         {
           "code": "024850",
@@ -559,8 +559,8 @@
           "market": "KOSDAQ",
           "base_price": 15690.0,
           "score": 80.0,
-          "current_price": 14220.0,
-          "return_pct": -9.37
+          "current_price": 13850.0,
+          "return_pct": -11.73
         },
         {
           "code": "253590",
@@ -568,8 +568,8 @@
           "market": "KOSDAQ",
           "base_price": 11550.0,
           "score": 80.0,
-          "current_price": 12540.0,
-          "return_pct": 8.57
+          "current_price": 11510.0,
+          "return_pct": -0.35
         },
         {
           "code": "096770",
@@ -577,11 +577,11 @@
           "market": "KOSPI",
           "base_price": 131500.0,
           "score": 75.0,
-          "current_price": 99300.0,
-          "return_pct": -24.49
+          "current_price": 95100.0,
+          "return_pct": -27.68
         }
       ],
-      "avg_return_pct": -16.08
+      "avg_return_pct": -19.3
     },
     {
       "date": "2026-09-02",
@@ -592,8 +592,8 @@
           "market": "KOSDAQ",
           "base_price": 9880.0,
           "score": 90.0,
-          "current_price": 12300.0,
-          "return_pct": 24.49
+          "current_price": 12570.0,
+          "return_pct": 27.23
         },
         {
           "code": "004170",
@@ -601,8 +601,8 @@
           "market": "KOSPI",
           "base_price": 436000.0,
           "score": 85.0,
-          "current_price": 296500.0,
-          "return_pct": -32.0
+          "current_price": 299000.0,
+          "return_pct": -31.42
         },
         {
           "code": "008770",
@@ -610,8 +610,8 @@
           "market": "KOSPI",
           "base_price": 44800.0,
           "score": 85.0,
-          "current_price": 38450.0,
-          "return_pct": -14.17
+          "current_price": 39300.0,
+          "return_pct": -12.28
         },
         {
           "code": "383220",
@@ -619,8 +619,8 @@
           "market": "KOSPI",
           "base_price": 68300.0,
           "score": 85.0,
-          "current_price": 61100.0,
-          "return_pct": -10.54
+          "current_price": 60900.0,
+          "return_pct": -10.83
         },
         {
           "code": "229640",
@@ -628,11 +628,11 @@
           "market": "KOSPI",
           "base_price": 47250.0,
           "score": 85.0,
-          "current_price": 39250.0,
-          "return_pct": -16.93
+          "current_price": 36700.0,
+          "return_pct": -22.33
         }
       ],
-      "avg_return_pct": -9.83
+      "avg_return_pct": -9.93
     },
     {
       "date": "2026-09-01",
@@ -643,8 +643,8 @@
           "market": "KOSPI",
           "base_price": 173300.0,
           "score": 100.0,
-          "current_price": 154500.0,
-          "return_pct": -10.85
+          "current_price": 154800.0,
+          "return_pct": -10.68
         },
         {
           "code": "415640",
@@ -652,8 +652,8 @@
           "market": "KOSPI",
           "base_price": 10580.0,
           "score": 93.0,
-          "current_price": 9950.0,
-          "return_pct": -5.95
+          "current_price": 10000.0,
+          "return_pct": -5.48
         },
         {
           "code": "298050",
@@ -661,8 +661,8 @@
           "market": "KOSPI",
           "base_price": 179800.0,
           "score": 90.0,
-          "current_price": 161100.0,
-          "return_pct": -10.4
+          "current_price": 159000.0,
+          "return_pct": -11.57
         },
         {
           "code": "100090",
@@ -670,8 +670,8 @@
           "market": "KOSPI",
           "base_price": 13800.0,
           "score": 90.0,
-          "current_price": 9700.0,
-          "return_pct": -29.71
+          "current_price": 9400.0,
+          "return_pct": -31.88
         },
         {
           "code": "011780",
@@ -679,11 +679,11 @@
           "market": "KOSPI",
           "base_price": 127500.0,
           "score": 85.0,
-          "current_price": 93900.0,
-          "return_pct": -26.35
+          "current_price": 92600.0,
+          "return_pct": -27.37
         }
       ],
-      "avg_return_pct": -16.65
+      "avg_return_pct": -17.4
     },
     {
       "date": "2026-08-31",
@@ -694,8 +694,8 @@
           "market": "KOSDAQ",
           "base_price": 17880.0,
           "score": 100.0,
-          "current_price": 12270.0,
-          "return_pct": -31.38
+          "current_price": 11860.0,
+          "return_pct": -33.67
         },
         {
           "code": "171090",
@@ -703,8 +703,8 @@
           "market": "KOSDAQ",
           "base_price": 71600.0,
           "score": 93.0,
-          "current_price": 69600.0,
-          "return_pct": -2.79
+          "current_price": 65200.0,
+          "return_pct": -8.94
         },
         {
           "code": "204620",
@@ -712,8 +712,8 @@
           "market": "KOSDAQ",
           "base_price": 5960.0,
           "score": 90.0,
-          "current_price": 5480.0,
-          "return_pct": -8.05
+          "current_price": 6170.0,
+          "return_pct": 3.52
         },
         {
           "code": "472850",
@@ -721,8 +721,8 @@
           "market": "KOSDAQ",
           "base_price": 5550.0,
           "score": 90.0,
-          "current_price": 3690.0,
-          "return_pct": -33.51
+          "current_price": 3620.0,
+          "return_pct": -34.77
         },
         {
           "code": "086450",
@@ -730,11 +730,11 @@
           "market": "KOSDAQ",
           "base_price": 21500.0,
           "score": 90.0,
-          "current_price": 26600.0,
-          "return_pct": 23.72
+          "current_price": 26000.0,
+          "return_pct": 20.93
         }
       ],
-      "avg_return_pct": -10.4
+      "avg_return_pct": -10.59
     },
     {
       "date": "2026-08-29",
@@ -745,8 +745,8 @@
           "market": "KOSDAQ",
           "base_price": 17880.0,
           "score": 100.0,
-          "current_price": 12270.0,
-          "return_pct": -31.38
+          "current_price": 11860.0,
+          "return_pct": -33.67
         },
         {
           "code": "171090",
@@ -754,8 +754,8 @@
           "market": "KOSDAQ",
           "base_price": 71600.0,
           "score": 93.0,
-          "current_price": 69600.0,
-          "return_pct": -2.79
+          "current_price": 65200.0,
+          "return_pct": -8.94
         },
         {
           "code": "204620",
@@ -763,8 +763,8 @@
           "market": "KOSDAQ",
           "base_price": 5960.0,
           "score": 90.0,
-          "current_price": 5480.0,
-          "return_pct": -8.05
+          "current_price": 6170.0,
+          "return_pct": 3.52
         },
         {
           "code": "472850",
@@ -772,8 +772,8 @@
           "market": "KOSDAQ",
           "base_price": 5550.0,
           "score": 90.0,
-          "current_price": 3690.0,
-          "return_pct": -33.51
+          "current_price": 3620.0,
+          "return_pct": -34.77
         },
         {
           "code": "086450",
@@ -781,11 +781,11 @@
           "market": "KOSDAQ",
           "base_price": 21500.0,
           "score": 90.0,
-          "current_price": 26600.0,
-          "return_pct": 23.72
+          "current_price": 26000.0,
+          "return_pct": 20.93
         }
       ],
-      "avg_return_pct": -10.4
+      "avg_return_pct": -10.59
     },
     {
       "date": "2026-08-28",
@@ -796,8 +796,8 @@
           "market": "KOSPI",
           "base_price": 219500.0,
           "score": 93.0,
-          "current_price": 121100.0,
-          "return_pct": -44.83
+          "current_price": 111100.0,
+          "return_pct": -49.38
         },
         {
           "code": "267260",
@@ -805,8 +805,8 @@
           "market": "KOSPI",
           "base_price": 821000.0,
           "score": 85.0,
-          "current_price": 417000.0,
-          "return_pct": -49.21
+          "current_price": 394000.0,
+          "return_pct": -52.01
         },
         {
           "code": "030200",
@@ -814,8 +814,8 @@
           "market": "KOSPI",
           "base_price": 53900.0,
           "score": 85.0,
-          "current_price": 47700.0,
-          "return_pct": -11.5
+          "current_price": 45600.0,
+          "return_pct": -15.4
         },
         {
           "code": "385540",
@@ -823,8 +823,8 @@
           "market": "KOSPI",
           "base_price": 103310.0,
           "score": 85.0,
-          "current_price": 106200.0,
-          "return_pct": 2.8
+          "current_price": 106475.0,
+          "return_pct": 3.06
         },
         {
           "code": "078340",
@@ -832,11 +832,11 @@
           "market": "KOSDAQ",
           "base_price": 35100.0,
           "score": 80.0,
-          "current_price": 29300.0,
-          "return_pct": -16.52
+          "current_price": 28200.0,
+          "return_pct": -19.66
         }
       ],
-      "avg_return_pct": -23.85
+      "avg_return_pct": -26.68
     },
     {
       "date": "2026-08-27",
@@ -847,8 +847,8 @@
           "market": "KOSPI",
           "base_price": 53900.0,
           "score": 85.0,
-          "current_price": 47700.0,
-          "return_pct": -11.5
+          "current_price": 45600.0,
+          "return_pct": -15.4
         },
         {
           "code": "035250",
@@ -856,8 +856,8 @@
           "market": "KOSPI",
           "base_price": 14580.0,
           "score": 85.0,
-          "current_price": 14310.0,
-          "return_pct": -1.85
+          "current_price": 14450.0,
+          "return_pct": -0.89
         },
         {
           "code": "025770",
@@ -865,8 +865,8 @@
           "market": "KOSDAQ",
           "base_price": 8080.0,
           "score": 85.0,
-          "current_price": 7680.0,
-          "return_pct": -4.95
+          "current_price": 7580.0,
+          "return_pct": -6.19
         },
         {
           "code": "014620",
@@ -874,8 +874,8 @@
           "market": "KOSDAQ",
           "base_price": 29500.0,
           "score": 75.0,
-          "current_price": 19130.0,
-          "return_pct": -35.15
+          "current_price": 18120.0,
+          "return_pct": -38.58
         },
         {
           "code": "051600",
@@ -883,11 +883,11 @@
           "market": "KOSPI",
           "base_price": 46550.0,
           "score": 75.0,
-          "current_price": 35000.0,
-          "return_pct": -24.81
+          "current_price": 34250.0,
+          "return_pct": -26.42
         }
       ],
-      "avg_return_pct": -15.65
+      "avg_return_pct": -17.5
     },
     {
       "date": "2026-08-26",
@@ -898,8 +898,8 @@
           "market": "KOSPI",
           "base_price": 108600.0,
           "score": 100.0,
-          "current_price": 67300.0,
-          "return_pct": -38.03
+          "current_price": 64400.0,
+          "return_pct": -40.7
         },
         {
           "code": "053030",
@@ -907,8 +907,8 @@
           "market": "KOSDAQ",
           "base_price": 7050.0,
           "score": 85.0,
-          "current_price": 7090.0,
-          "return_pct": 0.57
+          "current_price": 7110.0,
+          "return_pct": 0.85
         },
         {
           "code": "030000",
@@ -916,8 +916,8 @@
           "market": "KOSPI",
           "base_price": 19130.0,
           "score": 85.0,
-          "current_price": 18830.0,
-          "return_pct": -1.57
+          "current_price": 19060.0,
+          "return_pct": -0.37
         },
         {
           "code": "000720",
@@ -925,8 +925,8 @@
           "market": "KOSPI",
           "base_price": 121300.0,
           "score": 80.0,
-          "current_price": 79500.0,
-          "return_pct": -34.46
+          "current_price": 74200.0,
+          "return_pct": -38.83
         },
         {
           "code": "234340",
@@ -934,11 +934,11 @@
           "market": "KOSDAQ",
           "base_price": 22400.0,
           "score": 80.0,
-          "current_price": 17480.0,
-          "return_pct": -21.96
+          "current_price": 17010.0,
+          "return_pct": -24.06
         }
       ],
-      "avg_return_pct": -19.09
+      "avg_return_pct": -20.62
     },
     {
       "date": "2026-08-25",
@@ -949,8 +949,8 @@
           "market": "KOSPI",
           "base_price": 636000.0,
           "score": 85.0,
-          "current_price": 528000.0,
-          "return_pct": -16.98
+          "current_price": 519000.0,
+          "return_pct": -18.4
         },
         {
           "code": "060250",
@@ -958,8 +958,8 @@
           "market": "KOSDAQ",
           "base_price": 15370.0,
           "score": 80.0,
-          "current_price": 11420.0,
-          "return_pct": -25.7
+          "current_price": 10980.0,
+          "return_pct": -28.56
         },
         {
           "code": "445680",
@@ -967,8 +967,8 @@
           "market": "KOSDAQ",
           "base_price": 53700.0,
           "score": 73.0,
-          "current_price": 43950.0,
-          "return_pct": -18.16
+          "current_price": 39000.0,
+          "return_pct": -27.37
         },
         {
           "code": "011200",
@@ -976,8 +976,8 @@
           "market": "KOSPI",
           "base_price": 22850.0,
           "score": 73.0,
-          "current_price": 22500.0,
-          "return_pct": -1.53
+          "current_price": 22200.0,
+          "return_pct": -2.84
         },
         {
           "code": "247540",
@@ -985,11 +985,11 @@
           "market": "KOSDAQ",
           "base_price": 117000.0,
           "score": 73.0,
-          "current_price": 86900.0,
-          "return_pct": -25.73
+          "current_price": 82700.0,
+          "return_pct": -29.32
         }
       ],
-      "avg_return_pct": -17.62
+      "avg_return_pct": -21.3
     },
     {
       "date": "2026-08-24",
@@ -1000,8 +1000,8 @@
           "market": "KOSDAQ",
           "base_price": 5130.0,
           "score": 80.0,
-          "current_price": 3615.0,
-          "return_pct": -29.53
+          "current_price": 3500.0,
+          "return_pct": -31.77
         },
         {
           "code": "032830",
@@ -1009,8 +1009,8 @@
           "market": "KOSPI",
           "base_price": 328500.0,
           "score": 73.0,
-          "current_price": 256500.0,
-          "return_pct": -21.92
+          "current_price": 239000.0,
+          "return_pct": -27.25
         },
         {
           "code": "036190",
@@ -1018,8 +1018,8 @@
           "market": "KOSDAQ",
           "base_price": 33550.0,
           "score": 73.0,
-          "current_price": 32900.0,
-          "return_pct": -1.94
+          "current_price": 32350.0,
+          "return_pct": -3.58
         },
         {
           "code": "192400",
@@ -1027,8 +1027,8 @@
           "market": "KOSPI",
           "base_price": 27900.0,
           "score": 73.0,
-          "current_price": 26900.0,
-          "return_pct": -3.58
+          "current_price": 26400.0,
+          "return_pct": -5.38
         },
         {
           "code": "152100",
@@ -1036,11 +1036,11 @@
           "market": "KOSPI",
           "base_price": 111645.0,
           "score": 65.0,
-          "current_price": 81365.0,
-          "return_pct": -27.12
+          "current_price": 77370.0,
+          "return_pct": -30.7
         }
       ],
-      "avg_return_pct": -16.82
+      "avg_return_pct": -19.74
     },
     {
       "date": "2026-08-21",
@@ -1051,8 +1051,8 @@
           "market": "KOSPI",
           "base_price": 1691000.0,
           "score": 85.0,
-          "current_price": 1190000.0,
-          "return_pct": -29.63
+          "current_price": 1107000.0,
+          "return_pct": -34.54
         },
         {
           "code": "064260",
@@ -1060,8 +1060,8 @@
           "market": "KOSDAQ",
           "base_price": 5090.0,
           "score": 80.0,
-          "current_price": 3615.0,
-          "return_pct": -28.98
+          "current_price": 3505.0,
+          "return_pct": -31.14
         },
         {
           "code": "377300",
@@ -1069,8 +1069,8 @@
           "market": "KOSPI",
           "base_price": 44950.0,
           "score": 73.0,
-          "current_price": 34300.0,
-          "return_pct": -23.69
+          "current_price": 34050.0,
+          "return_pct": -24.25
         },
         {
           "code": "053030",
@@ -1078,8 +1078,8 @@
           "market": "KOSDAQ",
           "base_price": 7090.0,
           "score": 70.0,
-          "current_price": 7090.0,
-          "return_pct": 0.0
+          "current_price": 7120.0,
+          "return_pct": 0.42
         },
         {
           "code": "006040",
@@ -1087,11 +1087,11 @@
           "market": "KOSPI",
           "base_price": 37950.0,
           "score": 65.0,
-          "current_price": 31900.0,
-          "return_pct": -15.94
+          "current_price": 31700.0,
+          "return_pct": -16.47
         }
       ],
-      "avg_return_pct": -19.65
+      "avg_return_pct": -21.2
     },
     {
       "date": "2026-08-20",
@@ -1102,8 +1102,8 @@
           "market": "KOSPI",
           "base_price": 38450.0,
           "score": 65.0,
-          "current_price": 34000.0,
-          "return_pct": -11.57
+          "current_price": 32900.0,
+          "return_pct": -14.43
         },
         {
           "code": "003230",
@@ -1111,8 +1111,8 @@
           "market": "KOSPI",
           "base_price": 1304000.0,
           "score": 65.0,
-          "current_price": 1252000.0,
-          "return_pct": -3.99
+          "current_price": 1245000.0,
+          "return_pct": -4.52
         },
         {
           "code": "192400",
@@ -1120,8 +1120,8 @@
           "market": "KOSPI",
           "base_price": 27100.0,
           "score": 65.0,
-          "current_price": 26900.0,
-          "return_pct": -0.74
+          "current_price": 26400.0,
+          "return_pct": -2.58
         },
         {
           "code": "101730",
@@ -1129,8 +1129,8 @@
           "market": "KOSDAQ",
           "base_price": 4815.0,
           "score": 60.0,
-          "current_price": 4235.0,
-          "return_pct": -12.05
+          "current_price": 4035.0,
+          "return_pct": -16.2
         },
         {
           "code": "257720",
@@ -1138,11 +1138,11 @@
           "market": "KOSDAQ",
           "base_price": 45300.0,
           "score": 60.0,
-          "current_price": 24050.0,
-          "return_pct": -46.91
+          "current_price": 23600.0,
+          "return_pct": -47.9
         }
       ],
-      "avg_return_pct": -15.05
+      "avg_return_pct": -17.13
     },
     {
       "date": "2026-08-19",
@@ -1153,8 +1153,8 @@
           "market": "KOSPI",
           "base_price": 310500.0,
           "score": 85.0,
-          "current_price": 256500.0,
-          "return_pct": -17.39
+          "current_price": 239000.0,
+          "return_pct": -23.03
         },
         {
           "code": "102940",
@@ -1162,8 +1162,8 @@
           "market": "KOSDAQ",
           "base_price": 18600.0,
           "score": 85.0,
-          "current_price": 11840.0,
-          "return_pct": -36.34
+          "current_price": 11680.0,
+          "return_pct": -37.2
         },
         {
           "code": "441800",
@@ -1171,8 +1171,8 @@
           "market": "KOSPI",
           "base_price": 28855.0,
           "score": 85.0,
-          "current_price": 22560.0,
-          "return_pct": -21.82
+          "current_price": 22015.0,
+          "return_pct": -23.7
         },
         {
           "code": "030200",
@@ -1180,8 +1180,8 @@
           "market": "KOSPI",
           "base_price": 54300.0,
           "score": 85.0,
-          "current_price": 47700.0,
-          "return_pct": -12.15
+          "current_price": 45550.0,
+          "return_pct": -16.11
         },
         {
           "code": "442580",
@@ -1189,11 +1189,11 @@
           "market": "KOSPI",
           "base_price": 104205.0,
           "score": 85.0,
-          "current_price": 71085.0,
-          "return_pct": -31.78
+          "current_price": 66345.0,
+          "return_pct": -36.33
         }
       ],
-      "avg_return_pct": -23.9
+      "avg_return_pct": -27.27
     },
     {
       "date": "2026-08-18",
@@ -1204,8 +1204,8 @@
           "market": "KOSDAQ",
           "base_price": 65500.0,
           "score": 93.0,
-          "current_price": 32750.0,
-          "return_pct": -50.0
+          "current_price": 28650.0,
+          "return_pct": -56.26
         },
         {
           "code": "017670",
@@ -1213,8 +1213,8 @@
           "market": "KOSPI",
           "base_price": 100500.0,
           "score": 93.0,
-          "current_price": 82200.0,
-          "return_pct": -18.21
+          "current_price": 71100.0,
+          "return_pct": -29.25
         },
         {
           "code": "152100",
@@ -1222,8 +1222,8 @@
           "market": "KOSPI",
           "base_price": 111750.0,
           "score": 85.0,
-          "current_price": 81365.0,
-          "return_pct": -27.19
+          "current_price": 77495.0,
+          "return_pct": -30.65
         },
         {
           "code": "065680",
@@ -1231,8 +1231,8 @@
           "market": "KOSDAQ",
           "base_price": 25350.0,
           "score": 85.0,
-          "current_price": 15350.0,
-          "return_pct": -39.45
+          "current_price": 15050.0,
+          "return_pct": -40.63
         },
         {
           "code": "148020",
@@ -1240,11 +1240,11 @@
           "market": "KOSPI",
           "base_price": 110885.0,
           "score": 85.0,
-          "current_price": 80800.0,
-          "return_pct": -27.13
+          "current_price": 76960.0,
+          "return_pct": -30.59
         }
       ],
-      "avg_return_pct": -32.4
+      "avg_return_pct": -37.48
     },
     {
       "date": "2026-08-17",
@@ -1255,8 +1255,8 @@
           "market": "KOSDAQ",
           "base_price": 65500.0,
           "score": 93.0,
-          "current_price": 32750.0,
-          "return_pct": -50.0
+          "current_price": 28650.0,
+          "return_pct": -56.26
         },
         {
           "code": "017670",
@@ -1264,8 +1264,8 @@
           "market": "KOSPI",
           "base_price": 100500.0,
           "score": 93.0,
-          "current_price": 82200.0,
-          "return_pct": -18.21
+          "current_price": 71100.0,
+          "return_pct": -29.25
         },
         {
           "code": "152100",
@@ -1273,8 +1273,8 @@
           "market": "KOSPI",
           "base_price": 111750.0,
           "score": 85.0,
-          "current_price": 81365.0,
-          "return_pct": -27.19
+          "current_price": 77495.0,
+          "return_pct": -30.65
         },
         {
           "code": "065680",
@@ -1282,8 +1282,8 @@
           "market": "KOSDAQ",
           "base_price": 25350.0,
           "score": 85.0,
-          "current_price": 15350.0,
-          "return_pct": -39.45
+          "current_price": 15050.0,
+          "return_pct": -40.63
         },
         {
           "code": "148020",
@@ -1291,11 +1291,11 @@
           "market": "KOSPI",
           "base_price": 110885.0,
           "score": 85.0,
-          "current_price": 80800.0,
-          "return_pct": -27.13
+          "current_price": 76960.0,
+          "return_pct": -30.59
         }
       ],
-      "avg_return_pct": -32.4
+      "avg_return_pct": -37.48
     },
     {
       "date": "2026-08-14",
@@ -1306,8 +1306,8 @@
           "market": "KOSPI",
           "base_price": 38050.0,
           "score": 93.0,
-          "current_price": 20300.0,
-          "return_pct": -46.65
+          "current_price": 19290.0,
+          "return_pct": -49.3
         },
         {
           "code": "356860",
@@ -1315,8 +1315,8 @@
           "market": "KOSDAQ",
           "base_price": 31200.0,
           "score": 93.0,
-          "current_price": 46250.0,
-          "return_pct": 48.24
+          "current_price": 44200.0,
+          "return_pct": 41.67
         },
         {
           "code": "187660",
@@ -1324,8 +1324,8 @@
           "market": "KOSDAQ",
           "base_price": 4920.0,
           "score": 90.0,
-          "current_price": 7000.0,
-          "return_pct": 42.28
+          "current_price": 6970.0,
+          "return_pct": 41.67
         },
         {
           "code": "161390",
@@ -1333,8 +1333,8 @@
           "market": "KOSPI",
           "base_price": 71500.0,
           "score": 85.0,
-          "current_price": 62500.0,
-          "return_pct": -12.59
+          "current_price": 62300.0,
+          "return_pct": -12.87
         },
         {
           "code": "323410",
@@ -1342,11 +1342,11 @@
           "market": "KOSPI",
           "base_price": 22150.0,
           "score": 85.0,
-          "current_price": 21400.0,
-          "return_pct": -3.39
+          "current_price": 21650.0,
+          "return_pct": -2.26
         }
       ],
-      "avg_return_pct": 5.58
+      "avg_return_pct": 3.78
     },
     {
       "date": "2026-08-13",
@@ -1357,8 +1357,8 @@
           "market": "KOSDAQ",
           "base_price": 36900.0,
           "score": 85.0,
-          "current_price": 25650.0,
-          "return_pct": -30.49
+          "current_price": 23800.0,
+          "return_pct": -35.5
         },
         {
           "code": "064760",
@@ -1366,8 +1366,8 @@
           "market": "KOSDAQ",
           "base_price": 229000.0,
           "score": 83.0,
-          "current_price": 182600.0,
-          "return_pct": -20.26
+          "current_price": 169200.0,
+          "return_pct": -26.11
         },
         {
           "code": "036930",
@@ -1375,8 +1375,8 @@
           "market": "KOSDAQ",
           "base_price": 174000.0,
           "score": 83.0,
-          "current_price": 159300.0,
-          "return_pct": -8.45
+          "current_price": 147600.0,
+          "return_pct": -15.17
         },
         {
           "code": "122640",
@@ -1384,8 +1384,8 @@
           "market": "KOSDAQ",
           "base_price": 27400.0,
           "score": 83.0,
-          "current_price": 24500.0,
-          "return_pct": -10.58
+          "current_price": 22650.0,
+          "return_pct": -17.34
         },
         {
           "code": "101730",
@@ -1393,11 +1393,11 @@
           "market": "KOSDAQ",
           "base_price": 4560.0,
           "score": 82.0,
-          "current_price": 4235.0,
-          "return_pct": -7.13
+          "current_price": 4035.0,
+          "return_pct": -11.51
         }
       ],
-      "avg_return_pct": -15.38
+      "avg_return_pct": -21.13
     },
     {
       "date": "2026-08-12",
@@ -1408,8 +1408,8 @@
           "market": "KOSPI",
           "base_price": 84500.0,
           "score": 90.0,
-          "current_price": 79600.0,
-          "return_pct": -5.8
+          "current_price": 70900.0,
+          "return_pct": -16.09
         },
         {
           "code": "091700",
@@ -1417,8 +1417,8 @@
           "market": "KOSDAQ",
           "base_price": 5890.0,
           "score": 85.0,
-          "current_price": 3700.0,
-          "return_pct": -37.18
+          "current_price": 3550.0,
+          "return_pct": -39.73
         },
         {
           "code": "247540",
@@ -1426,8 +1426,8 @@
           "market": "KOSDAQ",
           "base_price": 109800.0,
           "score": 85.0,
-          "current_price": 86900.0,
-          "return_pct": -20.86
+          "current_price": 82700.0,
+          "return_pct": -24.68
         },
         {
           "code": "039440",
@@ -1435,8 +1435,8 @@
           "market": "KOSDAQ",
           "base_price": 24000.0,
           "score": 85.0,
-          "current_price": 23050.0,
-          "return_pct": -3.96
+          "current_price": 21250.0,
+          "return_pct": -11.46
         },
         {
           "code": "178320",
@@ -1444,11 +1444,11 @@
           "market": "KOSDAQ",
           "base_price": 38300.0,
           "score": 85.0,
-          "current_price": 32350.0,
-          "return_pct": -15.54
+          "current_price": 30150.0,
+          "return_pct": -21.28
         }
       ],
-      "avg_return_pct": -16.67
+      "avg_return_pct": -22.65
     },
     {
       "date": "2026-08-11",
@@ -1459,8 +1459,8 @@
           "market": "KOSPI",
           "base_price": 72000.0,
           "score": 100.0,
-          "current_price": 65000.0,
-          "return_pct": -9.72
+          "current_price": 64600.0,
+          "return_pct": -10.28
         },
         {
           "code": "001450",
@@ -1468,8 +1468,8 @@
           "market": "KOSPI",
           "base_price": 41000.0,
           "score": 93.0,
-          "current_price": 34400.0,
-          "return_pct": -16.1
+          "current_price": 33500.0,
+          "return_pct": -18.29
         },
         {
           "code": "027360",
@@ -1477,8 +1477,8 @@
           "market": "KOSDAQ",
           "base_price": 3625.0,
           "score": 90.0,
-          "current_price": 2550.0,
-          "return_pct": -29.66
+          "current_price": 2405.0,
+          "return_pct": -33.66
         },
         {
           "code": "314130",
@@ -1486,8 +1486,8 @@
           "market": "KOSDAQ",
           "base_price": 4160.0,
           "score": 90.0,
-          "current_price": 2840.0,
-          "return_pct": -31.73
+          "current_price": 2570.0,
+          "return_pct": -38.22
         },
         {
           "code": "099430",
@@ -1495,11 +1495,11 @@
           "market": "KOSDAQ",
           "base_price": 3720.0,
           "score": 85.0,
-          "current_price": 3285.0,
-          "return_pct": -11.69
+          "current_price": 3210.0,
+          "return_pct": -13.71
         }
       ],
-      "avg_return_pct": -19.78
+      "avg_return_pct": -22.83
     },
     {
       "date": "2026-08-10",
@@ -1510,8 +1510,8 @@
           "market": "KOSPI",
           "base_price": 129600.0,
           "score": 100.0,
-          "current_price": 93900.0,
-          "return_pct": -27.55
+          "current_price": 92500.0,
+          "return_pct": -28.63
         },
         {
           "code": "095500",
@@ -1519,8 +1519,8 @@
           "market": "KOSDAQ",
           "base_price": 7270.0,
           "score": 100.0,
-          "current_price": 5270.0,
-          "return_pct": -27.51
+          "current_price": 4995.0,
+          "return_pct": -31.29
         },
         {
           "code": "007070",
@@ -1528,8 +1528,8 @@
           "market": "KOSPI",
           "base_price": 28350.0,
           "score": 100.0,
-          "current_price": 21900.0,
-          "return_pct": -22.75
+          "current_price": 22250.0,
+          "return_pct": -21.52
         },
         {
           "code": "020150",
@@ -1537,8 +1537,8 @@
           "market": "KOSPI",
           "base_price": 30600.0,
           "score": 93.0,
-          "current_price": 39000.0,
-          "return_pct": 27.45
+          "current_price": 37550.0,
+          "return_pct": 22.71
         },
         {
           "code": "278280",
@@ -1546,11 +1546,11 @@
           "market": "KOSDAQ",
           "base_price": 35400.0,
           "score": 93.0,
-          "current_price": 29200.0,
-          "return_pct": -17.51
+          "current_price": 28350.0,
+          "return_pct": -19.92
         }
       ],
-      "avg_return_pct": -13.57
+      "avg_return_pct": -15.73
     },
     {
       "date": "2026-08-07",
@@ -1561,8 +1561,8 @@
           "market": "KOSDAQ",
           "base_price": 5780.0,
           "score": 100.0,
-          "current_price": 7360.0,
-          "return_pct": 27.34
+          "current_price": 6800.0,
+          "return_pct": 17.65
         },
         {
           "code": "095500",
@@ -1570,8 +1570,8 @@
           "market": "KOSDAQ",
           "base_price": 7190.0,
           "score": 93.0,
-          "current_price": 5270.0,
-          "return_pct": -26.7
+          "current_price": 4995.0,
+          "return_pct": -30.53
         },
         {
           "code": "114190",
@@ -1579,8 +1579,8 @@
           "market": "KOSDAQ",
           "base_price": 8850.0,
           "score": 90.0,
-          "current_price": 6960.0,
-          "return_pct": -21.36
+          "current_price": 6580.0,
+          "return_pct": -25.65
         },
         {
           "code": "278280",
@@ -1588,8 +1588,8 @@
           "market": "KOSDAQ",
           "base_price": 35600.0,
           "score": 85.0,
-          "current_price": 29200.0,
-          "return_pct": -17.98
+          "current_price": 28350.0,
+          "return_pct": -20.37
         },
         {
           "code": "217730",
@@ -1597,11 +1597,11 @@
           "market": "KOSDAQ",
           "base_price": 2485.0,
           "score": 85.0,
-          "current_price": 1759.0,
-          "return_pct": -29.22
+          "current_price": 1760.0,
+          "return_pct": -29.18
         }
       ],
-      "avg_return_pct": -13.58
+      "avg_return_pct": -17.62
     },
     {
       "date": "2026-08-06",
@@ -1612,8 +1612,8 @@
           "market": "KOSPI",
           "base_price": 82000.0,
           "score": 93.0,
-          "current_price": 86700.0,
-          "return_pct": 5.73
+          "current_price": 87600.0,
+          "return_pct": 6.83
         },
         {
           "code": "034810",
@@ -1621,8 +1621,8 @@
           "market": "KOSDAQ",
           "base_price": 6490.0,
           "score": 85.0,
-          "current_price": 5600.0,
-          "return_pct": -13.71
+          "current_price": 5450.0,
+          "return_pct": -16.02
         },
         {
           "code": "211050",
@@ -1630,8 +1630,8 @@
           "market": "KOSDAQ",
           "base_price": 10360.0,
           "score": 85.0,
-          "current_price": 10890.0,
-          "return_pct": 5.12
+          "current_price": 10870.0,
+          "return_pct": 4.92
         },
         {
           "code": "068760",
@@ -1639,8 +1639,8 @@
           "market": "KOSDAQ",
           "base_price": 42000.0,
           "score": 85.0,
-          "current_price": 41400.0,
-          "return_pct": -1.43
+          "current_price": 40950.0,
+          "return_pct": -2.5
         },
         {
           "code": "000240",
@@ -1648,11 +1648,11 @@
           "market": "KOSPI",
           "base_price": 25450.0,
           "score": 85.0,
-          "current_price": 19700.0,
-          "return_pct": -22.59
+          "current_price": 19600.0,
+          "return_pct": -22.99
         }
       ],
-      "avg_return_pct": -5.38
+      "avg_return_pct": -5.95
     },
     {
       "date": "2026-08-05",
@@ -1663,8 +1663,8 @@
           "market": "KOSPI",
           "base_price": 5640.0,
           "score": 100.0,
-          "current_price": 5100.0,
-          "return_pct": -9.57
+          "current_price": 4975.0,
+          "return_pct": -11.79
         },
         {
           "code": "030520",
@@ -1672,8 +1672,8 @@
           "market": "KOSDAQ",
           "base_price": 18570.0,
           "score": 93.0,
-          "current_price": 13760.0,
-          "return_pct": -25.9
+          "current_price": 13010.0,
+          "return_pct": -29.94
         },
         {
           "code": "035760",
@@ -1681,8 +1681,8 @@
           "market": "KOSDAQ",
           "base_price": 33900.0,
           "score": 93.0,
-          "current_price": 52700.0,
-          "return_pct": 55.46
+          "current_price": 50900.0,
+          "return_pct": 50.15
         },
         {
           "code": "009450",
@@ -1690,8 +1690,8 @@
           "market": "KOSPI",
           "base_price": 68500.0,
           "score": 93.0,
-          "current_price": 61600.0,
-          "return_pct": -10.07
+          "current_price": 61700.0,
+          "return_pct": -9.93
         },
         {
           "code": "194700",
@@ -1699,11 +1699,11 @@
           "market": "KOSDAQ",
           "base_price": 14920.0,
           "score": 90.0,
-          "current_price": 8370.0,
-          "return_pct": -43.9
+          "current_price": 8360.0,
+          "return_pct": -43.97
         }
       ],
-      "avg_return_pct": -6.8
+      "avg_return_pct": -9.1
     },
     {
       "date": "2026-08-04",
@@ -1714,8 +1714,8 @@
           "market": "KOSDAQ",
           "base_price": 19180.0,
           "score": 93.0,
-          "current_price": 11130.0,
-          "return_pct": -41.97
+          "current_price": 10870.0,
+          "return_pct": -43.33
         },
         {
           "code": "117730",
@@ -1723,8 +1723,8 @@
           "market": "KOSDAQ",
           "base_price": 12830.0,
           "score": 83.0,
-          "current_price": 11410.0,
-          "return_pct": -11.07
+          "current_price": 10740.0,
+          "return_pct": -16.29
         },
         {
           "code": "385540",
@@ -1732,8 +1732,8 @@
           "market": "KOSPI",
           "base_price": 102895.0,
           "score": 80.0,
-          "current_price": 106200.0,
-          "return_pct": 3.21
+          "current_price": 106475.0,
+          "return_pct": 3.48
         },
         {
           "code": "448900",
@@ -1741,8 +1741,8 @@
           "market": "KOSDAQ",
           "base_price": 60200.0,
           "score": 80.0,
-          "current_price": 43000.0,
-          "return_pct": -28.57
+          "current_price": 39500.0,
+          "return_pct": -34.39
         },
         {
           "code": "271560",
@@ -1750,11 +1750,11 @@
           "market": "KOSPI",
           "base_price": 133500.0,
           "score": 75.0,
-          "current_price": 118500.0,
-          "return_pct": -11.24
+          "current_price": 119400.0,
+          "return_pct": -10.56
         }
       ],
-      "avg_return_pct": -17.93
+      "avg_return_pct": -20.22
     },
     {
       "date": "2026-08-03",
@@ -1765,8 +1765,8 @@
           "market": "KOSPI",
           "base_price": 5470.0,
           "score": 100.0,
-          "current_price": 5100.0,
-          "return_pct": -6.76
+          "current_price": 4975.0,
+          "return_pct": -9.05
         },
         {
           "code": "236200",
@@ -1774,8 +1774,8 @@
           "market": "KOSDAQ",
           "base_price": 51100.0,
           "score": 93.0,
-          "current_price": 55100.0,
-          "return_pct": 7.83
+          "current_price": 54500.0,
+          "return_pct": 6.65
         },
         {
           "code": "475400",
@@ -1783,8 +1783,8 @@
           "market": "KOSDAQ",
           "base_price": 18690.0,
           "score": 90.0,
-          "current_price": 15230.0,
-          "return_pct": -18.51
+          "current_price": 14510.0,
+          "return_pct": -22.36
         },
         {
           "code": "039830",
@@ -1792,8 +1792,8 @@
           "market": "KOSDAQ",
           "base_price": 21950.0,
           "score": 90.0,
-          "current_price": 14420.0,
-          "return_pct": -34.31
+          "current_price": 14700.0,
+          "return_pct": -33.03
         },
         {
           "code": "383220",
@@ -1801,11 +1801,11 @@
           "market": "KOSPI",
           "base_price": 80500.0,
           "score": 85.0,
-          "current_price": 61100.0,
-          "return_pct": -24.1
+          "current_price": 60900.0,
+          "return_pct": -24.35
         }
       ],
-      "avg_return_pct": -15.17
+      "avg_return_pct": -16.43
     },
     {
       "date": "2026-07-31",
@@ -1825,8 +1825,8 @@
           "market": "KOSPI",
           "base_price": 134000.0,
           "score": 100.0,
-          "current_price": 141000.0,
-          "return_pct": 5.22
+          "current_price": 140600.0,
+          "return_pct": 4.93
         },
         {
           "code": "439260",
@@ -1834,8 +1834,8 @@
           "market": "KOSPI",
           "base_price": 49050.0,
           "score": 93.0,
-          "current_price": 37250.0,
-          "return_pct": -24.06
+          "current_price": 37100.0,
+          "return_pct": -24.36
         },
         {
           "code": "280360",
@@ -1843,8 +1843,8 @@
           "market": "KOSPI",
           "base_price": 106000.0,
           "score": 93.0,
-          "current_price": 139500.0,
-          "return_pct": 31.6
+          "current_price": 146600.0,
+          "return_pct": 38.3
         },
         {
           "code": "455900",
@@ -1852,11 +1852,11 @@
           "market": "KOSDAQ",
           "base_price": 19050.0,
           "score": 80.0,
-          "current_price": 17010.0,
-          "return_pct": -10.71
+          "current_price": 16670.0,
+          "return_pct": -12.49
         }
       ],
-      "avg_return_pct": 2.67
+      "avg_return_pct": 3.53
     },
     {
       "date": "2026-07-30",
@@ -1867,8 +1867,8 @@
           "market": "KOSDAQ",
           "base_price": 14200.0,
           "score": 100.0,
-          "current_price": 10780.0,
-          "return_pct": -24.08
+          "current_price": 10340.0,
+          "return_pct": -27.18
         },
         {
           "code": "068270",
@@ -1885,8 +1885,8 @@
           "market": "KOSPI",
           "base_price": 100700.0,
           "score": 93.0,
-          "current_price": 105700.0,
-          "return_pct": 4.97
+          "current_price": 106700.0,
+          "return_pct": 5.96
         },
         {
           "code": "484810",
@@ -1894,8 +1894,8 @@
           "market": "KOSDAQ",
           "base_price": 13870.0,
           "score": 80.0,
-          "current_price": 8300.0,
-          "return_pct": -40.16
+          "current_price": 7790.0,
+          "return_pct": -43.84
         },
         {
           "code": "448900",
@@ -1903,11 +1903,11 @@
           "market": "KOSDAQ",
           "base_price": 55800.0,
           "score": 80.0,
-          "current_price": 43000.0,
-          "return_pct": -22.94
+          "current_price": 39500.0,
+          "return_pct": -29.21
         }
       ],
-      "avg_return_pct": -12.61
+      "avg_return_pct": -15.02
     },
     {
       "date": "2026-07-29",
@@ -1918,8 +1918,8 @@
           "market": "KOSDAQ",
           "base_price": 11230.0,
           "score": 100.0,
-          "current_price": 9870.0,
-          "return_pct": -12.11
+          "current_price": 9790.0,
+          "return_pct": -12.82
         },
         {
           "code": "042000",
@@ -1927,8 +1927,8 @@
           "market": "KOSDAQ",
           "base_price": 17230.0,
           "score": 85.0,
-          "current_price": 13560.0,
-          "return_pct": -21.3
+          "current_price": 12910.0,
+          "return_pct": -25.07
         },
         {
           "code": "448900",
@@ -1936,8 +1936,8 @@
           "market": "KOSDAQ",
           "base_price": 51300.0,
           "score": 83.0,
-          "current_price": 43000.0,
-          "return_pct": -16.18
+          "current_price": 39500.0,
+          "return_pct": -23.0
         },
         {
           "code": "207940",
@@ -1945,8 +1945,8 @@
           "market": "KOSPI",
           "base_price": 1549000.0,
           "score": 80.0,
-          "current_price": 1371000.0,
-          "return_pct": -11.49
+          "current_price": 1359000.0,
+          "return_pct": -12.27
         },
         {
           "code": "092460",
@@ -1954,11 +1954,11 @@
           "market": "KOSDAQ",
           "base_price": 16750.0,
           "score": 80.0,
-          "current_price": 12690.0,
-          "return_pct": -24.24
+          "current_price": 12440.0,
+          "return_pct": -25.73
         }
       ],
-      "avg_return_pct": -17.06
+      "avg_return_pct": -19.78
     },
     {
       "date": "2026-07-28",
@@ -1969,8 +1969,8 @@
           "market": "KOSDAQ",
           "base_price": 4590.0,
           "score": 90.0,
-          "current_price": 3615.0,
-          "return_pct": -21.24
+          "current_price": 3505.0,
+          "return_pct": -23.64
         },
         {
           "code": "099190",
@@ -1978,8 +1978,8 @@
           "market": "KOSDAQ",
           "base_price": 17500.0,
           "score": 90.0,
-          "current_price": 12940.0,
-          "return_pct": -26.06
+          "current_price": 12600.0,
+          "return_pct": -28.0
         },
         {
           "code": "029780",
@@ -1987,8 +1987,8 @@
           "market": "KOSPI",
           "base_price": 50200.0,
           "score": 85.0,
-          "current_price": 41650.0,
-          "return_pct": -17.03
+          "current_price": 41750.0,
+          "return_pct": -16.83
         },
         {
           "code": "257720",
@@ -1996,8 +1996,8 @@
           "market": "KOSDAQ",
           "base_price": 38400.0,
           "score": 85.0,
-          "current_price": 24050.0,
-          "return_pct": -37.37
+          "current_price": 23600.0,
+          "return_pct": -38.54
         },
         {
           "code": "051600",
@@ -2005,11 +2005,11 @@
           "market": "KOSPI",
           "base_price": 46550.0,
           "score": 85.0,
-          "current_price": 35000.0,
-          "return_pct": -24.81
+          "current_price": 34250.0,
+          "return_pct": -26.42
         }
       ],
-      "avg_return_pct": -25.3
+      "avg_return_pct": -26.69
     },
     {
       "date": "2026-07-27",
@@ -2020,8 +2020,8 @@
           "market": "KOSPI",
           "base_price": 1518000.0,
           "score": 100.0,
-          "current_price": 1371000.0,
-          "return_pct": -9.68
+          "current_price": 1359000.0,
+          "return_pct": -10.47
         },
         {
           "code": "013030",
@@ -2029,8 +2029,8 @@
           "market": "KOSDAQ",
           "base_price": 32650.0,
           "score": 93.0,
-          "current_price": 29600.0,
-          "return_pct": -9.34
+          "current_price": 29000.0,
+          "return_pct": -11.18
         },
         {
           "code": "036460",
@@ -2038,8 +2038,8 @@
           "market": "KOSPI",
           "base_price": 34950.0,
           "score": 93.0,
-          "current_price": 38100.0,
-          "return_pct": 9.01
+          "current_price": 38000.0,
+          "return_pct": 8.73
         },
         {
           "code": "389260",
@@ -2047,8 +2047,8 @@
           "market": "KOSDAQ",
           "base_price": 15850.0,
           "score": 90.0,
-          "current_price": 12240.0,
-          "return_pct": -22.78
+          "current_price": 11410.0,
+          "return_pct": -28.01
         },
         {
           "code": "340570",
@@ -2056,11 +2056,11 @@
           "market": "KOSDAQ",
           "base_price": 56300.0,
           "score": 85.0,
-          "current_price": 27250.0,
-          "return_pct": -51.6
+          "current_price": 27150.0,
+          "return_pct": -51.78
         }
       ],
-      "avg_return_pct": -16.88
+      "avg_return_pct": -18.54
     },
     {
       "date": "2026-07-24",
@@ -2071,8 +2071,8 @@
           "market": "KOSDAQ",
           "base_price": 5010.0,
           "score": 93.0,
-          "current_price": 4165.0,
-          "return_pct": -16.87
+          "current_price": 3965.0,
+          "return_pct": -20.86
         },
         {
           "code": "006360",
@@ -2080,8 +2080,8 @@
           "market": "KOSPI",
           "base_price": 34400.0,
           "score": 90.0,
-          "current_price": 30300.0,
-          "return_pct": -11.92
+          "current_price": 29450.0,
+          "return_pct": -14.39
         },
         {
           "code": "012630",
@@ -2089,8 +2089,8 @@
           "market": "KOSPI",
           "base_price": 23100.0,
           "score": 90.0,
-          "current_price": 20200.0,
-          "return_pct": -12.55
+          "current_price": 19990.0,
+          "return_pct": -13.46
         },
         {
           "code": "079160",
@@ -2098,8 +2098,8 @@
           "market": "KOSPI",
           "base_price": 4710.0,
           "score": 85.0,
-          "current_price": 5300.0,
-          "return_pct": 12.53
+          "current_price": 5480.0,
+          "return_pct": 16.35
         },
         {
           "code": "047810",
@@ -2107,11 +2107,11 @@
           "market": "KOSPI",
           "base_price": 164100.0,
           "score": 85.0,
-          "current_price": 104100.0,
-          "return_pct": -36.56
+          "current_price": 101800.0,
+          "return_pct": -37.96
         }
       ],
-      "avg_return_pct": -13.07
+      "avg_return_pct": -14.06
     },
     {
       "date": "2026-07-23",
@@ -2122,8 +2122,8 @@
           "market": "KOSDAQ",
           "base_price": 9260.0,
           "score": 100.0,
-          "current_price": 5650.0,
-          "return_pct": -38.98
+          "current_price": 5420.0,
+          "return_pct": -41.47
         },
         {
           "code": "049070",
@@ -2131,8 +2131,8 @@
           "market": "KOSDAQ",
           "base_price": 18860.0,
           "score": 100.0,
-          "current_price": 14280.0,
-          "return_pct": -24.28
+          "current_price": 13530.0,
+          "return_pct": -28.26
         },
         {
           "code": "017670",
@@ -2140,8 +2140,8 @@
           "market": "KOSPI",
           "base_price": 94100.0,
           "score": 93.0,
-          "current_price": 82200.0,
-          "return_pct": -12.65
+          "current_price": 71100.0,
+          "return_pct": -24.44
         },
         {
           "code": "267250",
@@ -2149,8 +2149,8 @@
           "market": "KOSPI",
           "base_price": 212000.0,
           "score": 85.0,
-          "current_price": 118600.0,
-          "return_pct": -44.06
+          "current_price": 113600.0,
+          "return_pct": -46.42
         },
         {
           "code": "000270",
@@ -2158,11 +2158,11 @@
           "market": "KOSPI",
           "base_price": 146800.0,
           "score": 85.0,
-          "current_price": 91700.0,
-          "return_pct": -37.53
+          "current_price": 88700.0,
+          "return_pct": -39.58
         }
       ],
-      "avg_return_pct": -31.5
+      "avg_return_pct": -36.03
     },
     {
       "date": "2026-07-22",
@@ -2173,8 +2173,8 @@
           "market": "KOSDAQ",
           "base_price": 30000.0,
           "score": 93.0,
-          "current_price": 30850.0,
-          "return_pct": 2.83
+          "current_price": 30300.0,
+          "return_pct": 1.0
         },
         {
           "code": "005710",
@@ -2182,8 +2182,8 @@
           "market": "KOSDAQ",
           "base_price": 10790.0,
           "score": 93.0,
-          "current_price": 10560.0,
-          "return_pct": -2.13
+          "current_price": 10460.0,
+          "return_pct": -3.06
         },
         {
           "code": "099440",
@@ -2191,8 +2191,8 @@
           "market": "KOSDAQ",
           "base_price": 2990.0,
           "score": 90.0,
-          "current_price": 3280.0,
-          "return_pct": 9.7
+          "current_price": 3125.0,
+          "return_pct": 4.52
         },
         {
           "code": "460930",
@@ -2200,8 +2200,8 @@
           "market": "KOSDAQ",
           "base_price": 12750.0,
           "score": 90.0,
-          "current_price": 9220.0,
-          "return_pct": -27.69
+          "current_price": 8860.0,
+          "return_pct": -30.51
         },
         {
           "code": "214320",
@@ -2209,11 +2209,11 @@
           "market": "KOSPI",
           "base_price": 18610.0,
           "score": 85.0,
-          "current_price": 17160.0,
-          "return_pct": -7.79
+          "current_price": 17040.0,
+          "return_pct": -8.44
         }
       ],
-      "avg_return_pct": -5.02
+      "avg_return_pct": -7.3
     },
     {
       "date": "2026-07-21",
@@ -2224,8 +2224,8 @@
           "market": "KOSPI",
           "base_price": 298000.0,
           "score": 100.0,
-          "current_price": 264500.0,
-          "return_pct": -11.24
+          "current_price": 259000.0,
+          "return_pct": -13.09
         },
         {
           "code": "030190",
@@ -2233,8 +2233,8 @@
           "market": "KOSPI",
           "base_price": 14080.0,
           "score": 85.0,
-          "current_price": 16730.0,
-          "return_pct": 18.82
+          "current_price": 16850.0,
+          "return_pct": 19.67
         },
         {
           "code": "279570",
@@ -2242,8 +2242,8 @@
           "market": "KOSPI",
           "base_price": 6200.0,
           "score": 85.0,
-          "current_price": 5470.0,
-          "return_pct": -11.77
+          "current_price": 5460.0,
+          "return_pct": -11.94
         },
         {
           "code": "036530",
@@ -2251,8 +2251,8 @@
           "market": "KOSPI",
           "base_price": 52900.0,
           "score": 80.0,
-          "current_price": 37000.0,
-          "return_pct": -30.06
+          "current_price": 36100.0,
+          "return_pct": -31.76
         },
         {
           "code": "441270",
@@ -2260,11 +2260,11 @@
           "market": "KOSDAQ",
           "base_price": 6580.0,
           "score": 76.0,
-          "current_price": 6210.0,
-          "return_pct": -5.62
+          "current_price": 5950.0,
+          "return_pct": -9.57
         }
       ],
-      "avg_return_pct": -7.97
+      "avg_return_pct": -9.34
     },
     {
       "date": "2026-07-20",
@@ -2275,8 +2275,8 @@
           "market": "KOSPI",
           "base_price": 52000.0,
           "score": 93.0,
-          "current_price": 37000.0,
-          "return_pct": -28.85
+          "current_price": 36100.0,
+          "return_pct": -30.58
         },
         {
           "code": "011780",
@@ -2284,8 +2284,8 @@
           "market": "KOSPI",
           "base_price": 123500.0,
           "score": 85.0,
-          "current_price": 93900.0,
-          "return_pct": -23.97
+          "current_price": 92500.0,
+          "return_pct": -25.1
         },
         {
           "code": "000810",
@@ -2293,8 +2293,8 @@
           "market": "KOSPI",
           "base_price": 701000.0,
           "score": 85.0,
-          "current_price": 528000.0,
-          "return_pct": -24.68
+          "current_price": 520000.0,
+          "return_pct": -25.82
         },
         {
           "code": "000370",
@@ -2302,8 +2302,8 @@
           "market": "KOSPI",
           "base_price": 6090.0,
           "score": 85.0,
-          "current_price": 6040.0,
-          "return_pct": -0.82
+          "current_price": 5960.0,
+          "return_pct": -2.13
         },
         {
           "code": "033780",
@@ -2311,11 +2311,11 @@
           "market": "KOSPI",
           "base_price": 179900.0,
           "score": 85.0,
-          "current_price": 182500.0,
-          "return_pct": 1.45
+          "current_price": 183300.0,
+          "return_pct": 1.89
         }
       ],
-      "avg_return_pct": -15.37
+      "avg_return_pct": -16.35
     },
     {
       "date": "2026-07-17",
@@ -2326,8 +2326,8 @@
           "market": "KOSPI",
           "base_price": 52000.0,
           "score": 93.0,
-          "current_price": 37000.0,
-          "return_pct": -28.85
+          "current_price": 36100.0,
+          "return_pct": -30.58
         },
         {
           "code": "011780",
@@ -2335,8 +2335,8 @@
           "market": "KOSPI",
           "base_price": 123500.0,
           "score": 85.0,
-          "current_price": 93900.0,
-          "return_pct": -23.97
+          "current_price": 92500.0,
+          "return_pct": -25.1
         },
         {
           "code": "000810",
@@ -2344,8 +2344,8 @@
           "market": "KOSPI",
           "base_price": 701000.0,
           "score": 85.0,
-          "current_price": 528000.0,
-          "return_pct": -24.68
+          "current_price": 520000.0,
+          "return_pct": -25.82
         },
         {
           "code": "000370",
@@ -2353,8 +2353,8 @@
           "market": "KOSPI",
           "base_price": 6090.0,
           "score": 85.0,
-          "current_price": 6040.0,
-          "return_pct": -0.82
+          "current_price": 5960.0,
+          "return_pct": -2.13
         },
         {
           "code": "033780",
@@ -2362,11 +2362,11 @@
           "market": "KOSPI",
           "base_price": 179900.0,
           "score": 85.0,
-          "current_price": 182500.0,
-          "return_pct": 1.45
+          "current_price": 183300.0,
+          "return_pct": 1.89
         }
       ],
-      "avg_return_pct": -15.37
+      "avg_return_pct": -16.35
     },
     {
       "date": "2026-07-16",
@@ -2377,8 +2377,8 @@
           "market": "KOSDAQ",
           "base_price": 18090.0,
           "score": 90.0,
-          "current_price": 14290.0,
-          "return_pct": -21.01
+          "current_price": 13590.0,
+          "return_pct": -24.88
         },
         {
           "code": "267270",
@@ -2386,8 +2386,8 @@
           "market": "KOSPI",
           "base_price": 129500.0,
           "score": 85.0,
-          "current_price": 91300.0,
-          "return_pct": -29.5
+          "current_price": 78200.0,
+          "return_pct": -39.61
         },
         {
           "code": "004490",
@@ -2395,8 +2395,8 @@
           "market": "KOSPI",
           "base_price": 55000.0,
           "score": 85.0,
-          "current_price": 46800.0,
-          "return_pct": -14.91
+          "current_price": 45050.0,
+          "return_pct": -18.09
         },
         {
           "code": "021240",
@@ -2404,8 +2404,8 @@
           "market": "KOSPI",
           "base_price": 95700.0,
           "score": 85.0,
-          "current_price": 106700.0,
-          "return_pct": 11.49
+          "current_price": 109000.0,
+          "return_pct": 13.9
         },
         {
           "code": "353810",
@@ -2413,11 +2413,11 @@
           "market": "KOSDAQ",
           "base_price": 6380.0,
           "score": 85.0,
-          "current_price": 4775.0,
-          "return_pct": -25.16
+          "current_price": 4630.0,
+          "return_pct": -27.43
         }
       ],
-      "avg_return_pct": -15.82
+      "avg_return_pct": -19.22
     },
     {
       "date": "2026-07-15",
@@ -2428,8 +2428,8 @@
           "market": "KOSDAQ",
           "base_price": 32750.0,
           "score": 85.0,
-          "current_price": 25950.0,
-          "return_pct": -20.76
+          "current_price": 24750.0,
+          "return_pct": -24.43
         },
         {
           "code": "035810",
@@ -2437,8 +2437,8 @@
           "market": "KOSDAQ",
           "base_price": 4425.0,
           "score": 85.0,
-          "current_price": 4165.0,
-          "return_pct": -5.88
+          "current_price": 4120.0,
+          "return_pct": -6.89
         },
         {
           "code": "131290",
@@ -2446,8 +2446,8 @@
           "market": "KOSDAQ",
           "base_price": 277000.0,
           "score": 83.0,
-          "current_price": 196500.0,
-          "return_pct": -29.06
+          "current_price": 172600.0,
+          "return_pct": -37.69
         },
         {
           "code": "446540",
@@ -2455,8 +2455,8 @@
           "market": "KOSDAQ",
           "base_price": 6570.0,
           "score": 75.0,
-          "current_price": 5540.0,
-          "return_pct": -15.68
+          "current_price": 5240.0,
+          "return_pct": -20.24
         },
         {
           "code": "006120",
@@ -2464,11 +2464,11 @@
           "market": "KOSPI",
           "base_price": 54200.0,
           "score": 73.0,
-          "current_price": 67300.0,
-          "return_pct": 24.17
+          "current_price": 64700.0,
+          "return_pct": 19.37
         }
       ],
-      "avg_return_pct": -9.44
+      "avg_return_pct": -13.98
     },
     {
       "date": "2026-07-14",
@@ -2479,8 +2479,8 @@
           "market": "KOSDAQ",
           "base_price": 4005.0,
           "score": 85.0,
-          "current_price": 3570.0,
-          "return_pct": -10.86
+          "current_price": 3480.0,
+          "return_pct": -13.11
         },
         {
           "code": "005300",
@@ -2488,8 +2488,8 @@
           "market": "KOSPI",
           "base_price": 101600.0,
           "score": 85.0,
-          "current_price": 105700.0,
-          "return_pct": 4.04
+          "current_price": 106700.0,
+          "return_pct": 5.02
         },
         {
           "code": "096770",
@@ -2497,8 +2497,8 @@
           "market": "KOSPI",
           "base_price": 110200.0,
           "score": 80.0,
-          "current_price": 99300.0,
-          "return_pct": -9.89
+          "current_price": 95200.0,
+          "return_pct": -13.61
         },
         {
           "code": "219130",
@@ -2506,8 +2506,8 @@
           "market": "KOSDAQ",
           "base_price": 72500.0,
           "score": 75.0,
-          "current_price": 94900.0,
-          "return_pct": 30.9
+          "current_price": 89300.0,
+          "return_pct": 23.17
         },
         {
           "code": "491000",
@@ -2515,11 +2515,11 @@
           "market": "KOSDAQ",
           "base_price": 40350.0,
           "score": 75.0,
-          "current_price": 37700.0,
-          "return_pct": -6.57
+          "current_price": 39900.0,
+          "return_pct": -1.12
         }
       ],
-      "avg_return_pct": 1.52
+      "avg_return_pct": 0.07
     },
     {
       "date": "2026-07-13",
@@ -2530,8 +2530,8 @@
           "market": "KOSDAQ",
           "base_price": 35450.0,
           "score": 90.0,
-          "current_price": 17200.0,
-          "return_pct": -51.48
+          "current_price": 15980.0,
+          "return_pct": -54.92
         },
         {
           "code": "018290",
@@ -2539,8 +2539,8 @@
           "market": "KOSDAQ",
           "base_price": 12230.0,
           "score": 85.0,
-          "current_price": 11210.0,
-          "return_pct": -8.34
+          "current_price": 11070.0,
+          "return_pct": -9.48
         },
         {
           "code": "096770",
@@ -2548,8 +2548,8 @@
           "market": "KOSPI",
           "base_price": 102900.0,
           "score": 85.0,
-          "current_price": 99300.0,
-          "return_pct": -3.5
+          "current_price": 95200.0,
+          "return_pct": -7.48
         },
         {
           "code": "001450",
@@ -2557,8 +2557,8 @@
           "market": "KOSPI",
           "base_price": 38150.0,
           "score": 85.0,
-          "current_price": 34400.0,
-          "return_pct": -9.83
+          "current_price": 33500.0,
+          "return_pct": -12.19
         },
         {
           "code": "032640",
@@ -2566,11 +2566,11 @@
           "market": "KOSPI",
           "base_price": 14960.0,
           "score": 85.0,
-          "current_price": 15250.0,
-          "return_pct": 1.94
+          "current_price": 15100.0,
+          "return_pct": 0.94
         }
       ],
-      "avg_return_pct": -14.24
+      "avg_return_pct": -16.63
     },
     {
       "date": "2026-07-10",
@@ -2581,8 +2581,8 @@
           "market": "KOSDAQ",
           "base_price": 7910.0,
           "score": 90.0,
-          "current_price": 10860.0,
-          "return_pct": 37.29
+          "current_price": 10750.0,
+          "return_pct": 35.9
         },
         {
           "code": "030000",
@@ -2590,8 +2590,8 @@
           "market": "KOSPI",
           "base_price": 19990.0,
           "score": 85.0,
-          "current_price": 18830.0,
-          "return_pct": -5.8
+          "current_price": 19060.0,
+          "return_pct": -4.65
         },
         {
           "code": "000080",
@@ -2599,8 +2599,8 @@
           "market": "KOSPI",
           "base_price": 15400.0,
           "score": 75.0,
-          "current_price": 16380.0,
-          "return_pct": 6.36
+          "current_price": 16580.0,
+          "return_pct": 7.66
         },
         {
           "code": "181710",
@@ -2608,8 +2608,8 @@
           "market": "KOSPI",
           "base_price": 37900.0,
           "score": 75.0,
-          "current_price": 64100.0,
-          "return_pct": 69.13
+          "current_price": 58800.0,
+          "return_pct": 55.15
         },
         {
           "code": "101730",
@@ -2617,11 +2617,11 @@
           "market": "KOSDAQ",
           "base_price": 4945.0,
           "score": 73.0,
-          "current_price": 4235.0,
-          "return_pct": -14.36
+          "current_price": 4050.0,
+          "return_pct": -18.1
         }
       ],
-      "avg_return_pct": 18.52
+      "avg_return_pct": 15.19
     },
     {
       "date": "2026-07-09",
@@ -2632,8 +2632,8 @@
           "market": "KOSDAQ",
           "base_price": 2440.0,
           "score": 93.0,
-          "current_price": 1916.0,
-          "return_pct": -21.48
+          "current_price": 1855.0,
+          "return_pct": -23.98
         },
         {
           "code": "028670",
@@ -2641,8 +2641,8 @@
           "market": "KOSPI",
           "base_price": 5170.0,
           "score": 85.0,
-          "current_price": 5100.0,
-          "return_pct": -1.35
+          "current_price": 4975.0,
+          "return_pct": -3.77
         },
         {
           "code": "033780",
@@ -2650,8 +2650,8 @@
           "market": "KOSPI",
           "base_price": 184300.0,
           "score": 85.0,
-          "current_price": 182500.0,
-          "return_pct": -0.98
+          "current_price": 183300.0,
+          "return_pct": -0.54
         },
         {
           "code": "084110",
@@ -2659,8 +2659,8 @@
           "market": "KOSDAQ",
           "base_price": 26600.0,
           "score": 85.0,
-          "current_price": 19540.0,
-          "return_pct": -26.54
+          "current_price": 19210.0,
+          "return_pct": -27.78
         },
         {
           "code": "439090",
@@ -2668,11 +2668,11 @@
           "market": "KOSDAQ",
           "base_price": 17600.0,
           "score": 80.0,
-          "current_price": 14510.0,
-          "return_pct": -17.56
+          "current_price": 16650.0,
+          "return_pct": -5.4
         }
       ],
-      "avg_return_pct": -13.58
+      "avg_return_pct": -12.29
     },
     {
       "date": "2026-07-08",
@@ -2683,8 +2683,8 @@
           "market": "KOSPI",
           "base_price": 14690.0,
           "score": 93.0,
-          "current_price": 15480.0,
-          "return_pct": 5.38
+          "current_price": 15530.0,
+          "return_pct": 5.72
         },
         {
           "code": "237880",
@@ -2692,8 +2692,8 @@
           "market": "KOSDAQ",
           "base_price": 11230.0,
           "score": 90.0,
-          "current_price": 10610.0,
-          "return_pct": -5.52
+          "current_price": 10570.0,
+          "return_pct": -5.88
         },
         {
           "code": "079940",
@@ -2701,8 +2701,8 @@
           "market": "KOSDAQ",
           "base_price": 31850.0,
           "score": 85.0,
-          "current_price": 48950.0,
-          "return_pct": 53.69
+          "current_price": 48800.0,
+          "return_pct": 53.22
         },
         {
           "code": "175330",
@@ -2710,8 +2710,8 @@
           "market": "KOSPI",
           "base_price": 28000.0,
           "score": 85.0,
-          "current_price": 25700.0,
-          "return_pct": -8.21
+          "current_price": 26050.0,
+          "return_pct": -6.96
         },
         {
           "code": "030200",
@@ -2719,11 +2719,11 @@
           "market": "KOSPI",
           "base_price": 55500.0,
           "score": 85.0,
-          "current_price": 47700.0,
-          "return_pct": -14.05
+          "current_price": 45550.0,
+          "return_pct": -17.93
         }
       ],
-      "avg_return_pct": 6.26
+      "avg_return_pct": 5.63
     },
     {
       "date": "2026-07-07",
@@ -2734,8 +2734,8 @@
           "market": "KOSPI",
           "base_price": 52900.0,
           "score": 85.0,
-          "current_price": 37000.0,
-          "return_pct": -30.06
+          "current_price": 36100.0,
+          "return_pct": -31.76
         },
         {
           "code": "139130",
@@ -2743,8 +2743,8 @@
           "market": "KOSPI",
           "base_price": 18300.0,
           "score": 85.0,
-          "current_price": 15760.0,
-          "return_pct": -13.88
+          "current_price": 15690.0,
+          "return_pct": -14.26
         },
         {
           "code": "151860",
@@ -2752,8 +2752,8 @@
           "market": "KOSDAQ",
           "base_price": 5740.0,
           "score": 85.0,
-          "current_price": 3685.0,
-          "return_pct": -35.8
+          "current_price": 3550.0,
+          "return_pct": -38.15
         },
         {
           "code": "018670",
@@ -2770,11 +2770,11 @@
           "market": "KOSDAQ",
           "base_price": 11380.0,
           "score": 75.0,
-          "current_price": 8460.0,
-          "return_pct": -25.66
+          "current_price": 8380.0,
+          "return_pct": -26.36
         }
       ],
-      "avg_return_pct": -22.31
+      "avg_return_pct": -23.34
     },
     {
       "date": "2026-07-06",
@@ -2785,8 +2785,8 @@
           "market": "KOSPI",
           "base_price": 132500.0,
           "score": 90.0,
-          "current_price": 99800.0,
-          "return_pct": -24.68
+          "current_price": 100200.0,
+          "return_pct": -24.38
         },
         {
           "code": "039830",
@@ -2794,8 +2794,8 @@
           "market": "KOSDAQ",
           "base_price": 20400.0,
           "score": 90.0,
-          "current_price": 14420.0,
-          "return_pct": -29.31
+          "current_price": 14770.0,
+          "return_pct": -27.6
         },
         {
           "code": "026960",
@@ -2803,8 +2803,8 @@
           "market": "KOSPI",
           "base_price": 25950.0,
           "score": 85.0,
-          "current_price": 27900.0,
-          "return_pct": 7.51
+          "current_price": 27600.0,
+          "return_pct": 6.36
         },
         {
           "code": "105560",
@@ -2812,8 +2812,8 @@
           "market": "KOSPI",
           "base_price": 170100.0,
           "score": 85.0,
-          "current_price": 154500.0,
-          "return_pct": -9.17
+          "current_price": 154700.0,
+          "return_pct": -9.05
         },
         {
           "code": "034950",
@@ -2821,11 +2821,11 @@
           "market": "KOSDAQ",
           "base_price": 101700.0,
           "score": 85.0,
-          "current_price": 99800.0,
-          "return_pct": -1.87
+          "current_price": 99200.0,
+          "return_pct": -2.46
         }
       ],
-      "avg_return_pct": -11.5
+      "avg_return_pct": -11.43
     },
     {
       "date": "2026-07-03",
@@ -2836,8 +2836,8 @@
           "market": "KOSPI",
           "base_price": 132500.0,
           "score": 90.0,
-          "current_price": 99800.0,
-          "return_pct": -24.68
+          "current_price": 100200.0,
+          "return_pct": -24.38
         },
         {
           "code": "039830",
@@ -2845,8 +2845,8 @@
           "market": "KOSDAQ",
           "base_price": 20400.0,
           "score": 90.0,
-          "current_price": 14420.0,
-          "return_pct": -29.31
+          "current_price": 14770.0,
+          "return_pct": -27.6
         },
         {
           "code": "026960",
@@ -2854,8 +2854,8 @@
           "market": "KOSPI",
           "base_price": 25950.0,
           "score": 85.0,
-          "current_price": 27900.0,
-          "return_pct": 7.51
+          "current_price": 27600.0,
+          "return_pct": 6.36
         },
         {
           "code": "105560",
@@ -2863,8 +2863,8 @@
           "market": "KOSPI",
           "base_price": 170100.0,
           "score": 85.0,
-          "current_price": 154500.0,
-          "return_pct": -9.17
+          "current_price": 154700.0,
+          "return_pct": -9.05
         },
         {
           "code": "034950",
@@ -2872,11 +2872,11 @@
           "market": "KOSDAQ",
           "base_price": 101700.0,
           "score": 85.0,
-          "current_price": 99800.0,
-          "return_pct": -1.87
+          "current_price": 99200.0,
+          "return_pct": -2.46
         }
       ],
-      "avg_return_pct": -11.5
+      "avg_return_pct": -11.43
     }
   ]
 }
